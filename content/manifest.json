@@ -1,0 +1,1772 @@
+{
+  "entries": [
+    {
+      "id": "eje-01",
+      "title": "Fundamentos de inteligencia artificial",
+      "type": "indice",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-01-fundamentos-ia/README.md",
+      "digest": "aef09e35aec18db520fd4c07cdb296d5588bb77c95690d3a154b8e272e1d7f83",
+      "axis": 1,
+      "order": 1,
+      "level": "obligatorio",
+      "classes": [
+        1,
+        2
+      ],
+      "modality": "mixta",
+      "outcomes": [
+        "RA1",
+        "RA2"
+      ]
+    },
+    {
+      "id": "eje-01-bienvenida",
+      "title": "IA, asistentes y agentes en videojuegos",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-01-fundamentos-ia/01-bienvenida.md",
+      "digest": "f0e96ffc37fc8ef51281fae9fbe40b1b11902134f742609803f8f164a5d0c8e7",
+      "axis": 1,
+      "order": 1,
+      "level": "obligatorio",
+      "classes": [
+        1
+      ],
+      "modality": "virtual-asincronica",
+      "durationMinutes": 10,
+      "outcomes": [
+        "RA1",
+        "RA2"
+      ],
+      "prerequisites": [],
+      "evaluable": false
+    },
+    {
+      "id": "eje-01-que-es-ia",
+      "title": "Qué entendemos por inteligencia artificial",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-01-fundamentos-ia/02-que-es-inteligencia-artificial.md",
+      "digest": "ab1ef54cc0f299b39bcf6b815e691aaa3589bc94ff46c62c6fb36bacf8f12b9a",
+      "axis": 1,
+      "order": 2,
+      "level": "obligatorio",
+      "classes": [
+        1,
+        2
+      ],
+      "modality": "mixta",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA1",
+        "RA2"
+      ],
+      "prerequisites": [
+        "eje-01-bienvenida"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-01-agentes-racionales",
+      "title": "El agente racional como marco de análisis",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-01-fundamentos-ia/03-agentes-racionales.md",
+      "digest": "bebb0d01dc15bf91360c21456508afe1b2f32a38b803b6a54b1926c255ae20f0",
+      "axis": 1,
+      "order": 3,
+      "level": "obligatorio",
+      "classes": [
+        2
+      ],
+      "modality": "mixta",
+      "durationMinutes": 25,
+      "outcomes": [
+        "RA1",
+        "RA2"
+      ],
+      "prerequisites": [
+        "eje-01-que-es-ia"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-01-ia-produccion-ejecucion",
+      "title": "IA en la producción y la ejecución de videojuegos",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-01-fundamentos-ia/04-ia-en-produccion-y-ejecucion.md",
+      "digest": "fa8140efa1ba2e112227c344d7ad7cce556754d239f9ce0f983d08b5fc03ad52",
+      "axis": 1,
+      "order": 4,
+      "level": "obligatorio",
+      "classes": [
+        2
+      ],
+      "modality": "mixta",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA1",
+        "RA2"
+      ],
+      "prerequisites": [
+        "eje-01-agentes-racionales"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-01-actividad-clasificacion",
+      "title": "Actividad inicial de clasificación",
+      "type": "actividad",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-01-fundamentos-ia/05-actividad-clasificacion.md",
+      "digest": "bcb2c623d802e76a80d7483ee23caa93e4efdee558963cf031d5988d59ec9998",
+      "axis": 1,
+      "order": 5,
+      "level": "obligatorio",
+      "classes": [
+        1
+      ],
+      "modality": "virtual-asincronica",
+      "durationMinutes": 25,
+      "outcomes": [
+        "RA1",
+        "RA2"
+      ],
+      "prerequisites": [
+        "eje-01-bienvenida"
+      ],
+      "evaluable": false,
+      "availableFrom": "2026-08-01",
+      "availableUntil": "2026-08-11"
+    },
+    {
+      "id": "eje-01-referencias",
+      "title": "Referencias comentadas del Eje 1",
+      "type": "referencia",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-01-fundamentos-ia/06-referencias-del-eje.md",
+      "digest": "915226c5c2ceb908c54b83d199814ec98f6f56bc9309d06f570708051075e7b3",
+      "axis": 1,
+      "order": 6,
+      "level": "ampliacion",
+      "classes": [
+        1,
+        2
+      ],
+      "modality": "mixta",
+      "outcomes": [
+        "RA1",
+        "RA2"
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "eje-02-redes-entrenamiento-e-inferencia",
+      "title": "Redes neuronales, entrenamiento e inferencia",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-02-redes-y-llm/01-redes-entrenamiento-e-inferencia.md",
+      "digest": "9dd37873bc2674960de4e1499bccbe2a1487c43e8427bf8ce66a802a4cd69018",
+      "axis": 2,
+      "order": 1,
+      "level": "obligatorio",
+      "classes": [
+        2,
+        3
+      ],
+      "modality": "mixta",
+      "durationMinutes": 18,
+      "outcomes": [
+        "RA1"
+      ],
+      "prerequisites": [
+        "eje-01-que-es-ia"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-02",
+      "title": "Fundamentos de redes neuronales y modelos de lenguaje",
+      "type": "indice",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 2,
+      "sourcePath": "ejes/eje-02-redes-y-llm/README.md",
+      "digest": "295b104def0c9d04682356473c852d82b75d299938dcd511b1a301a090dd9dfe",
+      "axis": 2,
+      "order": 2,
+      "level": "obligatorio",
+      "classes": [
+        2,
+        3
+      ],
+      "modality": "mixta",
+      "outcomes": [
+        "RA1"
+      ]
+    },
+    {
+      "id": "eje-02-tokens-embeddings-y-contexto",
+      "title": "Unidades de procesamiento (tokens) y representaciones vectoriales (embeddings)",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-02-redes-y-llm/02-tokens-embeddings-y-contexto.md",
+      "digest": "ba8df58c0bf07aae131ce50cec281102be3e4b1090e3a3d98f2f5adc27f85939",
+      "axis": 2,
+      "order": 2,
+      "level": "obligatorio",
+      "classes": [
+        2,
+        3
+      ],
+      "modality": "mixta",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA1"
+      ],
+      "prerequisites": [
+        "eje-02-redes-entrenamiento-e-inferencia"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-02-transformers-y-generacion",
+      "title": "Transformers, atención y generación probabilística",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-02-redes-y-llm/03-transformers-y-generacion.md",
+      "digest": "7d439a0de12a6506da0283d1a7e1711347a6e33d8a89847a4c1628d76496bcb4",
+      "axis": 2,
+      "order": 3,
+      "level": "obligatorio",
+      "classes": [
+        2,
+        3
+      ],
+      "modality": "mixta",
+      "durationMinutes": 22,
+      "outcomes": [
+        "RA1"
+      ],
+      "prerequisites": [
+        "eje-02-tokens-embeddings-y-contexto"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-02-limites-y-puente-a-agentes",
+      "title": "Operación, límites y selección de modelos",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-02-redes-y-llm/04-limites-y-puente-a-agentes.md",
+      "digest": "5b81effb179dc94ebbbb7a520c59dd08ae3ec9940d331bcd650f1e6fac6882c4",
+      "axis": 2,
+      "order": 4,
+      "level": "obligatorio",
+      "classes": [
+        2,
+        3
+      ],
+      "modality": "mixta",
+      "durationMinutes": 25,
+      "outcomes": [
+        "RA1"
+      ],
+      "prerequisites": [
+        "eje-02-transformers-y-generacion"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-02-laboratorio-caja-de-cristal",
+      "title": "Laboratorio de tokenización, contexto y variabilidad",
+      "type": "laboratorio",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-02-redes-y-llm/05-laboratorio-caja-de-cristal.md",
+      "digest": "46adbfc83da6734fb45f2f44bc24ec02fc4d3bc96a1f5bc230b8f0b03f868903",
+      "axis": 2,
+      "order": 5,
+      "level": "obligatorio",
+      "classes": [
+        3
+      ],
+      "modality": "mixta",
+      "durationMinutes": 70,
+      "outcomes": [
+        "RA1"
+      ],
+      "prerequisites": [
+        "eje-02-limites-y-puente-a-agentes"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-02-errores-conceptuales",
+      "title": "Errores conceptuales y decisiones sobre modelos",
+      "type": "actividad",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-02-redes-y-llm/06-errores-conceptuales.md",
+      "digest": "0f980c648840edf4b8e58a5d17d8a32da7337724ab62f399f9fbb0e5a85b6da5",
+      "axis": 2,
+      "order": 6,
+      "level": "obligatorio",
+      "classes": [
+        3
+      ],
+      "modality": "mixta",
+      "durationMinutes": 45,
+      "outcomes": [
+        "RA1"
+      ],
+      "prerequisites": [
+        "eje-02-limites-y-puente-a-agentes"
+      ],
+      "evaluable": true,
+      "availableFrom": "2026-08-12",
+      "availableUntil": "2026-08-25"
+    },
+    {
+      "id": "eje-02-referencias",
+      "title": "Referencias comentadas del Eje 2",
+      "type": "referencia",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-02-redes-y-llm/07-referencias-del-eje.md",
+      "digest": "3aafd1872861a2521131396c06a393bab81c8b944cfa802c595a17966a926808",
+      "axis": 2,
+      "order": 7,
+      "level": "ampliacion",
+      "classes": [
+        2,
+        3
+      ],
+      "modality": "virtual-asincronica",
+      "outcomes": [
+        "RA1"
+      ]
+    },
+    {
+      "id": "eje-03-chat-workflow-y-agente",
+      "title": "Chat, flujo de trabajo y agente",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-03-sistemas-agenticos/01-chat-workflow-y-agente.md",
+      "digest": "9793b80687df4dfa30ca91ff1cf90ee8d5d399788c2eb42ec8e9d651c747a7bc",
+      "axis": 3,
+      "order": 1,
+      "level": "obligatorio",
+      "classes": [
+        1,
+        4
+      ],
+      "modality": "mixta",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA1",
+        "RA2",
+        "RA5",
+        "RA8"
+      ],
+      "prerequisites": [
+        "eje-01-bienvenida"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-03-arquitectura-y-ciclo",
+      "title": "Arquitectura y ciclo de un agente",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-03-sistemas-agenticos/02-arquitectura-y-ciclo.md",
+      "digest": "7f1cddded732eb8b7cb05ff60ca1596c0621a15fb83113f56af6ad17fb521597",
+      "axis": 3,
+      "order": 2,
+      "level": "obligatorio",
+      "classes": [
+        4
+      ],
+      "modality": "mixta",
+      "durationMinutes": 22,
+      "outcomes": [
+        "RA1",
+        "RA5",
+        "RA6",
+        "RA8"
+      ],
+      "prerequisites": [
+        "eje-03-chat-workflow-y-agente"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-03-herramientas-estado-y-realimentacion",
+      "title": "Herramientas, estado y realimentación",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-03-sistemas-agenticos/03-herramientas-estado-y-realimentacion.md",
+      "digest": "dd80dc3d41f016669a4f3cf34b2e918d1e3d663e0fdab4f340d7e8d6fae6c3a4",
+      "axis": 3,
+      "order": 3,
+      "level": "obligatorio",
+      "classes": [
+        4,
+        8
+      ],
+      "modality": "mixta",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA5",
+        "RA6",
+        "RA8",
+        "RA10"
+      ],
+      "prerequisites": [
+        "eje-03-arquitectura-y-ciclo"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-03",
+      "title": "Sistemas agénticos",
+      "type": "indice",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-03-sistemas-agenticos/README.md",
+      "digest": "be589e4e2a550626c3e795c4e7ef94636d238f283a08cb1a6e37104bea4932fb",
+      "axis": 3,
+      "order": 3,
+      "level": "obligatorio",
+      "classes": [
+        1,
+        4,
+        8,
+        12
+      ],
+      "modality": "mixta",
+      "outcomes": [
+        "RA1",
+        "RA2",
+        "RA5",
+        "RA6",
+        "RA8"
+      ]
+    },
+    {
+      "id": "eje-03-terminacion-planificacion-y-recuperacion",
+      "title": "Planificación, recuperación y terminación",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-03-sistemas-agenticos/04-terminacion-planificacion-y-recuperacion.md",
+      "digest": "04d1cb43faf09b21be5e213f5860ab7b3a53caeff5ba50e219e82c89b6d253bc",
+      "axis": 3,
+      "order": 4,
+      "level": "obligatorio",
+      "classes": [
+        4,
+        8
+      ],
+      "modality": "mixta",
+      "durationMinutes": 24,
+      "outcomes": [
+        "RA3",
+        "RA5",
+        "RA8",
+        "RA9",
+        "RA10"
+      ],
+      "prerequisites": [
+        "eje-03-herramientas-estado-y-realimentacion"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-03-patrones-agenticos",
+      "title": "Patrones de composición agéntica",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-03-sistemas-agenticos/05-patrones-agenticos.md",
+      "digest": "40de29b71a84a4ed04a785ade1533d6f59cd27c22849d1a91f241f4a788485b7",
+      "axis": 3,
+      "order": 5,
+      "level": "obligatorio",
+      "classes": [
+        8,
+        12
+      ],
+      "modality": "mixta",
+      "durationMinutes": 24,
+      "outcomes": [
+        "RA2",
+        "RA5",
+        "RA8",
+        "RA9"
+      ],
+      "prerequisites": [
+        "eje-03-terminacion-planificacion-y-recuperacion"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-03-agente-unico-y-multiagente",
+      "title": "Agente único y sistemas multiagente",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-03-sistemas-agenticos/06-agente-unico-y-multiagente.md",
+      "digest": "f301258f7338c478a45cb28c76f9f67191bd1a799ee4123644b5c8287250b563",
+      "axis": 3,
+      "order": 6,
+      "level": "demostrativo",
+      "classes": [
+        12
+      ],
+      "modality": "mixta",
+      "durationMinutes": 22,
+      "outcomes": [
+        "RA2",
+        "RA5",
+        "RA8",
+        "RA9",
+        "RA10"
+      ],
+      "prerequisites": [
+        "eje-03-patrones-agenticos"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-03-laboratorio-agente-controlado",
+      "title": "Laboratorio de agente controlado",
+      "type": "laboratorio",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-03-sistemas-agenticos/07-laboratorio-agente-controlado.md",
+      "digest": "c5dd8f303744142ff0eecdee3563e9957e4673921d7368f939d1d9d58391955f",
+      "axis": 3,
+      "order": 7,
+      "level": "obligatorio",
+      "classes": [
+        4
+      ],
+      "modality": "presencial",
+      "durationMinutes": 75,
+      "outcomes": [
+        "RA1",
+        "RA2",
+        "RA5",
+        "RA6",
+        "RA8",
+        "RA10",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-03-herramientas-estado-y-realimentacion",
+        "eje-03-terminacion-planificacion-y-recuperacion"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-04-repositorios-y-contexto",
+      "title": "Repositorios y selección de contexto",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-04-desarrollo-agentico/01-repositorios-y-contexto.md",
+      "digest": "69e86bd8ba8c636630bca64d0c72694e74c9cc586891ed735c44cbef21c50ff6",
+      "axis": 4,
+      "order": 1,
+      "level": "obligatorio",
+      "classes": [
+        5,
+        7
+      ],
+      "modality": "mixta",
+      "durationMinutes": 25,
+      "outcomes": [
+        "RA4",
+        "RA5",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-03-chat-workflow-y-agente"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-04-especificaciones-y-planes",
+      "title": "Especificaciones y planes verificables",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-04-desarrollo-agentico/02-especificaciones-y-planes.md",
+      "digest": "10ab35789b4952596f501ba33b96de53c361b39f5ad8542f3b61021374dac913",
+      "axis": 4,
+      "order": 2,
+      "level": "obligatorio",
+      "classes": [
+        5,
+        8
+      ],
+      "modality": "mixta",
+      "durationMinutes": 25,
+      "outcomes": [
+        "RA3",
+        "RA5",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-04-repositorios-y-contexto"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-04-implementacion-git-y-reversibilidad",
+      "title": "Implementación incremental, Git y reversibilidad",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-04-desarrollo-agentico/03-implementacion-git-y-reversibilidad.md",
+      "digest": "864a8d1fb71a63abcd412806606b7a70cd86bfce2fa83389d25b292b9a2d2750",
+      "axis": 4,
+      "order": 3,
+      "level": "obligatorio",
+      "classes": [
+        7,
+        8
+      ],
+      "modality": "mixta",
+      "durationMinutes": 22,
+      "outcomes": [
+        "RA4",
+        "RA5",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-04-especificaciones-y-planes"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-04",
+      "title": "Ingeniería del desarrollo agéntico",
+      "type": "indice",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-04-desarrollo-agentico/README.md",
+      "digest": "6adcd316dbd2d8cb26e799d2aecf0c589958234715941682d7d5ebb1ad8b7230",
+      "axis": 4,
+      "order": 4,
+      "level": "obligatorio",
+      "classes": [
+        5,
+        7,
+        8,
+        11,
+        13
+      ],
+      "modality": "mixta",
+      "outcomes": [
+        "RA3",
+        "RA4",
+        "RA5",
+        "RA8",
+        "RA9",
+        "RA11"
+      ]
+    },
+    {
+      "id": "eje-04-pruebas-depuracion-y-revision",
+      "title": "Validación, depuración y revisión por evidencia",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-04-desarrollo-agentico/04-pruebas-depuracion-y-revision.md",
+      "digest": "6bac1758eeec5bacf738479be580fb8636b2d6c282a0d45994e75502ca18ddcc",
+      "axis": 4,
+      "order": 4,
+      "level": "obligatorio",
+      "classes": [
+        8,
+        11
+      ],
+      "modality": "mixta",
+      "durationMinutes": 25,
+      "outcomes": [
+        "RA5",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-04-implementacion-git-y-reversibilidad"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-04-infraestructura-de-validacion",
+      "title": "Infraestructura de desarrollo y validación",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-04-desarrollo-agentico/05-infraestructura-de-validacion.md",
+      "digest": "04bb77a81917ef4d5d715498ddf2899e78ed3503db38e1a19de74d8fc32287a7",
+      "axis": 4,
+      "order": 5,
+      "level": "obligatorio",
+      "classes": [
+        7,
+        8
+      ],
+      "modality": "mixta",
+      "durationMinutes": 22,
+      "outcomes": [
+        "RA4",
+        "RA5",
+        "RA6",
+        "RA8"
+      ],
+      "prerequisites": [
+        "eje-04-repositorios-y-contexto"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-04-observabilidad-y-trazabilidad",
+      "title": "Observabilidad y trazabilidad del proceso",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-04-desarrollo-agentico/06-observabilidad-y-trazabilidad.md",
+      "digest": "2ce9095daa89022df83e164dcf271eb21582b5b564f72d04dec2e5f839267560",
+      "axis": 4,
+      "order": 6,
+      "level": "obligatorio",
+      "classes": [
+        8,
+        12,
+        13
+      ],
+      "modality": "mixta",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA5",
+        "RA8",
+        "RA9",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-04-pruebas-depuracion-y-revision"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-04-laboratorio-flujo-completo",
+      "title": "Laboratorio de intervención agéntica completa",
+      "type": "laboratorio",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-04-desarrollo-agentico/07-laboratorio-flujo-completo.md",
+      "digest": "8bd4ed7422bfb2c4ab662896f5fe7c511d917e33ef4c3eb80d46b0ba3d234683",
+      "axis": 4,
+      "order": 7,
+      "level": "obligatorio",
+      "classes": [
+        8
+      ],
+      "modality": "mixta",
+      "durationMinutes": 120,
+      "outcomes": [
+        "RA3",
+        "RA4",
+        "RA5",
+        "RA8",
+        "RA9",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-04-infraestructura-de-validacion",
+        "eje-04-observabilidad-y-trazabilidad"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-05-busqueda-y-a-star",
+      "title": "Búsqueda de caminos y A*",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 2,
+      "sourcePath": "ejes/eje-05-ia-videojuegos/01-busqueda-y-a-star.md",
+      "digest": "99388dfb1541d5bfb4cccc13ae7d38f2acb1f75b98c930ccabab3cf6ff0654f0",
+      "axis": 5,
+      "order": 1,
+      "level": "obligatorio",
+      "classes": [
+        9
+      ],
+      "modality": "virtual-asincronica",
+      "durationMinutes": 25,
+      "outcomes": [
+        "RA7",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [],
+      "evaluable": true
+    },
+    {
+      "id": "eje-05-percepcion-navegacion-steering",
+      "title": "Percepción, seguimiento de caminos y movimiento",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-05-ia-videojuegos/02-percepcion-navegacion-y-steering.md",
+      "digest": "3adae7b5c738c72893642b8f31d2cf6907a4f443922d4e89ef5fe40f6469c88b",
+      "axis": 5,
+      "order": 2,
+      "level": "obligatorio",
+      "classes": [
+        9
+      ],
+      "modality": "mixta",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA7",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-05-busqueda-y-a-star"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-05-maquinas-de-estados",
+      "title": "Máquinas de estados finitos y jerárquicas",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-05-ia-videojuegos/03-maquinas-de-estados.md",
+      "digest": "de4caf8a92a8b18ab3ad6efd1b10c94144662131622d80f53225233d6824ccac",
+      "axis": 5,
+      "order": 3,
+      "level": "obligatorio",
+      "classes": [
+        10
+      ],
+      "modality": "presencial",
+      "durationMinutes": 25,
+      "outcomes": [
+        "RA7",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-05-percepcion-navegacion-steering"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-05-behavior-trees",
+      "title": "Árboles de comportamiento",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-05-ia-videojuegos/04-behavior-trees.md",
+      "digest": "f13391242b9e8ca62ec4b81b94a194cdd26c82ab3d8c1d756cb5a0ae7d249e64",
+      "axis": 5,
+      "order": 4,
+      "level": "obligatorio",
+      "classes": [
+        10
+      ],
+      "modality": "presencial",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA7",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-05-maquinas-de-estados"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-05",
+      "title": "Inteligencia artificial y comportamiento en videojuegos",
+      "type": "indice",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 2,
+      "sourcePath": "ejes/eje-05-ia-videojuegos/README.md",
+      "digest": "677699f882be2faf0bd6b608d5e448da7d6fa0288e44a1384b402bf1dea9b40d",
+      "axis": 5,
+      "order": 5,
+      "level": "obligatorio",
+      "classes": [
+        9,
+        10,
+        11
+      ],
+      "modality": "mixta",
+      "outcomes": [
+        "RA7",
+        "RA8",
+        "RA11"
+      ]
+    },
+    {
+      "id": "eje-05-utility-ai",
+      "title": "Sistemas de utilidad",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-05-ia-videojuegos/05-utility-ai.md",
+      "digest": "a91f9583e9e7aac1f2540dc2261b885c548a504783bbfc1f290a34d591d7c994",
+      "axis": 5,
+      "order": 5,
+      "level": "obligatorio",
+      "classes": [
+        10
+      ],
+      "modality": "presencial",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA7",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-05-maquinas-de-estados"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-05-goap",
+      "title": "Planificación orientada a objetivos y GOAP",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-05-ia-videojuegos/06-goap.md",
+      "digest": "3c13a40e9a7ed4ec2a8cfbe7f5b91d9522d039f1868ca85d6c01dc419743dfc0",
+      "axis": 5,
+      "order": 6,
+      "level": "obligatorio",
+      "classes": [
+        10
+      ],
+      "modality": "presencial",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA7",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-05-busqueda-y-a-star",
+        "eje-05-maquinas-de-estados"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-05-seleccion-intencion-diseno",
+      "title": "Selección de técnicas e intención de diseño",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-05-ia-videojuegos/07-seleccion-e-intencion-de-diseno.md",
+      "digest": "0bd0b52ad00823a7fb6cf06094bba78ec7a69955ae76c921ce23d80b50c7c9b9",
+      "axis": 5,
+      "order": 7,
+      "level": "obligatorio",
+      "classes": [
+        10
+      ],
+      "modality": "mixta",
+      "durationMinutes": 25,
+      "outcomes": [
+        "RA7",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-05-maquinas-de-estados",
+        "eje-05-behavior-trees",
+        "eje-05-utility-ai",
+        "eje-05-goap"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-05-caso-integrador-guardia",
+      "title": "Caso integrador de un guardia de sigilo",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-05-ia-videojuegos/08-caso-integrador-guardia.md",
+      "digest": "65831120c5882cea34c9ea30febe0ab10e015f880909894a56e43aff2231f694",
+      "axis": 5,
+      "order": 8,
+      "level": "obligatorio",
+      "classes": [
+        10
+      ],
+      "modality": "mixta",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA7",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-05-seleccion-intencion-diseno"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-05-laboratorio-a-star-fsm",
+      "title": "Laboratorio de A* y FSM",
+      "type": "laboratorio",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-05-ia-videojuegos/09-laboratorio-a-star-y-fsm.md",
+      "digest": "97aaf3d0a9722e7c7d57d108c546857c84c1687a7f4a205789048e12e57d558f",
+      "axis": 5,
+      "order": 9,
+      "level": "obligatorio",
+      "classes": [
+        10
+      ],
+      "modality": "mixta",
+      "durationMinutes": 180,
+      "outcomes": [
+        "RA5",
+        "RA7",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-05-busqueda-y-a-star",
+        "eje-05-maquinas-de-estados"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-06-herramientas-y-aci",
+      "title": "Herramientas e interfaces entre agentes y computadoras",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-06-herramientas-produccion/01-herramientas-y-aci.md",
+      "digest": "2a0bd0793936001c3f761a7921bb5c0b2723bd976669af978b49cf4da9c90ac7",
+      "axis": 6,
+      "order": 1,
+      "level": "obligatorio",
+      "classes": [
+        4,
+        7,
+        12
+      ],
+      "modality": "mixta",
+      "durationMinutes": 22,
+      "outcomes": [
+        "RA6",
+        "RA10"
+      ],
+      "prerequisites": [
+        "eje-03-chat-workflow-y-agente"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-06-instrucciones-skills-comandos",
+      "title": "Instrucciones, habilidades, comandos y agentes especializados",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-06-herramientas-produccion/02-instrucciones-skills-y-comandos.md",
+      "digest": "c5e500c750c16a3c2f1b3306be69e26ca875621dd4e689b7c9aad90f14dcb6e8",
+      "axis": 6,
+      "order": 2,
+      "level": "obligatorio",
+      "classes": [
+        7,
+        12
+      ],
+      "modality": "mixta",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA4",
+        "RA6",
+        "RA10"
+      ],
+      "prerequisites": [
+        "eje-06-herramientas-y-aci"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-06-interoperabilidad-motores-servicios",
+      "title": "Integraciones controladas con motores y servicios",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-06-herramientas-produccion/03-interoperabilidad-unity-phaser.md",
+      "digest": "4fc9632056bd428e6a2346f16b7a446032e67d14e7416d1416fd044cbfade9c8",
+      "axis": 6,
+      "order": 3,
+      "level": "obligatorio",
+      "classes": [
+        8,
+        10,
+        12
+      ],
+      "modality": "mixta",
+      "durationMinutes": 24,
+      "outcomes": [
+        "RA5",
+        "RA6",
+        "RA8",
+        "RA10",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-06-herramientas-y-aci"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-06-contratos-disciplinas",
+      "title": "Contratos entre disciplinas y consistencia del producto",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-06-herramientas-produccion/04-contratos-entre-disciplinas.md",
+      "digest": "3d0593a6d16250cc83b4d2cc6c898bf8b672638f62e1587cbecb9040c7b306ae",
+      "axis": 6,
+      "order": 4,
+      "level": "obligatorio",
+      "classes": [
+        10,
+        12,
+        13
+      ],
+      "modality": "mixta",
+      "durationMinutes": 22,
+      "outcomes": [
+        "RA3",
+        "RA5",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-06-interoperabilidad-motores-servicios"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-06-mcp-agentes-especializados",
+      "title": "MCP y separación de responsabilidades",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-06-herramientas-produccion/05-mcp-agentes-especializados.md",
+      "digest": "a041dea3d8a7898ab8ce0ed6c8a32e9622fe937d8860c7f3dab4257aafa075f7",
+      "axis": 6,
+      "order": 5,
+      "level": "demostrativo",
+      "classes": [
+        12
+      ],
+      "modality": "mixta",
+      "durationMinutes": 24,
+      "outcomes": [
+        "RA6",
+        "RA10",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-06-herramientas-y-aci",
+        "eje-06-instrucciones-skills-comandos"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-06",
+      "title": "Herramientas, interoperabilidad y producción",
+      "type": "indice",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-06-herramientas-produccion/README.md",
+      "digest": "c3afcc5288ebec55e89a4791cae8a4925c4152361403ee4d75a5546e74848dc8",
+      "axis": 6,
+      "order": 6,
+      "level": "obligatorio",
+      "classes": [
+        4,
+        7,
+        8,
+        10,
+        12,
+        13
+      ],
+      "modality": "mixta",
+      "outcomes": [
+        "RA3",
+        "RA4",
+        "RA5",
+        "RA6",
+        "RA8",
+        "RA10",
+        "RA11"
+      ]
+    },
+    {
+      "id": "eje-06-multimodalidad",
+      "title": "Multimodalidad en la producción de videojuegos",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-06-herramientas-produccion/06-multimodalidad.md",
+      "digest": "cc7e7fd17ca13ac4751a79993e873de9be5d79fe823293be40acce55c3a46ddb",
+      "axis": 6,
+      "order": 6,
+      "level": "demostrativo",
+      "classes": [
+        12,
+        13
+      ],
+      "modality": "mixta",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA8",
+        "RA10",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-06-contratos-disciplinas"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-06-laboratorio-integrador",
+      "title": "Laboratorio integrador de herramientas y producción",
+      "type": "laboratorio",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-06-herramientas-produccion/07-laboratorio-integrador.md",
+      "digest": "2fd48cdee40c6b3b063e76e2b2c45093f6e48a4faed57a5f8fd57b4db3c43b98",
+      "axis": 6,
+      "order": 7,
+      "level": "obligatorio",
+      "classes": [
+        12,
+        13
+      ],
+      "modality": "mixta",
+      "durationMinutes": 120,
+      "outcomes": [
+        "RA4",
+        "RA5",
+        "RA6",
+        "RA8",
+        "RA10",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-06-herramientas-y-aci",
+        "eje-06-instrucciones-skills-comandos",
+        "eje-06-interoperabilidad-motores-servicios",
+        "eje-06-contratos-disciplinas"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-07-evaluacion-y-metricas",
+      "title": "Evaluación y métricas de procesos agénticos",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-07-evaluacion-seguridad/01-evaluacion-y-metricas.md",
+      "digest": "48c42ee6fdcdc3eeab7fbc04648563424e758bbd11023f9ddb863e024570139a",
+      "axis": 7,
+      "order": 1,
+      "level": "obligatorio",
+      "classes": [
+        12
+      ],
+      "modality": "mixta",
+      "durationMinutes": 25,
+      "outcomes": [
+        "RA8",
+        "RA9"
+      ],
+      "prerequisites": [
+        "eje-03-chat-workflow-y-agente"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-07-seguridad-permisos-y-secretos",
+      "title": "Permisos, aislamiento y protección de información",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-07-evaluacion-seguridad/02-seguridad-permisos-y-secretos.md",
+      "digest": "5a3b05cdf87211f664b352c1df3f16e777fa54c4e5238b6feb37eb8df461714f",
+      "axis": 7,
+      "order": 2,
+      "level": "obligatorio",
+      "classes": [
+        4,
+        7,
+        12
+      ],
+      "modality": "mixta",
+      "durationMinutes": 22,
+      "outcomes": [
+        "RA6",
+        "RA10"
+      ],
+      "prerequisites": [
+        "eje-06-herramientas-y-aci"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-07-prompt-injection",
+      "title": "Inyección de instrucciones y cadena de suministro",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-07-evaluacion-seguridad/03-prompt-injection.md",
+      "digest": "59876dc4bdb44913b53a915fa0cad236942a570e0489dea718ddca9235c318b1",
+      "axis": 7,
+      "order": 3,
+      "level": "obligatorio",
+      "classes": [
+        7,
+        8,
+        12
+      ],
+      "modality": "mixta",
+      "durationMinutes": 22,
+      "outcomes": [
+        "RA8",
+        "RA10"
+      ],
+      "prerequisites": [
+        "eje-07-seguridad-permisos-y-secretos"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-07-reversibilidad-y-supervision",
+      "title": "Reversibilidad, supervisión y riesgos de autonomía",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-07-evaluacion-seguridad/04-reversibilidad-y-supervision.md",
+      "digest": "aae85b2fc3f5ceb4927388c2d795e1a4d0b2e7862b15096befec8db92663a297",
+      "axis": 7,
+      "order": 4,
+      "level": "obligatorio",
+      "classes": [
+        4,
+        8,
+        12,
+        13
+      ],
+      "modality": "mixta",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA5",
+        "RA8",
+        "RA10"
+      ],
+      "prerequisites": [
+        "eje-07-seguridad-permisos-y-secretos"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-07-licencias-autoria-e-integridad",
+      "title": "Procedencia, autoría e integridad profesional",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-07-evaluacion-seguridad/05-licencias-autoria-e-integridad.md",
+      "digest": "a64982a4499035d4583b791cfc1afc232950ea5c70db06d4f6ad363a17e07bdb",
+      "axis": 7,
+      "order": 5,
+      "level": "obligatorio",
+      "classes": [
+        7,
+        11,
+        13,
+        14
+      ],
+      "modality": "mixta",
+      "durationMinutes": 22,
+      "outcomes": [
+        "RA10",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-04-repositorios-y-contexto"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-07-checklists-operativos",
+      "title": "Listas de verificación (checklists) operativas de evaluación y seguridad",
+      "type": "referencia",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-07-evaluacion-seguridad/06-checklists-operativos.md",
+      "digest": "d1aa54dd320e7fc9b917540fd9358e94caa4a027d82eb5689d1a2ba0c63900a3",
+      "axis": 7,
+      "order": 6,
+      "level": "obligatorio",
+      "classes": [
+        4,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "modality": "mixta",
+      "outcomes": [
+        "RA8",
+        "RA9",
+        "RA10",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-07-seguridad-permisos-y-secretos"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "eje-07",
+      "title": "Evaluación, seguridad y responsabilidad",
+      "type": "indice",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-07-evaluacion-seguridad/README.md",
+      "digest": "834a187ea72b2c08f120dda1693a4aae0bca921989de81d08bc2e92b0f907e9d",
+      "axis": 7,
+      "order": 7,
+      "level": "obligatorio",
+      "classes": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "modality": "mixta",
+      "outcomes": [
+        "RA8",
+        "RA9",
+        "RA10",
+        "RA11"
+      ]
+    },
+    {
+      "id": "eje-07-caso-red-team",
+      "title": "Laboratorio de equipo rojo y respuesta controlada",
+      "type": "laboratorio",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-07-evaluacion-seguridad/07-caso-red-team.md",
+      "digest": "caa024315e5ffabfb8cf01eb0d6ae48d5aa61adccd3e74779f271eb48ce75e3d",
+      "axis": 7,
+      "order": 7,
+      "level": "obligatorio",
+      "classes": [
+        12
+      ],
+      "modality": "presencial",
+      "durationMinutes": 90,
+      "outcomes": [
+        "RA8",
+        "RA9",
+        "RA10",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-07-prompt-injection",
+        "eje-07-reversibilidad-y-supervision",
+        "eje-07-licencias-autoria-e-integridad",
+        "eje-07-checklists-operativos"
+      ],
+      "evaluable": true
+    },
+    {
+      "id": "contenidos-transversales",
+      "title": "Contenidos transversales",
+      "type": "indice",
+      "audience": "publica",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "transversales/README.md",
+      "digest": "ef5588cf20318e5f2bb22d16c04cbf5e71180271a30753cce3444fcfcb2be837"
+    },
+    {
+      "id": "transversal-eje-02-fichas-seleccion-modelos",
+      "title": "Fichas de alternativas para selección de modelos",
+      "type": "referencia",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "transversales/eje-02-fichas-seleccion-modelos.md",
+      "digest": "466f27ea36607da909d115352105c95c650a12aa91176e9eac4e69df8a0482fb"
+    },
+    {
+      "id": "glosario-general",
+      "title": "Glosario general",
+      "type": "referencia",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 2,
+      "sourcePath": "glosario.md",
+      "digest": "f122a8695edd4b5a79a329a8df2514d27f69af2dfd6548fd650e4139724eb2bd"
+    },
+    {
+      "id": "transversal-eje-02-muestras-caja-cristal",
+      "title": "Muestras para el laboratorio de tokenización, contexto y variabilidad",
+      "type": "referencia",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "transversales/eje-02-muestras-caja-cristal.md",
+      "digest": "1ea891d7d07f130e9a1e1e01ebb4a56f3dddcb1e806fa769ac1b4adeb47b8acb"
+    },
+    {
+      "id": "transversal-eje-07-paquete-adversarial",
+      "title": "Paquete adversarial y trazas saneadas",
+      "type": "referencia",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "transversales/eje-07-paquete-adversarial.md",
+      "digest": "27561279cf208905403bde73bfd52d9feeececa79776e59461651edbffee7e04"
+    },
+    {
+      "id": "plantilla-auditoria-repositorio",
+      "title": "Plantilla de auditoría de repositorio",
+      "type": "plantilla",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "plantillas/03-auditoria-repositorio.md",
+      "digest": "bb7cf3e7c44572ccd15204ad789c53b82e7dbd7e537b1b0f2b56d47dc6895354"
+    },
+    {
+      "id": "plantilla-contrato-interdisciplinario",
+      "title": "Plantilla de contrato interdisciplinario",
+      "type": "plantilla",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "plantillas/07-contrato-interdisciplinario.md",
+      "digest": "ee2a7c1bc23589924abc02d4eeccf976978db5607889a8a11b7ef5c6197f0a7b"
+    },
+    {
+      "id": "plantilla-especificacion",
+      "title": "Plantilla de especificación",
+      "type": "plantilla",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "plantillas/01-especificacion.md",
+      "digest": "0cf771c3f002287003128e901e2e4b37656112e8f4090f5a119f67569bb6182f"
+    },
+    {
+      "id": "plantilla-evidencia-pruebas",
+      "title": "Plantilla de evidencia de pruebas",
+      "type": "plantilla",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "plantillas/06-evidencia-pruebas.md",
+      "digest": "8732679c7c694f793db431e92eed2f5e4ab61e1cdbd350c96023740922060bfc"
+    },
+    {
+      "id": "plantilla-informe-final",
+      "title": "Plantilla de informe final",
+      "type": "plantilla",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "plantillas/08-informe-final.md",
+      "digest": "13f115b76ef49881242f39f2b7a2517980bd59a4805f6cf319c0baaaf81f490a"
+    },
+    {
+      "id": "plantilla-matriz-permisos",
+      "title": "Plantilla de matriz de permisos",
+      "type": "plantilla",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "plantillas/04-matriz-permisos.md",
+      "digest": "a0b55dedfcc4a887494b246099e87b7b420da2b15a0383d34b4f3648a826f2da"
+    },
+    {
+      "id": "plantilla-plan",
+      "title": "Plantilla de plan de intervención",
+      "type": "plantilla",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "plantillas/02-plan.md",
+      "digest": "1d8e24ac2c3f41bc906c68dbfc55356c27674de5b81cf8358c1ceebd69d61552"
+    },
+    {
+      "id": "plantilla-registro-intervencion",
+      "title": "Plantilla de registro de intervención agéntica",
+      "type": "plantilla",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "plantillas/05-registro-intervencion.md",
+      "digest": "2c94caee1ddb55068f967ff44b007ff8d1a048e928d0045ddbdb7bcfeccacdb1"
+    },
+    {
+      "id": "plantillas-contenidos",
+      "title": "Plantillas de trabajo",
+      "type": "indice",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "plantillas/README.md",
+      "digest": "ea1a5a27a29a039631079cc276eaec418def359bd80928d985264e2952c0a6dd"
+    },
+    {
+      "id": "transversal-eje-06-registros-integracion",
+      "title": "Registros saneados de una integración de producción",
+      "type": "referencia",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "transversales/eje-06-registros-integracion.md",
+      "digest": "e511dd349d09b59e2cde68a9d78719cf77b34ec7dab69ccdb2920e615b89766c"
+    },
+    {
+      "id": "sistema-contenidos",
+      "title": "Sistema de contenidos PIAPC 2026",
+      "type": "indice",
+      "audience": "publica",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "README.md",
+      "digest": "eaa00c7f678dd6167ddadd3712ef8b5b0581dace3719c9bcae959d76d5c8ef21"
+    },
+    {
+      "id": "soluciones-liberables",
+      "title": "Soluciones y orientaciones liberables",
+      "type": "indice",
+      "audience": "publica",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "soluciones/README.md",
+      "digest": "592e5aff0c7c65a0022b0527ee79f482a3fd31914425109f2497ea9e83b1af25"
+    },
+    {
+      "id": "transversal-eje-03-traza-agente-controlado",
+      "title": "Traza saneada de un agente controlado",
+      "type": "referencia",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "transversales/eje-03-traza-agente-controlado.md",
+      "digest": "8af45eadd71ed9f804f918f31583d60231de8716829f47304dcef32f35266895"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["AGENTS.md"],
+  "skills": {
+    "paths": [".opencode/skills", ".agents/skills"]
+  },
+  "references": {
+    "specs": {
+      "path": "specs",
+      "description": "Use for product requirements, implementation plans, tasks, and acceptance criteria."
+    }
+  },
+  "mcp": {
+    "supabase-piapc": {
+      "type": "remote",
+      "url": "https://mcp.supabase.com/mcp?project_ref=edknatgzwxcsdywoqfft&features=docs%2Caccount%2Cdatabase%2Cdebugging%2Cdevelopment%2Cfunctions%2Cbranching",
+      "enabled": true
+    },
+    "next-devtools": {
+      "type": "local",
+      "command": ["npx", "-y", "next-devtools-mcp@latest"],
+      "enabled": true
+    },
+    "shadcn": {
+      "type": "local",
+      "command": ["npx", "shadcn", "mcp"],
+      "enabled": true
+    }
+  }
+}
