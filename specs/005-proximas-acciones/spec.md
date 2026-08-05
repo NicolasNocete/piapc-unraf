@@ -64,8 +64,8 @@ No quedan ambigüedades abiertas. La sección no se divide por día o semana; se
 
 ## Criterios de aceptación
 
-- **AC-001 (FR-001, FR-002):** Dada una persona autenticada que abre el dashboard, cuando consulta la sección, encuentra el título `Próximas acciones`, el resumen de la clase inicial, las dos tareas indicadas, el vencimiento del 11 de agosto a las 23:59 y la aclaración de que no necesita instalar herramientas, programar ni usar modelos de IA.
-- **AC-002 (FR-003):** Dada una persona que consulta las acciones iniciales, cuando selecciona la lectura o la actividad, llega respectivamente a `eje-01-bienvenida` o `eje-01-actividad-clasificacion`.
+- **AC-001 (FR-001, FR-002):** Dada una persona autenticada que abre el dashboard, cuando consulta la sección, encuentra el título `Próximas acciones`, el resumen de la clase inicial, las tres tareas indicadas, el vencimiento del 11 de agosto a las 23:59 y la aclaración de que no necesita instalar herramientas, programar ni usar modelos de IA.
+- **AC-002 (FR-003):** Dada una persona que consulta las acciones iniciales, cuando selecciona las lecturas o la actividad, llega respectivamente a `eje-01-bienvenida`, `eje-01-que-es-ia` o `eje-01-actividad-clasificacion`.
 - **AC-003 (FR-004):** Dado un cambio manual en `content/upcoming-actions.md`, cuando se publica la aplicación, el dashboard muestra los nuevos textos y enlaces sin editar el componente visual.
 - **AC-004 (FR-005):** Dada una persona que consulta el dashboard desde móvil o escritorio, cuando revisa la sección, puede leer el contenido y activar sus enlaces sin pérdida de información esencial.
 - **AC-005 (FR-006):** Dada una revisión del cambio, cuando se inspecciona su impacto, no existen tablas, datos personales, mensajería ni registros de actividad nuevos.
