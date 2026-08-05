@@ -15,6 +15,7 @@ import {
   University,
   BookMarked,
   ClipboardCheck,
+  ListTodo,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -25,6 +26,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { requireCompleteProfile } from "@/lib/profiles/server";
+import { getUpcomingActions } from "@/lib/upcoming-actions/server";
 import { cn } from "@/lib/utils";
 
 const quickLinks = [
@@ -36,6 +38,7 @@ const quickLinks = [
 
 export default async function DashboardPage() {
   const profile = await requireCompleteProfile();
+  const upcomingActions = await getUpcomingActions();
   const displayName = `${profile.first_name} ${profile.last_name}`;
   const avatarUrl = profile.avatar_url ?? undefined;
   const firstName = profile.first_name;
@@ -123,6 +126,34 @@ export default async function DashboardPage() {
                 </article>
               </div>
             </div>
+          </section>
+
+          <section aria-labelledby="upcoming-actions-title" className="mt-5 overflow-hidden rounded-[1.75rem] border border-[#14251d]/10 bg-[#d9ff57] p-7 sm:p-9">
+            <div className="flex flex-wrap items-start justify-between gap-6">
+              <div>
+                <p className="flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-[#415c4c]">
+                  <ListTodo className="size-4" /> Cursada en curso
+                </p>
+                <h2 id="upcoming-actions-title" className="mt-4 text-3xl font-semibold tracking-[-0.04em] sm:text-4xl">Próximas acciones</h2>
+                <p className="mt-4 max-w-3xl leading-7 text-[#415c4c]">{upcomingActions.summary}</p>
+              </div>
+              <p className="flex items-center gap-2 rounded-full border border-[#14251d]/15 bg-[#fffdf6]/70 px-4 py-2 text-sm font-medium text-[#415c4c]">
+                <CalendarDays className="size-4" /> {upcomingActions.deadline}
+              </p>
+            </div>
+
+            <ol className="mt-7 grid gap-3 sm:grid-cols-2">
+              {upcomingActions.actions.map((action, index) => (
+                <li key={action.href}>
+                  <Link href={action.href} className="group flex min-h-24 items-center gap-4 rounded-2xl border border-[#14251d]/15 bg-[#fffdf6]/75 p-5 transition-colors hover:bg-white focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-[#52705e]/35">
+                    <span className="grid size-9 shrink-0 place-items-center rounded-full bg-[#14251d] font-mono text-xs font-bold text-[#d9ff57]">{String(index + 1).padStart(2, "0")}</span>
+                    <span className="font-semibold">{action.title}<ArrowRight className="ml-2 inline size-4 transition-transform group-hover:translate-x-1" /></span>
+                  </Link>
+                </li>
+              ))}
+            </ol>
+
+            <p className="mt-5 max-w-3xl text-sm leading-6 text-[#415c4c]">{upcomingActions.note}</p>
           </section>
 
           <nav aria-label="Accesos rápidos de la materia" className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
