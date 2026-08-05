@@ -16,6 +16,7 @@ import {
   BookMarked,
   ClipboardCheck,
   ListTodo,
+  MessageCircleQuestion,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -34,6 +35,7 @@ const quickLinks = [
   { href: "/dashboard/programa", icon: FileText, label: "Programa", number: "02", available: true },
   { href: "/dashboard/cronograma", icon: CalendarDays, label: "Cronograma", number: "03", available: true },
   { href: "/glosario", icon: BookMarked, label: "Glosario", number: "04", available: true },
+  { href: "/dashboard/consultas", icon: MessageCircleQuestion, label: "Consultas guiadas", number: "05", available: true },
 ];
 
 export default async function DashboardPage() {
@@ -43,7 +45,7 @@ export default async function DashboardPage() {
   const avatarUrl = profile.avatar_url ?? undefined;
   const firstName = profile.first_name;
   const dashboardLinks = profile.is_responsible
-    ? [...quickLinks, { href: "/dashboard/entregas", icon: ClipboardCheck, label: "Entregas", number: "05", available: true }]
+    ? [...quickLinks, { href: "/dashboard/entregas", icon: ClipboardCheck, label: "Entregas", number: "06", available: true }]
     : quickLinks;
 
   return (

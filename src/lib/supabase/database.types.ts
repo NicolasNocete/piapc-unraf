@@ -1,3 +1,5 @@
+export type Json = string | number | boolean | null | { [key: string]: Json | undefined } | Json[];
+
 export type Database = {
   public: {
     Tables: {
@@ -17,6 +19,24 @@ export type Database = {
         Row: { activity_id: string; activity_version: number; created_at: string; id: string; student_id: string; updated_at: string };
         Insert: { activity_id: string; activity_version: number; created_at?: string; id?: string; student_id: string; updated_at?: string };
         Update: { activity_id?: string; activity_version?: number; created_at?: string; id?: string; student_id?: string; updated_at?: string };
+        Relationships: [];
+      };
+      guided_consultation_usage: {
+        Row: { created_at: string; id: string; outcome: "accepted" | "rejected"; rejection_category: "academic-private" | "instruction-override" | "unsafe-or-abusive" | null; usage_day: string; user_id: string };
+        Insert: { created_at?: string; id?: string; outcome: "accepted" | "rejected"; rejection_category?: "academic-private" | "instruction-override" | "unsafe-or-abusive" | null; usage_day: string; user_id: string };
+        Update: { created_at?: string; id?: string; outcome?: "accepted" | "rejected"; rejection_category?: "academic-private" | "instruction-override" | "unsafe-or-abusive" | null; usage_day?: string; user_id?: string };
+        Relationships: [];
+      };
+      guided_conversations: {
+        Row: { created_at: string; id: string; updated_at: string; user_id: string };
+        Insert: { created_at?: string; id?: string; updated_at?: string; user_id: string };
+        Update: { created_at?: string; id?: string; updated_at?: string; user_id?: string };
+        Relationships: [];
+      };
+      guided_messages: {
+        Row: { body: string; conversation_id: string; created_at: string; id: string; role: "assistant" | "user"; sources: Json };
+        Insert: { body: string; conversation_id: string; created_at?: string; id?: string; role: "assistant" | "user"; sources?: Json };
+        Update: { body?: string; conversation_id?: string; created_at?: string; id?: string; role?: "assistant" | "user"; sources?: Json };
         Relationships: [];
       };
       profiles: {
@@ -65,9 +85,21 @@ export type Database = {
         Args: { next_body: string; next_reviewer_id: string; target_submission_id: string };
         Returns: undefined;
       };
+      append_guided_response: {
+        Args: { next_body: string; next_sources: Json; target_conversation_id: string; target_question_id: string };
+        Returns: string;
+      };
       append_submission_version: {
         Args: { next_activity_id: string; next_activity_version: number; next_body: string; next_student_id: string };
         Returns: string;
+      };
+      reserve_guided_consultation: {
+        Args: { next_conversation_id: string | null; next_question: string };
+        Returns: { conversation_id: string; question_id: string; remaining: number }[];
+      };
+      reserve_guided_rejection: {
+        Args: { next_category: "academic-private" | "instruction-override" | "unsafe-or-abusive" };
+        Returns: number;
       };
       set_profile_course_year_by_email: {
         Args: { next_course_year: number; target_email: string };

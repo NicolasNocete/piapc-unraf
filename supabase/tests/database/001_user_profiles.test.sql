@@ -1,6 +1,6 @@
 begin;
 
-select plan(14);
+select plan(22);
 
 select has_table('private', 'profile_change_audit', 'La auditoria privada existe');
 select has_column('public', 'profiles', 'first_name', 'El perfil guarda nombre separado');
@@ -16,6 +16,14 @@ select has_function('public', 'set_profile_role_by_email', array['text', 'text']
 select has_function('public', 'set_profile_responsibility_by_email', array['text', 'boolean'], 'Existe RPC de responsabilidad');
 select has_function('public', 'set_profile_course_year_by_email', array['text', 'smallint'], 'Existe RPC de anio');
 select has_function('private', 'bootstrap_first_responsible', array['text', 'text'], 'Existe bootstrap privado');
+select has_table('public', 'guided_conversations', 'Existen conversaciones guiadas');
+select has_table('public', 'guided_messages', 'Existen mensajes guiados');
+select has_table('public', 'guided_consultation_usage', 'Existe el registro privado de cuota');
+select row_security_active('public.guided_conversations', 'RLS sigue activa sobre conversaciones guiadas');
+select row_security_active('public.guided_messages', 'RLS sigue activa sobre mensajes guiados');
+select row_security_active('public.guided_consultation_usage', 'RLS sigue activa sobre cuota guiada');
+select has_function('public', 'reserve_guided_consultation', array['uuid', 'text'], 'Existe RPC para reservar consultas');
+select has_function('public', 'append_guided_response', array['uuid', 'uuid', 'text', 'jsonb'], 'Existe RPC para guardar respuestas');
 
 select * from finish();
 
