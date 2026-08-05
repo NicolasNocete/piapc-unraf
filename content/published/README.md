@@ -48,7 +48,7 @@ Las orientaciones docentes y evaluaciones privadas se almacenan fuera de esta ca
 
 ## Laboratorio de referencia
 
-El recorrido práctico utiliza el [laboratorio Guardia de Sigilo](../laboratorios/phaser/guardia-sigilo/README.md). Su núcleo conceptual es independiente del motor y admite proyectos alternativos con evidencia equivalente.
+El recorrido práctico utiliza el laboratorio Guardia de Sigilo. Su núcleo conceptual es independiente del motor y admite proyectos alternativos con evidencia equivalente.
 
 ## Relación con el cronograma
 

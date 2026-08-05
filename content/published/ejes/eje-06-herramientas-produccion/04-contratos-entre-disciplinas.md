@@ -101,6 +101,6 @@ Un contrato no reemplaza conversación ni elimina evolución creativa. Formaliza
 
 ## Bibliografía comentada
 
-- PIAPC. [Programa 2026](../../../programa/Programa%20PIAPC%20-%202026.md). Resultados RA3, RA8 y RA11 y criterios de integración.
+- PIAPC. Programa 2026. Resultados RA3, RA8 y RA11 y criterios de integración.
 - Unity Technologies. *Asset workflow*. Relación entre archivos fuente, importación y activos. https://docs.unity3d.com/Manual/AssetWorkflow.html (consulta: 4 de agosto de 2026).
 - Phaser. *Loader*. Carga, claves y tipos de recursos en proyectos web. https://docs.phaser.io/phaser/concepts/loader (consulta: 4 de agosto de 2026).

@@ -1,6 +1,6 @@
 import { createHash } from "node:crypto";
 import { readFile, readdir } from "node:fs/promises";
-import { join, normalize, relative, resolve, sep } from "node:path";
+import { dirname, join, normalize, relative, resolve, sep } from "node:path";
 import matter from "gray-matter";
 
 import { contentFrontmatterSchema, contentManifestSchema } from "../../src/lib/content/schema";
@@ -24,7 +24,8 @@ function validateLink(sourcePath: string, href: string, publishedPaths: Set<stri
     return;
   }
   if (href.startsWith("/")) throw new Error(`${sourcePath}: enlace absoluto no permitido: ${href}`);
-  const target = normalize(join("/", sourcePath, "..", decodeURIComponent(url.pathname))).replaceAll("\\", "/").replace(/^\//, "");
+  const targetPath = decodeURIComponent(href.split(/[?#]/, 1)[0]);
+  const target = normalize(join("/", dirname(sourcePath), targetPath)).replaceAll("\\", "/").replace(/^\//, "");
   if (!target.endsWith(".md") || !publishedPaths.has(target)) throw new Error(`${sourcePath}: destino interno no publicado: ${href}`);
 }
 

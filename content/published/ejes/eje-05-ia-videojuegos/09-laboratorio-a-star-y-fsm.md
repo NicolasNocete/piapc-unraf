@@ -20,7 +20,7 @@ version: 1
 
 ## Situación problemática
 
-El [laboratorio Guardia de Sigilo](../../../laboratorios/phaser/guardia-sigilo/README.md) dispone de escenario, navegación, percepción y seguimiento. Se debe comprobar A* e incorporar o refactorizar una FSM para que el comportamiento completo sea correcto, legible y reproducible. Puede usarse un proyecto alternativo que ofrezca evidencia equivalente.
+El laboratorio Guardia de Sigilo dispone de escenario, navegación, percepción y seguimiento. Se debe comprobar A* e incorporar o refactorizar una FSM para que el comportamiento completo sea correcto, legible y reproducible. Puede usarse un proyecto alternativo que ofrezca evidencia equivalente.
 
 ## Objetivo
 
@@ -37,7 +37,7 @@ La clase 11 corresponde al segundo parcial práctico. Su consigna, alcance y cri
 
 ## Recursos disponibles
 
-- [Especificación del producto](../../../laboratorios/phaser/guardia-sigilo/specs/01-producto.md).
+- Especificación del producto provista con el laboratorio.
 - [Lectura de búsqueda y A*](01-busqueda-y-a-star.md).
 - [Lectura de percepción y movimiento](02-percepcion-navegacion-y-steering.md).
 - [Lectura de FSM/HFSM](03-maquinas-de-estados.md).

@@ -106,7 +106,7 @@ La actividad no requiere ningún modelo. Si durante la puesta en común se muest
 
 ## Condición de publicación de la solución
 
-La [orientación de resolución](../../soluciones/liberables/eje-01-clasificacion-inicial.md) podrá habilitarse después de la puesta en común.
+La orientación de resolución podrá habilitarse después de la puesta en común.
 
 ## Diagnóstico breve
 

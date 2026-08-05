@@ -58,7 +58,7 @@ El [laboratorio de flujo completo](07-laboratorio-flujo-completo.md) comienza fo
 
 ## Proyecto de laboratorio
 
-Se utilizará el [laboratorio Guardia de Sigilo](../../../laboratorios/phaser/guardia-sigilo/README.md), preparado para Phaser, o un proyecto equivalente en Unity u otro entorno. Los materiales históricos del workspace no forman parte de las consignas ni de las soluciones.
+Se utilizará el laboratorio Guardia de Sigilo, preparado para Phaser, o un proyecto equivalente en Unity u otro entorno. Los materiales históricos del workspace no forman parte de las consignas ni de las soluciones.
 
 ## Evidencia esperada
 
