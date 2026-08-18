@@ -34,8 +34,9 @@ El profesor modifica el archivo editorial de próximas acciones y la siguiente p
 
 - **FR-001:** El dashboard protegido debe mostrar una sección identificada como `Próximas acciones`.
 - **FR-002:** La sección debe presentar un resumen, una o más acciones concretas para el alumnado, un vencimiento cuando corresponda y una aclaración relevante para completar las tareas.
+- **FR-007:** Cuando la cátedra incluya apoyos editoriales, la sección debe mostrarlos como recomendaciones auxiliares sin desplazar las acciones principales.
 - **FR-003:** Cada acción que refiera a un recurso de la plataforma debe ofrecer un enlace hacia su destino publicado.
-- **FR-004:** El contenido de la sección debe provenir de `content/upcoming-actions.md`, que la cátedra podrá actualizar manualmente.
+- **FR-004:** El contenido de la sección debe provenir de `content/upcoming-actions.md`, que la cátedra podrá actualizar manualmente. Las publicaciones reemplazadas pueden conservarse fuera de esa ruta como archivo editorial histórico.
 - **FR-005:** La sección debe conservar la legibilidad y los enlaces utilizables en pantallas móviles y de escritorio.
 - **FR-006:** La publicación de próximas acciones no debe crear datos de estudiantes, habilitar mensajería ni exponer información adicional fuera del dashboard autenticado.
 
@@ -64,8 +65,8 @@ No quedan ambigüedades abiertas. La sección no se divide por día o semana; se
 
 ## Criterios de aceptación
 
-- **AC-001 (FR-001, FR-002):** Dada una persona autenticada que abre el dashboard, cuando consulta la sección, encuentra el título `Próximas acciones`, el resumen de la clase inicial, las tres tareas indicadas, el vencimiento del 11 de agosto a las 23:59 y la aclaración de que no necesita instalar herramientas, programar ni usar modelos de IA.
-- **AC-002 (FR-003):** Dada una persona que consulta las acciones iniciales, cuando selecciona las lecturas o la actividad, llega respectivamente a `eje-01-bienvenida`, `eje-01-que-es-ia` o `eje-01-actividad-clasificacion`.
-- **AC-003 (FR-004):** Dado un cambio manual en `content/upcoming-actions.md`, cuando se publica la aplicación, el dashboard muestra los nuevos textos y enlaces sin editar el componente visual.
+- **AC-001 (FR-001, FR-002, FR-007):** Dada una persona autenticada que abre el dashboard, cuando consulta la sección, encuentra el título `Próximas acciones`, el aviso de recuperación asincrónica por el paro del 12 de agosto, cuatro acciones para las clases 2 y 3, apoyos auxiliares, el vencimiento del 25 de agosto a las 23:59 y la aclaración sobre conservar sus registros.
+- **AC-002 (FR-003):** Dada una persona que consulta la publicación vigente, cuando selecciona una acción, llega respectivamente a los ejes `eje-01` y `eje-02`, al laboratorio `eje-02-laboratorio-caja-de-cristal` o a la actividad `eje-02-errores-conceptuales`.
+- **AC-003 (FR-004):** Dado un cambio manual en `content/upcoming-actions.md`, cuando se publica la aplicación, el dashboard muestra los nuevos textos, enlaces y apoyos sin editar el componente visual. La publicación inicial queda preservada en `content/archive/2026/upcoming-actions-clase-1.md` sin mostrarse en el dashboard.
 - **AC-004 (FR-005):** Dada una persona que consulta el dashboard desde móvil o escritorio, cuando revisa la sección, puede leer el contenido y activar sus enlaces sin pérdida de información esencial.
 - **AC-005 (FR-006):** Dada una revisión del cambio, cuando se inspecciona su impacto, no existen tablas, datos personales, mensajería ni registros de actividad nuevos.

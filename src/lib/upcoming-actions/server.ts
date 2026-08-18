@@ -12,6 +12,7 @@ const upcomingActionsSchema = z.object({
     title: z.string().trim().min(1),
     href: z.string().startsWith("/contenidos/"),
   })).min(1),
+  tips: z.array(z.string().trim().min(1)).min(1).optional(),
   deadline: z.string().trim().min(1),
   note: z.string().trim().min(1),
 }).strict();

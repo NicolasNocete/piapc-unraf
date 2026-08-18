@@ -16,6 +16,7 @@ import {
   BookMarked,
   ClipboardCheck,
   ListTodo,
+  Lightbulb,
   MessageCircleQuestion,
 } from "lucide-react";
 import Image from "next/image";
@@ -23,6 +24,7 @@ import Link from "next/link";
 
 import { signOut } from "@/app/auth/actions";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Badge } from "@/components/ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
@@ -154,6 +156,18 @@ export default async function DashboardPage() {
                 </li>
               ))}
             </ol>
+
+            {upcomingActions.tips ? (
+              <Alert className="mt-5 border-[#14251d]/15 bg-[#fffdf6]/60 text-[#14251d]">
+                <Lightbulb className="size-4" />
+                <AlertTitle>Apoyos para la instancia asincrónica</AlertTitle>
+                <AlertDescription className="text-[#415c4c]">
+                  <ul className="mt-2 grid gap-2 pl-4 marker:text-[#52705e] sm:grid-cols-2">
+                    {upcomingActions.tips.map((tip) => <li key={tip}>{tip}</li>)}
+                  </ul>
+                </AlertDescription>
+              </Alert>
+            ) : null}
 
             <p className="mt-5 max-w-3xl text-sm leading-6 text-[#415c4c]">{upcomingActions.note}</p>
           </section>
