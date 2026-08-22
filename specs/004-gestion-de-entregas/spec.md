@@ -40,6 +40,10 @@ El profesor abre una actividad y consulta las entregas recibidas, las personas q
 
 El profesor abre una entrega y accede al material presentado, su autor, sus versiones y sus marcas de tiempo para revisarla sin confundirla con trabajos de otros estudiantes.
 
+### US-006 - Exploracion historica por actividad
+
+Un profesor responsable accede al espacio de entregas y encuentra las actividades historicas de la materia. Al abrir una actividad, consulta todas sus entregas, tanto pendientes como revisadas, sin mezclar presentaciones de consignas diferentes.
+
 ## Requisitos funcionales
 
 - **FR-001:** Cada contenido marcado como actividad debe admitir entrega e informar a los estudiantes autorizados su identificacion, consigna en el texto del contenido, fechas y periodo de disponibilidad vigentes definidos como metadatos editoriales obligatorios de su frontmatter.
@@ -52,6 +56,9 @@ El profesor abre una entrega y accede al material presentado, su autor, sus vers
 - **FR-008:** El dashboard debe ofrecer al profesor responsable un acceso directo a una seccion que muestre las entregas pendientes de devolucion.
 - **FR-009:** El profesor responsable debe poder abrir una entrega y consultar su autor, texto, enlaces presentados, fecha y hora de cada version y version vigente.
 - **FR-010:** El profesor responsable debe poder registrar una devolucion de texto libre para una entrega, que puede incluir una observacion o un valor numerico.
+- **FR-017:** Al publicar una devolucion, el profesor responsable debe asignar una nota entera de 1 a 10. La nota se conserva en la revision docente junto con la devolucion para mantener trazabilidad.
+- **FR-018:** La nota es una referencia diagnostica interna: se muestra y puede consultarse solo por profesores responsables. El estudiante autor recibe la devolucion de texto, pero no la nota.
+- **FR-019:** El espacio docente de entregas debe listar las actividades historicas con sus cantidades de entregas, pendientes de devolucion y revisadas; al abrir una actividad, el profesor responsable debe poder consultar todas sus entregas y su trazabilidad.
 - **FR-011:** El estudiante debe poder consultar la devolucion publicada para sus propias entregas, sin acceder a informacion de otros estudiantes.
 - **FR-012:** Solo el estudiante autor de una entrega puede crear o actualizar sus presentaciones; el profesor responsable puede consultarlas y registrar o actualizar devoluciones.
 - **FR-013:** Una entrega, sus versiones y sus devoluciones deben mantener una trazabilidad verificable de autor, actividad, acciones relevantes y sus fechas y horas.
@@ -68,13 +75,14 @@ El profesor abre una entrega y accede al material presentado, su autor, sus vers
 - Gestionar trabajos grupales, coautoria o entregas en nombre de otras personas.
 - Gestionar instancias de recuperacion, prorrogas individuales, excepciones, justificaciones o apelaciones.
 - Definir la escala de calificaciones, su ponderacion, actas oficiales o promocion de la materia.
+- Detectar, inferir o registrar el posible uso de inteligencia artificial en una entrega, o exigir defensas orales.
 - Incorporar mensajeria, comentarios entre estudiantes, foros o notificaciones.
 - Exponer analiticas de rendimiento, ranking de estudiantes o seguimiento individual fuera de la consulta necesaria para gestionar entregas.
 
 ## Impacto en datos
 
 - La feature requiere asociar los contenidos vigentes marcados como actividad con estudiantes habilitados, fechas y periodos de disponibilidad definidos en su frontmatter editorial obligatorio.
-- Por cada entrega se procesan datos de identidad del autor, actividad, texto y enlaces presentados, versiones, fechas y horas, estado y devolucion.
+- Por cada entrega se procesan datos de identidad del autor, actividad, texto y enlaces presentados, versiones, fechas y horas, estado, devolucion y nota diagnostica interna.
 - Las devoluciones y los valores numericos que puedan incluir son datos academicos personales y deben conservarse asociados solamente a la entrega correspondiente.
 - Las entregas, sus versiones y devoluciones deben conservarse permanentemente junto con su trazabilidad.
 
@@ -102,3 +110,5 @@ No quedan ambiguedades abiertas para el alcance funcional aprobado.
 - **AC-007 (FR-012):** Dado un estudiante que intenta crear o actualizar una entrega ajena, o una persona que no es el profesor responsable que intenta revisar una entrega, cuando se evalua la accion, se rechaza sin modificar datos ni revelar informacion de la entrega afectada.
 - **AC-008 (FR-013):** Dada una entrega con versiones o devoluciones, cuando el profesor responsable consulta su trazabilidad, puede identificar el autor, la actividad, las acciones relevantes y sus fechas y horas.
 - **AC-009 (FR-016):** Dada una persona autorizada que consulta o presenta una entrega desde un telefono movil o una computadora actual, cuando completa el flujo correspondiente, conserva toda la informacion esencial y puede realizarlo sin perder legibilidad ni controles necesarios.
+- **AC-010 (FR-017, FR-018):** Dado un profesor responsable que publica una devolucion, cuando asigna una nota entera entre 1 y 10, la revision conserva texto y nota; el profesor responsable puede ver ambos y el estudiante solo puede ver el texto.
+- **AC-011 (FR-019):** Dado un profesor responsable, cuando accede a entregas, puede elegir una actividad historica y consultar todas sus entregas separadas de las demas actividades, incluyendo las pendientes y las revisadas.
