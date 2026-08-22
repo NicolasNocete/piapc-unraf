@@ -3,8 +3,9 @@
 import { publishFeedback } from "@/app/profile/actions";
 import { Button } from "@/components/ui/button";
 import { Field, FieldGroup, FieldLabel } from "@/components/ui/field";
+import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
 export function FeedbackForm({ submissionId }: { submissionId: string }) {
-  return <form action={publishFeedback} className="mt-4"><FieldGroup><input type="hidden" name="submissionId" value={submissionId} /><Field><FieldLabel htmlFor={`feedback-${submissionId}`}>Devolucion</FieldLabel><Textarea id={`feedback-${submissionId}`} name="body" required maxLength={20000} rows={4} /></Field><Button className="w-full" type="submit">Publicar devolucion</Button></FieldGroup></form>;
+  return <form action={publishFeedback} className="mt-4"><FieldGroup><input type="hidden" name="submissionId" value={submissionId} /><Field><FieldLabel htmlFor={`feedback-${submissionId}`}>Devolucion</FieldLabel><Textarea id={`feedback-${submissionId}`} name="body" required maxLength={20000} rows={4} /></Field><Field><FieldLabel htmlFor={`grade-${submissionId}`}>Nota (1-10)</FieldLabel><Input id={`grade-${submissionId}`} name="grade" type="number" min={1} max={10} step={1} required /></Field><Button className="w-full" type="submit">Publicar devolucion</Button></FieldGroup></form>;
 }

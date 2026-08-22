@@ -113,15 +113,15 @@ export async function setCourseYearByEmail(formData: FormData) {
   revalidatePath("/profile");
 }
 
-const feedbackSchema = z.object({ submissionId: z.string().uuid(), body: z.string().trim().min(1).max(20000) });
+const feedbackSchema = z.object({ submissionId: z.string().uuid(), body: z.string().trim().min(1).max(20000), grade: z.coerce.number().int().min(1).max(10) });
 
 export async function publishFeedback(formData: FormData) {
-  const parsed = feedbackSchema.safeParse({ submissionId: formData.get("submissionId"), body: formData.get("body") });
+  const parsed = feedbackSchema.safeParse({ submissionId: formData.get("submissionId"), body: formData.get("body"), grade: formData.get("grade") });
   if (!parsed.success) throw invalidFormData();
   const [userId, profile] = await Promise.all([getVerifiedUserId(), getCurrentProfile()]);
   if (!profile?.is_responsible || profile.role !== "professor") throw new Error("No tenes permiso para publicar devoluciones.");
   const admin = createAdminClient() as never as { rpc: (name: string, args: Record<string, unknown>) => Promise<{ error: { message: string } | null }> };
-  const { error } = await admin.rpc("append_feedback_version", { next_reviewer_id: userId, target_submission_id: parsed.data.submissionId, next_body: parsed.data.body });
+  const { error } = await admin.rpc("append_feedback_version", { next_reviewer_id: userId, target_submission_id: parsed.data.submissionId, next_body: parsed.data.body, next_grade: parsed.data.grade });
   if (error) throw new Error("No se pudo publicar la devolucion.");
   revalidatePath("/profile");
   revalidatePath("/dashboard/entregas");
