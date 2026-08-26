@@ -45,7 +45,8 @@ continuar, ajustar, terminar o escalar
 | 4 | [04-terminacion-planificacion-y-recuperacion.md](04-terminacion-planificacion-y-recuperacion.md) | Límites, estancamiento y escalamiento |
 | 5 | [05-patrones-agenticos.md](05-patrones-agenticos.md) | Encadenamiento, enrutamiento, paralelización y evaluación |
 | 6 | [06-agente-unico-y-multiagente.md](06-agente-unico-y-multiagente.md) | Criterios de arquitectura y costos de coordinación |
-| 7 | [07-laboratorio-agente-controlado.md](07-laboratorio-agente-controlado.md) | Observación y ejecución verificable con OpenCode |
+| 7 | [07-primeros-pasos-opencode.md](07-primeros-pasos-opencode.md) | Preparación segura del laboratorio con OpenCode o equivalente |
+| 8 | [07-laboratorio-agente-controlado.md](07-laboratorio-agente-controlado.md) | Observación y ejecución verificable con OpenCode |
 
 Las lecturas 1 a 4 forman el núcleo obligatorio para analizar y controlar un agente. Los patrones de composición se reconocen conceptualmente; la arquitectura multiagente se aborda con alcance demostrativo. El laboratorio aplica el ciclo completo sobre un proyecto real y exige evidencia observable.
 
