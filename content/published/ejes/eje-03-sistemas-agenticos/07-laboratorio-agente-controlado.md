@@ -65,6 +65,45 @@ Al finalizar, cada equipo podrá:
 11. Revisar la traza y separar lo afirmado por el modelo de lo comprobado en el entorno.
 12. Restaurar o conservar los cambios según indique la cátedra y comprobar el estado final de Git.
 
+## Tips orientativos para resolver la práctica
+
+Los siguientes modelos orientan el registro y el razonamiento. Adaptalos a la evidencia que encuentres en el repositorio o en la traza: no reemplazan la exploración ni constituyen respuestas únicas.
+
+### Contrato de ejecución
+
+> **Objetivo:** explicar cómo una selección en el mapa determina el destino del guardia.<br>
+> **Fuera de alcance:** modificar código, instalar dependencias, publicar cambios o leer secretos.<br>
+> **Evidencia de éxito:** rutas y símbolos citados, dos afirmaciones contrastadas y resultado de una validación autorizada.<br>
+> **Permisos:** lectura de archivos, búsqueda de texto y ejecución de `npm run validate`.<br>
+> **Detención:** detenerse y consultar al docente si falta documentación, se necesita escribir archivos o un comando no está autorizado.
+
+### Clasificación y autonomía mínima
+
+Podés justificar un agente controlado de este modo: debe buscar información en varios archivos, conservar lo encontrado y contrastarlo con una validación. Un chat no consulta el repositorio y un workflow fijo no se adapta al siguiente archivo que conviene revisar según los hallazgos. La autonomía mínima necesaria es lectura, búsqueda y un comando autorizado.
+
+### Exploración inicial y flujo observado
+
+Comenzá leyendo `README.md`, `AGENTS.md` y la documentación de arquitectura. Luego buscá términos como `guardia`, `destino`, `BFS`, `A*`, `click` o `pointer`. No pidas ediciones ni ejecutes comandos no indicados.
+
+Para registrar el flujo, completá una afirmación con evidencia concreta: “El clic en el mapa se recibe en `[ruta]:[símbolo del manejador]`. Ese manejador actualiza `[estado o función]` en `[ruta]`; luego `[función de navegación]` calcula una ruta con BFS o A* y `[símbolo]` asigna o actualiza el destino del guardia.” Reemplazá cada corchete sólo con rutas y símbolos comprobados.
+
+### Contraste y validación
+
+Contrastá afirmaciones específicas, no conclusiones generales:
+
+| Afirmación | Cómo contrastarla | Resultado que la confirma |
+| --- | --- | --- |
+| “El usuario selecciona el destino con un clic.” | Buscar el manejador de clic y leer su implementación. | El código transforma el clic en una celda o destino. |
+| “La tecla Espacio alterna BFS y A*.” | Revisar la documentación y el manejador de teclado. | Ambas fuentes coinciden o el código lo demuestra. |
+
+Para el plan de validación, podés registrar: “Ejecutar `npm run validate`, porque está documentado. El criterio observable es que termine con código de salida 0 y reporte las verificaciones aprobadas. Si falla, registrar el mensaje; no corregir ni ejecutar comandos adicionales sin autorización.”
+
+### Registro de un ciclo
+
+| Observación | Acción | Herramienta | Resultado | Verificación | Decisión |
+| --- | --- | --- | --- | --- | --- |
+| La guía indica que el destino se selecciona en el mapa. | Buscar `click` y `destino`. | Búsqueda de texto. | Se localiza un manejador en una ruta concreta. | Leer la función y comprobar que actualiza el estado. | Continuar hacia la función de navegación. |
+
 ## Entregable
 
 Un informe breve en Markdown con:
