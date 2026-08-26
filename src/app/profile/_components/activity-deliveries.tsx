@@ -13,7 +13,7 @@ type Submission = {
   activity_feedback_versions: { id: string }[];
   activity_submission_versions: { body: string; submitted_at: string; version_number: number }[];
 };
-type Feedback = { grade: number | null; published_at: string; revision_number: number; submission_id: string };
+type Feedback = { access_unavailable: boolean; grade: number | null; published_at: string; revision_number: number; submission_id: string };
 
 type Props = { activityId: string; activityTitle: string };
 
@@ -33,7 +33,7 @@ export async function ActivityDeliveries({ activityId, activityTitle }: Props) {
   };
   const [{ data }, { data: feedbackData, error: feedbackError }] = await Promise.all([
     db.from("activity_submissions").select("id, updated_at, profiles(first_name, last_name), activity_feedback_versions(id), activity_submission_versions(body, submitted_at, version_number)").eq("activity_id", activityId).order("updated_at", { ascending: false }),
-    createAdminClient().from("activity_feedback_versions").select("submission_id, revision_number, grade, published_at"),
+    createAdminClient().from("activity_feedback_versions").select("submission_id, revision_number, grade, access_unavailable, published_at"),
   ]);
   if (feedbackError) throw new Error("No se pudieron consultar las notas.");
 
@@ -58,7 +58,7 @@ export async function ActivityDeliveries({ activityId, activityTitle }: Props) {
               <div className="flex flex-col gap-1">
                 <p className="font-medium">{studentName}</p>
                 <p className="text-sm text-muted-foreground">Ultima entrega: {new Date(submission.updated_at).toLocaleString("es-AR")}</p>
-                <Badge variant={feedback ? "secondary" : "outline"}>{feedback ? `Revisada${feedback.grade ? ` - Nota ${feedback.grade}` : ""}` : "Pendiente de devolucion"}</Badge>
+                <Badge variant={feedback ? "secondary" : "outline"}>{feedback ? feedback.access_unavailable ? "Material inaccesible" : `Revisada - Nota ${feedback.grade}` : "Pendiente de devolucion"}</Badge>
               </div>
               <DeliveryDetailDialog submissionId={submission.id} activityId={activityId} studentName={studentName} versions={submission.activity_submission_versions.toSorted((left, right) => right.version_number - left.version_number)} feedback={feedback} />
             </section>

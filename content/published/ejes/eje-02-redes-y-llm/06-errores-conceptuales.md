@@ -103,7 +103,7 @@ Toda la actividad puede resolverse con las lecturas y las [fichas públicas prop
 
 ## Condición de publicación de la solución
 
-La orientación docente se publica después de la entrega. Puede haber varias decisiones correctas si declaran supuestos y satisfacen requisitos; las marcas o cifras de las fichas no deben extrapolarse a versiones distintas.
+Consultá la [guía de análisis y soluciones modelo del Eje 2](../../soluciones/guia-eje-02-caja-cristal-y-decisiones.md). Puede haber varias decisiones correctas si declaran supuestos y satisfacen requisitos; las marcas o cifras de las fichas no deben extrapolarse a versiones distintas.
 
 ## Bibliografía comentada
 

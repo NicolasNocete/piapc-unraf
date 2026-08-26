@@ -122,7 +122,7 @@ Puede utilizarse un modelo local, una interfaz gratuita o las [muestras pública
 
 ## Publicación de la solución
 
-No hay una salida textual única. Una guía de análisis podrá publicarse después de la puesta en común; los registros de estudiantes sólo se comparten con autorización y sin datos privados.
+No hay una salida textual única. Consultá la [guía de análisis y soluciones modelo del Eje 2](../../soluciones/guia-eje-02-caja-cristal-y-decisiones.md) para contrastar observaciones, límites y controles esperados. Los registros de estudiantes sólo se comparten con autorización y sin datos privados.
 
 ## Lecturas relacionadas
 
