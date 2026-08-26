@@ -124,7 +124,7 @@ Con pocas repeticiones se informa una observación local, no una superioridad ge
 
 ### Ejemplo controlado
 
-Se comparan dos instrucciones para corregir el guardia de sigilo. Ambas usan el mismo modelo, commit, cinco escenarios, límite de pasos y permisos. Cada condición se ejecuta cinco veces en orden alternado. Se registran éxito completo, regresiones, latencia, tokens e intervenciones. La instrucción B logra más éxitos, pero requiere dos confirmaciones no previstas: el informe muestra ambos resultados y no oculta el costo de supervisión.
+Se comparan dos instrucciones para corregir el [guardia de sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo). Ambas usan el mismo modelo, commit, cinco escenarios, límite de pasos y permisos. Cada condición se ejecuta cinco veces en orden alternado. Se registran éxito completo, regresiones, latencia, tokens e intervenciones. La instrucción B logra más éxitos, pero requiere dos confirmaciones no previstas: el informe muestra ambos resultados y no oculta el costo de supervisión.
 
 ## Plantilla mínima
 

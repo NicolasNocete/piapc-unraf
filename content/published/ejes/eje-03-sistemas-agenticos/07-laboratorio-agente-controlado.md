@@ -33,7 +33,7 @@ Al finalizar, cada equipo podrá:
 
 ## Recursos disponibles
 
-- Laboratorio Guardia de Sigilo, provisto por la cátedra.
+- [Laboratorio Guardia de Sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo), provisto por la cátedra.
 - OpenCode o un agente equivalente con registro de herramientas.
 - Editor, terminal, Git y los comandos documentados por el proyecto.
 - [Lectura de arquitectura y ciclo](02-arquitectura-y-ciclo.md).

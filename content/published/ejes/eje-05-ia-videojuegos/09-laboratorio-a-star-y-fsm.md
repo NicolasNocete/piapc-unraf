@@ -20,7 +20,7 @@ version: 1
 
 ## Situación problemática
 
-El laboratorio Guardia de Sigilo dispone de escenario, navegación, percepción y seguimiento. Se debe comprobar A* e incorporar o refactorizar una FSM para que el comportamiento completo sea correcto, legible y reproducible. Puede usarse un proyecto alternativo que ofrezca evidencia equivalente.
+El laboratorio [Guardia de Sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo) dispone de escenario, navegación, percepción y seguimiento. Se debe comprobar A* e incorporar o refactorizar una FSM para que el comportamiento completo sea correcto, legible y reproducible. Puede usarse un proyecto alternativo que ofrezca evidencia equivalente.
 
 ## Objetivo
 

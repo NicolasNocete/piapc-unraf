@@ -14,7 +14,7 @@ Registro autocontenido para analizar el laboratorio sin ejecutar un modelo. Es u
 ## Encargo y entorno
 
 - Solicitud: `Explica cómo se determina el destino del guardia y comprueba si la validación disponible respalda la explicación.`
-- Proyecto: `guardia-sigilo`, instantánea didáctica `0.1.0`, estado Git inicial limpio.
+- Proyecto: [`guardia-sigilo`](https://github.com/NicolasNocete/piapc-guardia-sigilo), instantánea didáctica `0.1.0`, estado Git inicial limpio.
 - Permisos iniciales: lectura y búsqueda en el proyecto; escritura, red, instalación, publicación y lectura de secretos denegadas; scripts declarados requieren aprobación.
 - Límites: 12 llamadas, 35 minutos, detener tras dos intentos equivalentes o ante acción fuera de alcance.
 - Evidencia de éxito declarada por la persona operadora: rutas y símbolos citados, dos afirmaciones contrastadas y resultado de un script documentado.

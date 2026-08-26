@@ -44,7 +44,7 @@ Ser racional significa seleccionar, con la información y los recursos disponibl
 
 Una descripción del entorno también considera si es total o parcialmente observable, determinista o incierto, estático o cambiante, y si participan otros agentes. Estas propiedades condicionan la técnica apropiada.
 
-## Caso aplicado: un guardia de sigilo
+## Caso aplicado: [un guardia de sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo)
 
 Supongamos un guardia cuya función de diseño es generar tensión sin parecer injusto.
 

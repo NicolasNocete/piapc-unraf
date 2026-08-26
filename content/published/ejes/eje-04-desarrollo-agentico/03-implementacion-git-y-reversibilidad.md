@@ -55,7 +55,7 @@ Una secuencia prudente puede consultar `git status`, crear una rama autorizada, 
 5. Explica el porqué; el diff ya muestra el qué.
 6. Evita artefactos generados, secretos y dependencias accidentales.
 
-En el guardia de sigilo, cambiar la transición temporal, renombrar todos los estados y reemplazar el algoritmo de rutas en un mismo commit impide atribuir resultados. La corrección del plazo debe poder revisarse sin aceptar los otros cambios.
+En el [guardia de sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo), cambiar la transición temporal, renombrar todos los estados y reemplazar el algoritmo de rutas en un mismo commit impide atribuir resultados. La corrección del plazo debe poder revisarse sin aceptar los otros cambios.
 
 ## Reversibilidad real
 
