@@ -9,9 +9,7 @@ actions:
     href: /contenidos/eje-03-arquitectura-y-ciclo
   - title: Revisá cómo una herramienta define sus entradas, efectos y resultados verificables
     href: /contenidos/eje-06-herramientas-y-aci
-  - title: Antes del laboratorio, consultá la guía de inicio seguro con OpenCode o una herramienta equivalente
-    href: /contenidos/eje-03-primeros-pasos-opencode
-  - title: Realizá el laboratorio de agente controlado con permisos mínimos y evidencia observable
+  - title: Prepará el laboratorio de agente controlado con permisos mínimos y evidencia observable
     href: /contenidos/eje-03-laboratorio-agente-controlado
 tips:
   - Empezá por clasificar dónde reside el control antes de decidir si una tarea necesita un agente.

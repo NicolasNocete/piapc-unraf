@@ -2,7 +2,7 @@
 id: eje-03-laboratorio-agente-controlado
 titulo: Laboratorio de agente controlado
 eje: 3
-orden: 7
+orden: 8
 tipo: laboratorio
 nivel: obligatorio
 audiencia: estudiante
@@ -10,7 +10,7 @@ clases: [4]
 modalidad: presencial
 duracion_minutos: 75
 resultados: [RA1, RA2, RA5, RA6, RA8, RA10, RA11]
-prerrequisitos: [eje-03-herramientas-estado-y-realimentacion, eje-03-terminacion-planificacion-y-recuperacion]
+prerrequisitos: [eje-03-herramientas-estado-y-realimentacion, eje-03-terminacion-planificacion-y-recuperacion, eje-03-primeros-pasos-opencode]
 evaluable: true
 acceso: publico
 version: 1

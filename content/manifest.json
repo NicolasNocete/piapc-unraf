@@ -468,7 +468,7 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "ejes/eje-03-sistemas-agenticos/README.md",
-      "digest": "be589e4e2a550626c3e795c4e7ef94636d238f283a08cb1a6e37104bea4932fb",
+      "digest": "c2096c976b76d3e60ead74d67cbf4b533ff524782833e40fd27bd39d7691a5c1",
       "axis": 3,
       "order": 3,
       "level": "obligatorio",
@@ -576,6 +576,35 @@
       "evaluable": true
     },
     {
+      "id": "eje-03-primeros-pasos-opencode",
+      "title": "Primeros pasos con OpenCode para el laboratorio",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-03-sistemas-agenticos/07-primeros-pasos-opencode.md",
+      "digest": "f1ee252835847a73d6a3e685d81ba0889e7d3befb8501a97ff553e0d0b662748",
+      "axis": 3,
+      "order": 7,
+      "level": "obligatorio",
+      "classes": [
+        4
+      ],
+      "modality": "presencial",
+      "durationMinutes": 15,
+      "outcomes": [
+        "RA1",
+        "RA2",
+        "RA5",
+        "RA6"
+      ],
+      "prerequisites": [
+        "eje-03-herramientas-estado-y-realimentacion",
+        "eje-03-terminacion-planificacion-y-recuperacion"
+      ],
+      "evaluable": true
+    },
+    {
       "id": "eje-03-laboratorio-agente-controlado",
       "title": "Laboratorio de agente controlado",
       "type": "laboratorio",
@@ -583,9 +612,9 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "ejes/eje-03-sistemas-agenticos/07-laboratorio-agente-controlado.md",
-      "digest": "dc0428f09221c9fa0c24d8ecfef06a873f0abcd9958662608fb1f89fa3069ea6",
+      "digest": "b39d49e7a89c7c4292a77aed5f5a0d6df06b69e4a28f792dd28423b3720e99bd",
       "axis": 3,
-      "order": 7,
+      "order": 8,
       "level": "obligatorio",
       "classes": [
         4
@@ -603,7 +632,8 @@
       ],
       "prerequisites": [
         "eje-03-herramientas-estado-y-realimentacion",
-        "eje-03-terminacion-planificacion-y-recuperacion"
+        "eje-03-terminacion-planificacion-y-recuperacion",
+        "eje-03-primeros-pasos-opencode"
       ],
       "evaluable": true
     },
