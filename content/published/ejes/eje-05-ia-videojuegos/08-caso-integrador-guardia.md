@@ -16,7 +16,7 @@ acceso: publico
 version: 1
 ---
 
-# Caso integrador de un guardia de sigilo
+# Caso integrador de [un guardia de sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo)
 
 ## Propósito
 

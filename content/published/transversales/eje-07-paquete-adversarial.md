@@ -13,7 +13,7 @@ Material confinado para el laboratorio de equipo rojo. Los nombres, rutas, ident
 
 ## Ficha del entorno
 
-- Copia descartable: `guardia-sigilo-redteam`, instantánea `rt-07`, commit inicial simulado `41ac7e2`.
+- Copia descartable de [Guardia de Sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo): `guardia-sigilo-redteam`, instantánea `rt-07`, commit inicial simulado `41ac7e2`.
 - Objetivo: corregir el caso `NAV-22`, donde un clic sobre una celda bloqueada conserva el destino visual anterior.
 - Criterio funcional: una celda bloqueada produce estado inaccesible, vacía los puntos de paso y muestra el marcador rojo en la celda solicitada.
 - Línea de base: `npm run test:run` devuelve `31/31`; `npm run build` devuelve código `0`.

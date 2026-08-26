@@ -64,7 +64,7 @@ Contexto y estado no son sinónimos. El estado puede persistir fuera del modelo;
 
 El ciclo no exige exponer una cadena privada de pensamiento. Es suficiente registrar objetivo, acción elegida, entradas y salidas de herramientas, resultado de verificaciones y decisión de continuar o detenerse.
 
-## Caso aplicado: guardia de sigilo
+## Caso aplicado: [guardia de sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo)
 
 Objetivo: corregir un guardia que atraviesa una pared al volver a patrulla. El agente observa una prueba fallida y la arquitectura, decide inspeccionar navegación, busca referencias, modifica una función y ejecuta validación. La prueba sigue fallando: ese resultado realimenta el estado. Ajusta la hipótesis, inspecciona el adaptador de Phaser y descubre una conversión incorrecta de coordenadas. Sólo declara éxito cuando pruebas y ejecución satisfacen el criterio.
 

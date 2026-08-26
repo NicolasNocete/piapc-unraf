@@ -46,7 +46,7 @@ Debe indicar requisitos, instalación, ejecución, validación completa, arquite
 
 ### Estructura y contratos
 
-Directorios claros, puntos de entrada identificables y límites verificables reducen exploración. En Guardia de Sigilo, el dominio no depende de Phaser: esa regla puede comprobarse con tipos, lint o pruebas, no sólo escribirse en un README.
+Directorios claros, puntos de entrada identificables y límites verificables reducen exploración. En [Guardia de Sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo), el dominio no depende de Phaser: esa regla puede comprobarse con tipos, lint o pruebas, no sólo escribirse en un README.
 
 ### Entorno reproducible
 

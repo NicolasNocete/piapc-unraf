@@ -43,7 +43,7 @@ Una transición puede expresarse como:
 
 El evento describe lo ocurrido; la guarda consulta contexto. No conviene codificar `JugadorVistoYConVidaYNoAturdido` como evento si vida y aturdimiento son condiciones actuales.
 
-## Caso: guardia de sigilo
+## Caso: [guardia de sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo)
 
 Estados: `Patrullar`, `Investigar`, `Perseguir`, `Buscar`, `Regresar`.
 

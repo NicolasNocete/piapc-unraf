@@ -30,7 +30,7 @@ Producir una corrección revisable y evidencia suficiente para que otra persona 
 
 ## Recursos disponibles
 
-- Laboratorio Guardia de Sigilo o proyecto que cumpla su contrato de equivalencia.
+- [Laboratorio Guardia de Sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo) o proyecto que cumpla su contrato de equivalencia.
 - [Lectura de repositorios y contexto](01-repositorios-y-contexto.md).
 - [Especificaciones y planes](02-especificaciones-y-planes.md).
 - [Implementación, Git y reversibilidad](03-implementacion-git-y-reversibilidad.md).

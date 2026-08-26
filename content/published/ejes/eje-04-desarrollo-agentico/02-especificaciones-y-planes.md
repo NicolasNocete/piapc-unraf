@@ -51,7 +51,7 @@ Una especificación responde:
 
 El problema describe la necesidad; el objetivo, el estado deseado. “La persecución continúa sin visión” es un problema. “Volver a patrulla tras tres segundos sin percepción” es un objetivo medible.
 
-## Caso aplicado: memoria del guardia
+## Caso aplicado: memoria del [guardia de sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo)
 
 **Problema:** al perder de vista al jugador, el guardia lo persigue indefinidamente y bloquea el ciclo de sigilo.
 

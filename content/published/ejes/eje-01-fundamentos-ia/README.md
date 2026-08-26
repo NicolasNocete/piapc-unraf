@@ -70,7 +70,7 @@ Al finalizar, el estudiante podrá:
 
 ## Caso articulador
 
-Se utilizará un guardia de un juego de sigilo para identificar:
+Se utilizará [un guardia de un juego de sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo) para identificar:
 
 - qué puede percibir;
 - qué información conserva;
