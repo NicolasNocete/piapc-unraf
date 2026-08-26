@@ -113,15 +113,27 @@ export async function setCourseYearByEmail(formData: FormData) {
   revalidatePath("/profile");
 }
 
-const feedbackSchema = z.object({ submissionId: z.string().uuid(), body: z.string().trim().min(1).max(20000), grade: z.coerce.number().int().min(1).max(10) });
+const feedbackSchema = z.object({
+  submissionId: z.string().uuid(),
+  body: z.string().trim().min(1).max(20000),
+  grade: z.preprocess((value) => value == null || value === "" ? null : value, z.coerce.number().int().min(1).max(10).nullable()),
+  accessUnavailable: z.enum(["true"]).optional(),
+}).superRefine(({ accessUnavailable, grade }, context) => {
+  if (accessUnavailable && grade !== null) {
+    context.addIssue({ code: "custom", message: "El material inaccesible no lleva nota." });
+  }
+  if (!accessUnavailable && grade === null) {
+    context.addIssue({ code: "custom", message: "La nota es obligatoria para una devolucion evaluable." });
+  }
+});
 
 export async function publishFeedback(formData: FormData) {
-  const parsed = feedbackSchema.safeParse({ submissionId: formData.get("submissionId"), body: formData.get("body"), grade: formData.get("grade") });
+  const parsed = feedbackSchema.safeParse({ submissionId: formData.get("submissionId"), body: formData.get("body"), grade: formData.get("grade"), accessUnavailable: formData.get("accessUnavailable") });
   if (!parsed.success) throw invalidFormData();
   const [userId, profile] = await Promise.all([getVerifiedUserId(), getCurrentProfile()]);
   if (!profile?.is_responsible || profile.role !== "professor") throw new Error("No tenes permiso para publicar devoluciones.");
   const admin = createAdminClient() as never as { rpc: (name: string, args: Record<string, unknown>) => Promise<{ error: { message: string } | null }> };
-  const { error } = await admin.rpc("append_feedback_version", { next_reviewer_id: userId, target_submission_id: parsed.data.submissionId, next_body: parsed.data.body, next_grade: parsed.data.grade });
+  const { error } = await admin.rpc("append_feedback_version", { next_reviewer_id: userId, target_submission_id: parsed.data.submissionId, next_body: parsed.data.body, next_grade: parsed.data.grade, next_access_unavailable: parsed.data.accessUnavailable === "true" });
   if (error) throw new Error("No se pudo publicar la devolucion.");
   revalidatePath("/profile");
   revalidatePath("/dashboard/entregas");

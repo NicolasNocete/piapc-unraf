@@ -4,9 +4,9 @@ export type Database = {
   public: {
     Tables: {
       activity_feedback_versions: {
-        Row: { body: string; grade: number | null; id: string; published_at: string; reviewer_id: string; revision_number: number; submission_id: string };
-        Insert: { body: string; grade?: number | null; id?: string; published_at?: string; reviewer_id: string; revision_number: number; submission_id: string };
-        Update: { body?: string; grade?: number | null; id?: string; published_at?: string; reviewer_id?: string; revision_number?: number; submission_id?: string };
+        Row: { access_unavailable: boolean; body: string; grade: number | null; id: string; published_at: string; reviewer_id: string; revision_number: number; submission_id: string };
+        Insert: { access_unavailable?: boolean; body: string; grade?: number | null; id?: string; published_at?: string; reviewer_id: string; revision_number: number; submission_id: string };
+        Update: { access_unavailable?: boolean; body?: string; grade?: number | null; id?: string; published_at?: string; reviewer_id?: string; revision_number?: number; submission_id?: string };
         Relationships: [];
       };
       activity_submission_versions: {
@@ -82,7 +82,7 @@ export type Database = {
     Views: Record<string, never>;
     Functions: {
       append_feedback_version: {
-        Args: { next_body: string; next_grade: number; next_reviewer_id: string; target_submission_id: string };
+        Args: { next_access_unavailable: boolean; next_body: string; next_grade: number | null; next_reviewer_id: string; target_submission_id: string };
         Returns: undefined;
       };
       append_guided_response: {

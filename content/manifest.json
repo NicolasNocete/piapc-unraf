@@ -309,7 +309,7 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "ejes/eje-02-redes-y-llm/05-laboratorio-caja-de-cristal.md",
-      "digest": "46adbfc83da6734fb45f2f44bc24ec02fc4d3bc96a1f5bc230b8f0b03f868903",
+      "digest": "80935143d8311f173ec81864bf33a41a47d4cb194b552795d178c9b863387149",
       "axis": 2,
       "order": 5,
       "level": "obligatorio",
@@ -334,7 +334,7 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "ejes/eje-02-redes-y-llm/06-errores-conceptuales.md",
-      "digest": "0f980c648840edf4b8e58a5d17d8a32da7337724ab62f399f9fbb0e5a85b6da5",
+      "digest": "60d538f16e5f72511895635608b4e891891c6bae481c0b4d55380dd8c37f0f14",
       "axis": 2,
       "order": 6,
       "level": "obligatorio",
@@ -1617,6 +1617,16 @@
       "version": 2,
       "sourcePath": "glosario.md",
       "digest": "f122a8695edd4b5a79a329a8df2514d27f69af2dfd6548fd650e4139724eb2bd"
+    },
+    {
+      "id": "solucion-eje-02-caja-cristal-y-decisiones",
+      "title": "Guía de análisis y soluciones modelo del Eje 2",
+      "type": "solucion",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "soluciones/guia-eje-02-caja-cristal-y-decisiones.md",
+      "digest": "582f006d0e2f73c3616c9c9cf4f27b44c1b3e6c608df72a90d0e4d1e4428ba24"
     },
     {
       "id": "transversal-eje-02-muestras-caja-cristal",
