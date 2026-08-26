@@ -17,10 +17,6 @@ type Group = {
   entries: ContentEntry[];
 };
 
-function firstClass(entries: ContentEntry[]) {
-  return Math.min(...entries.flatMap((entry) => entry.classes ?? [Number.POSITIVE_INFINITY]));
-}
-
 function byCourseOrder(left: ContentEntry, right: ContentEntry) {
   return Number(left.type === "referencia") - Number(right.type === "referencia") || (left.axis ?? 99) - (right.axis ?? 99) || (left.order ?? 99) - (right.order ?? 99) || left.title.localeCompare(right.title);
 }
@@ -78,8 +74,8 @@ export function ContentCatalog({ entries, classNumbers }: { entries: ContentEntr
   }
 
   const axisGroups = [...axes.entries()]
-    .map(([axis, group]) => ({ id: `axis-${axis ? String(axis).padStart(2, "0") : "general"}`, label: axis ? `Eje ${String(axis).padStart(2, "0")}` : "Recursos generales", entries: group.toSorted(byCourseOrder), firstClass: firstClass(group) }))
-    .toSorted((left, right) => left.firstClass - right.firstClass || left.label.localeCompare(right.label));
+    .map(([axis, group]) => ({ id: `axis-${axis ? String(axis).padStart(2, "0") : "general"}`, label: axis ? `Eje ${String(axis).padStart(2, "0")}` : "Recursos generales", entries: group.toSorted(byCourseOrder), axis }))
+    .toSorted((left, right) => (left.axis ?? Number.POSITIVE_INFINITY) - (right.axis ?? Number.POSITIVE_INFINITY));
   const classGroups = classNumbers.map((classNumber) => {
     const group = classes.get(classNumber) ?? [];
     return { id: `class-${String(classNumber).padStart(2, "0")}`, label: `Clase ${String(classNumber).padStart(2, "0")}`, entries: group.toSorted(byCourseOrder) };

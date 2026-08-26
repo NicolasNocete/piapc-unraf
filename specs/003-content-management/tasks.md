@@ -12,7 +12,7 @@
 - [ ] **T-005:** Crear la ruta dinamica de diferidos, con `getClaims()` cercano al acceso, retorno local seguro y metadata generica. Referencias: FR-007 a FR-010; AC-004 a AC-006. Verificacion: solicitud anonima y autenticada.
 - [x] **T-006:** Incorporar primitivas shadcn requeridas y enlazar home/dashboard con el catalogo. Referencias: FR-001, FR-019; AC-001, AC-013. Verificacion: inspeccion visual movil y escritorio.
 - [x] **T-009:** Incorporar un indice de anclas para acceder directamente a cada eje publicado del catalogo. Referencias: FR-022; AC-016. Verificacion: navegacion por fragmentos en movil y escritorio.
-- [ ] **T-010:** Incorporar las vistas por eje y por clase, sus indices de anclas y la etiqueta de clases en tarjetas. Referencias: FR-023; AC-017. Verificacion: selector, orden, duplicacion multiclase y recursos generales en movil y escritorio.
+- [ ] **T-010:** Incorporar las vistas por eje y por clase, sus indices de anclas y la etiqueta de clases en tarjetas. La vista por eje se ordena por numero de eje; la vista por clase ubica cada material en sus clases declaradas. Referencias: FR-023; AC-017. Verificacion: selector, orden numerico de ejes, duplicacion multiclase y recursos generales en movil y escritorio.
 - [ ] **T-011:** Ordenar las referencias al final de cada grupo del catalogo. Referencias: FR-024; AC-018. Verificacion: inspeccion de grupos por eje y por clase.
 - [ ] **T-007:** Incorporar CODEOWNERS, allowlists y workflows de aprobacion/sincronizacion con controles de historico editorial. Referencias: FR-006, FR-017, FR-018, FR-020; AC-003, AC-011, AC-012, AC-015. Verificacion: validacion local de ledger y revision de configuracion CI.
 
