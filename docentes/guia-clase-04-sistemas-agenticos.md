@@ -73,15 +73,55 @@ Entregar el encargo: explicar cómo se determina el destino del guardia y compro
 Cada equipo debe:
 
 1. Redactar un contrato breve con objetivo, fuera de alcance, evidencia de éxito, permisos y condiciones de detención.
+
+   **Ejemplo orientativo:**
+
+   > **Objetivo:** explicar cómo una selección en el mapa determina el destino del guardia.<br>
+   > **Fuera de alcance:** modificar código, instalar dependencias, publicar cambios o leer secretos.<br>
+   > **Evidencia de éxito:** rutas y símbolos citados, dos afirmaciones contrastadas y resultado de una validación autorizada.<br>
+   > **Permisos:** lectura de archivos, búsqueda de texto y ejecución de `npm run validate`.<br>
+   > **Detención:** detenerse y consultar al docente si falta documentación, se necesita escribir archivos o un comando no está autorizado.
+
 2. Clasificar si la tarea requiere chat, workflow o agente, y justificar la autonomía mínima.
+
+   **Ejemplo orientativo:** “Usaremos un **agente controlado** porque debe buscar información en varios archivos, conservar lo encontrado y contrastarlo con una validación. No alcanza con un chat, que sólo responde sin consultar el repositorio; tampoco hace falta un workflow fijo, porque el siguiente archivo a revisar depende de lo que se descubra. La autonomía mínima es sólo lectura, búsqueda y un comando autorizado.”
+
 3. Trabajar inicialmente sólo con lectura y búsqueda.
+
+   **Ejemplo orientativo:** comenzar por leer `README.md`, `AGENTS.md` y `docs/arquitectura.md`; luego buscar términos como `guardia`, `destino`, `BFS`, `A*`, `click` o `pointer`. No pedir todavía que se edite código ni ejecutar comandos no indicados.
+
 4. Mapear el recorrido desde una entrada o evento perceptual hasta el destino del guardia, citando rutas y símbolos.
+
+   **Ejemplo orientativo:** “El clic en el mapa se recibe en `[ruta del archivo]:[símbolo del manejador]`. Ese manejador actualiza `[estado o función]` en `[ruta]`; luego `[función de navegación]` calcula una ruta con BFS o A* y finalmente `[símbolo]` asigna o actualiza el destino del guardia.” El equipo debe reemplazar los corchetes por rutas y símbolos que haya comprobado.
+
 5. Contrastar al menos dos afirmaciones del agente contra archivos, búsquedas o ejecución.
+
+   **Ejemplo orientativo:**
+
+   | Afirmación | Cómo contrastarla | Resultado esperado |
+   | --- | --- | --- |
+   | “El usuario selecciona el destino con un clic.” | Buscar el manejador de clic y leer su implementación. | Confirmada sólo si el código transforma el clic en una celda o destino. |
+   | “La tecla Espacio alterna BFS y A*.” | Revisar la documentación y el manejador de teclado. | Confirmada sólo si ambas fuentes coinciden o el código lo demuestra. |
+
 6. Solicitar un plan de validación con comandos documentados y criterios observables.
+
+   **Ejemplo orientativo:** “Plan: ejecutar `npm run validate`, porque está documentado en la guía. Criterio observable: el comando termina con código de salida 0 y reporta las pruebas o verificaciones aprobadas. Si falla, registrar el mensaje; no intentar corregir ni ejecutar comandos adicionales sin autorización.”
+
 7. Ejecutar sólo comandos autorizados por la documentación o por el docente.
+
+   **Ejemplo orientativo:** está autorizado `npm run validate` porque aparece expresamente en esta guía. No están autorizados `npm install`, comandos de escritura, `git commit`, `git push` ni comandos propuestos por el agente que no figuren en la documentación o no hayan sido aprobados por el docente.
+
 8. Registrar observación, acción, herramienta, resultado, verificación y decisión de cada ciclo.
 
+   **Ejemplo orientativo:**
+
+   | Observación | Acción | Herramienta | Resultado | Verificación | Decisión |
+   | --- | --- | --- | --- | --- | --- |
+   | La guía indica que el destino se selecciona en el mapa. | Buscar `click` y `destino`. | Búsqueda de texto. | Se localiza un manejador en una ruta concreta. | Leer la función y comprobar que actualiza el estado. | Continuar hacia la función de navegación. |
+
 El equipo sin modelo analiza la traza pública con los mismos criterios.
+
+Los ejemplos son modelos de registro y razonamiento; no son respuestas únicas. Cada equipo debe reemplazarlos por la evidencia que encuentre en el repositorio o en la traza pública.
 
 ### 5. Puesta en común - 15 minutos
 
