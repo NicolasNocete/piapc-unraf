@@ -732,12 +732,13 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "ejes/eje-04-desarrollo-agentico/README.md",
-      "digest": "760a548f79fae250711c6b55d829bdfd41b2448ff4f941062d2e82bdb10ed5b1",
+      "digest": "2acb64184b4bae8f01a8b1f5c644a2142457f371cb021213c08a63a1abf84c64",
       "axis": 4,
       "order": 4,
       "level": "obligatorio",
       "classes": [
         5,
+        6,
         7,
         8,
         11,
@@ -870,6 +871,40 @@
         "eje-04-observabilidad-y-trazabilidad"
       ],
       "evaluable": true
+    },
+    {
+      "id": "parcial-01-desarrollo-agentico-documentado",
+      "title": "Parcial 1 - Desarrollo agéntico documentado",
+      "type": "actividad",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-04-desarrollo-agentico/08-parcial-01-desarrollo-agentico-documentado.md",
+      "digest": "e76af6ebace94b8f4d1ea2a48341fb5c9b57575e28b6dc2b1b9d87ee112f7e6d",
+      "axis": 4,
+      "order": 8,
+      "level": "obligatorio",
+      "classes": [
+        6
+      ],
+      "modality": "mixta",
+      "durationMinutes": 360,
+      "outcomes": [
+        "RA3",
+        "RA4",
+        "RA5",
+        "RA8",
+        "RA9",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-04-repositorios-y-contexto",
+        "eje-04-especificaciones-y-planes",
+        "eje-03-primeros-pasos-opencode"
+      ],
+      "evaluable": true,
+      "availableFrom": "2026-09-08",
+      "availableUntil": "2026-09-15"
     },
     {
       "id": "eje-05-busqueda-y-a-star",
@@ -1719,6 +1754,16 @@
       "digest": "8732679c7c694f793db431e92eed2f5e4ab61e1cdbd350c96023740922060bfc"
     },
     {
+      "id": "plantilla-gdd-simplificado",
+      "title": "Plantilla de GDD simplificado",
+      "type": "plantilla",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "plantillas/09-gdd-simplificado.md",
+      "digest": "c6b0bef6c4d68bcc45406edfc9cf95fa15ace219bf7448e115a5ae17aeb0d9ad"
+    },
+    {
       "id": "plantilla-informe-final",
       "title": "Plantilla de informe final",
       "type": "plantilla",
@@ -1766,7 +1811,7 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "plantillas/README.md",
-      "digest": "ea1a5a27a29a039631079cc276eaec418def359bd80928d985264e2952c0a6dd"
+      "digest": "311409176946405a99283a3cfa39a63d088d5e1767f349441785c946f5261eff"
     },
     {
       "id": "transversal-eje-06-registros-integracion",

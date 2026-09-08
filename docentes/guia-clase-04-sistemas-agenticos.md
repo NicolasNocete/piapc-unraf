@@ -127,6 +127,11 @@ Los ejemplos son modelos de registro y razonamiento; no son respuestas únicas. 
 
 Pedir a cada equipo una afirmación comprobada, una refutada o todavía supuesta, un permiso que decidió no habilitar y una condición de detención o escalamiento.
 
+## Preguntas y respuestas esperables
+
+- ¿Un agente es un chat con más autonomía? No: integra objetivo, contexto, estado, herramientas y un ciclo de observación, acción y verificación bajo permisos definidos.
+- ¿Una prueba aprobada demuestra que toda afirmación del agente es correcta? No: sólo respalda el comportamiento cubierto; las demás afirmaciones deben contrastarse contra archivos, resultados u otra evidencia pertinente.
+
 ### 6. Cierre - 10 minutos
 
 Recuperar estas ideas:
@@ -136,7 +141,7 @@ Recuperar estas ideas:
 - La evidencia proviene del entorno: archivos, pruebas, resultados y diferencias.
 - Detenerse ante ambigüedad o falta de permisos es una decisión correcta.
 
-## Entregable
+## Entregable o resultado esperado
 
 Informe breve en Markdown con clasificación de la tarea, contrato de ejecución, flujo observado, tabla de ciclos, dos afirmaciones con evidencia, dudas pendientes, comandos y resultados, y decisión humana final.
 

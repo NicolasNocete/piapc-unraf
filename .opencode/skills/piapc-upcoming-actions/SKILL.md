@@ -24,7 +24,8 @@ description: Use when manually updating, publishing, archiving, or preparing "Pr
    - `deadline`: the inferred deadline;
    - `note`: a relevant operational clarification.
 6. Check every `href` against an existing published content ID. Keep links internal and do not create content records.
-7. Run `npm run check` before reporting completion. If a check fails, report the failure and do not claim the publication was fully verified.
+7. Review the private `docentes/guia-clase-NN-*.md` for the target class. Create it only if missing, using the schedule and materials with `clases: [N]`; preserve its private location and include preparation, materials, sequence, expected responses, result and observation criteria. For an evaluative or delivery class, do not invent or expose a private prompt, rubric, answer key or grades.
+8. Run `npm run check` before reporting completion. If a check fails, report the failure and do not claim the publication was fully verified.
 
 ## Editorial Rules
 
@@ -32,3 +33,4 @@ description: Use when manually updating, publishing, archiving, or preparing "Pr
 - Describe the deadline as an inferred publication deadline, not as a hidden grading rule.
 - Keep the language concise, actionable, and appropriate for students.
 - Preserve the archive. Never overwrite or delete earlier publications.
+- Keep guides under `docentes/`; never link them from `content/upcoming-actions.md`, copy them to `content/published/`, or add them to the content manifest.

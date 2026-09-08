@@ -6,7 +6,7 @@ orden: 4
 tipo: indice
 nivel: obligatorio
 audiencia: estudiante
-clases: [5, 7, 8, 11, 13]
+clases: [5, 6, 7, 8, 11, 13]
 modalidad: mixta
 resultados: [RA3, RA4, RA5, RA8, RA9, RA11]
 acceso: publico
@@ -36,6 +36,7 @@ No se evalúa cuánto código produce un agente, sino la capacidad del estudiant
 | 5 | [05-infraestructura-de-validacion.md](05-infraestructura-de-validacion.md) | Documentación, comandos y automatizaciones reproducibles |
 | 6 | [06-observabilidad-y-trazabilidad.md](06-observabilidad-y-trazabilidad.md) | Acciones, decisiones, métricas y límites |
 | 7 | [07-laboratorio-flujo-completo.md](07-laboratorio-flujo-completo.md) | Intervención agéntica sobre proyecto preparado |
+| 8 | [08-parcial-01-desarrollo-agentico-documentado.md](08-parcial-01-desarrollo-agentico-documentado.md) | Primer hito evaluativo del portafolio |
 
 **Estado:** recorrido completo disponible.
 

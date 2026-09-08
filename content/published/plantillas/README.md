@@ -19,6 +19,7 @@ Plantillas reutilizables:
 - [Evidencia de pruebas](06-evidencia-pruebas.md)
 - [Contrato interdisciplinario](07-contrato-interdisciplinario.md)
 - [Informe final](08-informe-final.md)
+- [GDD simplificado](09-gdd-simplificado.md)
 
 Las plantillas estructuran evidencia; no deben convertirse en formularios extensos que sustituyan el análisis.
 
