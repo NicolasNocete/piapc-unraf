@@ -8,14 +8,17 @@
 - Crear un componente cliente pequeño que lea la ruta actual con `usePathname()`.
 - Renderizar un enlace fijo a `/dashboard` desde el layout raíz y ocultarlo sólo en `/dashboard`.
 - No consultar perfil ni rol: el destino aplica sus controles existentes y el componente no expone navegación privilegiada.
+- Verificar la sesión en la portada mediante `getClaims()` y redirigir a `/dashboard` sin modificar cookies, roles ni permisos.
 
 ## Archivos afectados
 
 - `src/components/dashboard-access.tsx`: acceso global y condición de visibilidad. (FR-001 a FR-003)
 - `src/app/layout.tsx`: inclusión del componente en toda la aplicación. (FR-001)
+- `src/app/page.tsx`: redirección de sesión válida desde la portada. (FR-004)
 
 ## Verificación
 
 1. Navegar a inicio, contenidos, detalle y perfil; confirmar acceso visible a `/dashboard`.
 2. Confirmar que el acceso no aparece en `/dashboard` y sí en sus subrutas.
-3. Ejecutar `npm run check`.
+3. Confirmar que `/` conserva la portada sin sesión y redirige al dashboard con sesión válida.
+4. Ejecutar `npm run check`.

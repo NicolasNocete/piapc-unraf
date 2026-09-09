@@ -15,11 +15,13 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { redirect } from "next/navigation";
 
 import { signInWithGoogle } from "@/app/auth/actions";
 import { Badge } from "@/components/ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import { createClient } from "@/lib/supabase/server";
 import { cn } from "@/lib/utils";
 
 type HomeProps = {
@@ -48,6 +50,10 @@ const focusAreas = [
 ];
 
 export default async function Home({ searchParams }: HomeProps) {
+  const supabase = await createClient();
+  const { data, error } = await supabase.auth.getClaims();
+  if (!error && data?.claims?.sub) redirect("/dashboard");
+
   const { authError } = await searchParams;
 
   return (

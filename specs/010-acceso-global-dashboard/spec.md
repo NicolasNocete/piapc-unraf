@@ -11,6 +11,7 @@ Permitir que toda persona autenticada acceda rápidamente al dashboard desde cua
 - **FR-001:** Debe existir un acceso visible y persistente hacia `/dashboard` fuera de las rutas del dashboard.
 - **FR-002:** El acceso debe ser idéntico para perfiles de estudiante y profesor; no debe revelar opciones restringidas.
 - **FR-003:** El acceso no debe mostrarse en la portada principal de `/dashboard`.
+- **FR-004:** La ruta `/` debe mostrar la portada pública sólo cuando no exista una sesión verificada; una sesión válida debe redirigirse a `/dashboard`.
 
 ## Fuera de alcance
 
@@ -26,3 +27,4 @@ El enlace no concede acceso. `/dashboard` y sus subrutas mantienen sus comprobac
 - **AC-001 (FR-001):** Desde inicio, contenidos, detalle de contenido y perfil existe un enlace directo y accesible a `/dashboard`.
 - **AC-002 (FR-002):** El componente no consulta ni ramifica por rol y no enlaza a rutas restringidas.
 - **AC-003 (FR-003):** En `/dashboard` no se renderiza un enlace redundante hacia la misma ruta.
+- **AC-004 (FR-004):** Una visita a `/` con sesión válida termina en `/dashboard`; sin sesión conserva la portada pública.
