@@ -30,11 +30,11 @@ La actividad se inicia en la clase del 9 de septiembre y continúa de forma indi
 
 La cátedra presenta en clase una situación de comportamiento acotada sobre el repositorio base. Definí un GDD simplificado que guíe la resolución, implementá sólo el cambio incluido en el alcance y documentá el proceso completo. La situación específica y toda pauta de corrección permanecen fuera de este material público.
 
-El parcial se realiza de forma individual fuera del aula. Antes de modificar código, recorré la [guía práctica autogestionada](guia-practica-autogestionada-opencode-guardia.md): incluye un prompt de muestra y una plantilla copiable para pedir a OpenCode una propuesta fundada, corregirla y ordenar los artefactos, herramientas y evidencias que necesitás conservar.
+El parcial se realiza de forma individual fuera del aula. Antes de modificar código, prepará tu copia con la [plantilla para repositorio individual con agente](09-plantilla-repositorio-individual-agente.md) y recorré la [guía práctica autogestionada](guia-practica-autogestionada-opencode-guardia.md): incluye un prompt de muestra y una plantilla copiable para pedir a OpenCode una propuesta fundada, corregirla y ordenar los artefactos, herramientas y evidencias que necesitás conservar.
 
 ## Repositorio y uso de herramientas
 
-1. Creá un repositorio público individual desde la base indicada por la cátedra.
+1. Creá un repositorio público individual desde la [plantilla indicada por la cátedra](09-plantilla-repositorio-individual-agente.md).
 2. Conservá el commit inicial, los commits progresivos y el commit final evaluable.
 3. Leé las instrucciones, la arquitectura, los scripts y las pruebas antes de editar.
 4. Usá OpenCode o una herramienta equivalente inicialmente con lectura y búsqueda. Una traza provista por la cátedra es una alternativa si no disponés de modelo.

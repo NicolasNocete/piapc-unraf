@@ -733,7 +733,7 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "ejes/eje-04-desarrollo-agentico/README.md",
-      "digest": "bd13ee44a88fd8040bba49fe988cc44cc01be5deb77aba7ee970053624b4aaba",
+      "digest": "59709ff4b7b6eeeeb9169ba92804609d11f035a3a0b0aa4f2b1ba52f53928584",
       "axis": 4,
       "order": 4,
       "level": "obligatorio",
@@ -897,7 +897,7 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "ejes/eje-04-desarrollo-agentico/08-parcial-01-desarrollo-agentico-documentado.md",
-      "digest": "92a43003b6ac88ca53e09aabecff830cf604de25cdab299af5d45d9c7bb88b1c",
+      "digest": "06d981b9f48fd1466e0c0a27c068a4d51f3b32db20f01fffcff7d21995631a70",
       "axis": 4,
       "order": 8,
       "level": "obligatorio",
@@ -922,6 +922,22 @@
       "evaluable": true,
       "availableFrom": "2026-09-08",
       "availableUntil": "2026-09-15"
+    },
+    {
+      "id": "eje-04-plantilla-repositorio-individual-agente",
+      "title": "Plantilla para repositorio individual con agente",
+      "type": "referencia",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-04-desarrollo-agentico/09-plantilla-repositorio-individual-agente.md",
+      "digest": "aec65b5082ddaece94b78b695ae1e003c4eb6fa1acc2a045459d3fa58eb7b7f8",
+      "axis": 4,
+      "order": 9,
+      "classes": [
+        6
+      ],
+      "modality": "mixta"
     },
     {
       "id": "eje-05-busqueda-y-a-star",

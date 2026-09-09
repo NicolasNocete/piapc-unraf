@@ -38,6 +38,7 @@ No se evalúa cuánto código produce un agente, sino la capacidad del estudiant
 | 7 | [07-laboratorio-flujo-completo.md](07-laboratorio-flujo-completo.md) | Intervención agéntica sobre proyecto preparado |
 | 8 | [guia-practica-autogestionada-opencode-guardia.md](guia-practica-autogestionada-opencode-guardia.md) | Recorrido autónomo de la clase 5 recuperada |
 | 9 | [08-parcial-01-desarrollo-agentico-documentado.md](08-parcial-01-desarrollo-agentico-documentado.md) | Primer hito evaluativo del portafolio |
+| 10 | [09-plantilla-repositorio-individual-agente.md](09-plantilla-repositorio-individual-agente.md) | Base genérica para repositorios individuales y uso inicial de agentes |
 
 **Estado:** recorrido completo disponible.
 
