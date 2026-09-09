@@ -12,7 +12,7 @@ actions:
   - title: Consultá el Parcial 1 para completarlo individualmente en casa
     href: /contenidos/parcial-01-desarrollo-agentico-documentado
 tips:
-  - Empezá con lectura y búsqueda: una respuesta de la herramienta es una hipótesis, no evidencia final.
+  - "Empezá con lectura y búsqueda: una respuesta de la herramienta es una hipótesis, no evidencia final."
   - Completá GDD, auditoría, especificación y plan antes de autorizar escritura.
   - Conservá el commit inicial, los cambios progresivos y la evidencia del camino principal y el caso límite.
   - "Podés usar una herramienta equivalente o una traza de la cátedra: no necesitás un modelo pago."
