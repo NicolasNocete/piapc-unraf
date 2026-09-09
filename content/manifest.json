@@ -583,12 +583,13 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "ejes/eje-03-sistemas-agenticos/07-primeros-pasos-opencode.md",
-      "digest": "f1ee252835847a73d6a3e685d81ba0889e7d3befb8501a97ff553e0d0b662748",
+      "digest": "43020c25343638eed7af00d8f1a6f7748bc53cc88a8000a8158eb985b3b5add5",
       "axis": 3,
       "order": 7,
       "level": "obligatorio",
       "classes": [
-        4
+        4,
+        5
       ],
       "modality": "presencial",
       "durationMinutes": 15,
@@ -732,7 +733,7 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "ejes/eje-04-desarrollo-agentico/README.md",
-      "digest": "2acb64184b4bae8f01a8b1f5c644a2142457f371cb021213c08a63a1abf84c64",
+      "digest": "bd13ee44a88fd8040bba49fe988cc44cc01be5deb77aba7ee970053624b4aaba",
       "axis": 4,
       "order": 4,
       "level": "obligatorio",
@@ -873,6 +874,22 @@
       "evaluable": true
     },
     {
+      "id": "eje-04-guia-practica-opencode-guardia",
+      "title": "Guía práctica autogestionada: OpenCode y Guardia de Sigilo",
+      "type": "referencia",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-04-desarrollo-agentico/guia-practica-autogestionada-opencode-guardia.md",
+      "digest": "3e0dcbab6c1cb5728d2669daaa5107551348c3164e332ca445e956be4b96ced3",
+      "axis": 4,
+      "order": 8,
+      "classes": [
+        5
+      ],
+      "modality": "mixta"
+    },
+    {
       "id": "parcial-01-desarrollo-agentico-documentado",
       "title": "Parcial 1 - Desarrollo agéntico documentado",
       "type": "actividad",
@@ -880,7 +897,7 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "ejes/eje-04-desarrollo-agentico/08-parcial-01-desarrollo-agentico-documentado.md",
-      "digest": "e76af6ebace94b8f4d1ea2a48341fb5c9b57575e28b6dc2b1b9d87ee112f7e6d",
+      "digest": "cd555d1e576f8b5014f3fd50eabe5e46f7bcc0eb02bcce9641b11c9f99dd5979",
       "axis": 4,
       "order": 8,
       "level": "obligatorio",

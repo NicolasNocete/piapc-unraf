@@ -6,7 +6,7 @@ orden: 7
 tipo: lectura
 nivel: obligatorio
 audiencia: estudiante
-clases: [4]
+clases: [4, 5]
 modalidad: presencial
 duracion_minutos: 15
 resultados: [RA1, RA2, RA5, RA6]
