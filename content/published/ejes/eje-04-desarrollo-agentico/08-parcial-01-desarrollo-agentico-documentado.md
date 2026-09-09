@@ -30,7 +30,7 @@ La actividad se inicia en la clase del 9 de septiembre y continúa de forma indi
 
 La cátedra presenta en clase una situación de comportamiento acotada sobre el repositorio base. Definí un GDD simplificado que guíe la resolución, implementá sólo el cambio incluido en el alcance y documentá el proceso completo. La situación específica y toda pauta de corrección permanecen fuera de este material público.
 
-El parcial se realiza de forma individual fuera del aula. Antes de modificar código, recorré la [guía práctica autogestionada](guia-practica-autogestionada-opencode-guardia.md): ordena los artefactos, el uso de herramientas y las evidencias que necesitás conservar.
+El parcial se realiza de forma individual fuera del aula. Antes de modificar código, recorré la [guía práctica autogestionada](guia-practica-autogestionada-opencode-guardia.md): incluye un prompt de muestra y una plantilla copiable para pedir a OpenCode una propuesta fundada, corregirla y ordenar los artefactos, herramientas y evidencias que necesitás conservar.
 
 ## Repositorio y uso de herramientas
 

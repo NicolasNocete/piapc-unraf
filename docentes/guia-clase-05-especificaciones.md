@@ -22,6 +22,7 @@ Al finalizar, cada estudiante habrá iniciado en su repositorio individual:
 - un plan de intervención y validación;
 - un registro inicial de consulta a OpenCode o una alternativa equivalente.
 - una ruta de trabajo autónoma para continuar con los hitos del parcial fuera del aula.
+- una propuesta revisada para la progresión completa de movimientos del guardia.
 
 ## Preparación previa
 
@@ -57,17 +58,17 @@ Recuperar estas preguntas:
 
 Abrir OpenCode desde el repositorio del laboratorio y mostrar la diferencia entre leer, buscar, editar y ejecutar comandos. Relacionar cada capacidad con un permiso y una evidencia esperada. La demostración inicia en lectura y búsqueda: no se instala, publica, accede a red ni a secretos.
 
-Usar una consulta de sólo lectura sobre Guardia de Sigilo: pedir rutas y símbolos vinculados al movimiento del jugador, la ruta del guardia, percepción, memoria y pruebas; exigir que distinga evidencia, supuestos y dudas. Contrastar dos afirmaciones del resultado con archivos del repositorio.
+Presentar el prompt de muestra de la guía pública y aclarar que cada estudiante puede copiarlo, pegarlo y modificar sus campos para crear pedidos propios. El prompt no declara el estado del laboratorio: OpenCode debe inferirlo a partir del contexto y citar fuentes.
 
-### 3. Demostración docente: de solicitud ambigua a decisión verificable - 15 minutos
+### 3. Práctica: propuesta completa con OpenCode - 15 minutos
 
-Partir de una solicitud ambigua, por ejemplo: “El guardia debería comportarse mejor cuando pierde al jugador”. En pizarra, separar problema de diseño, experiencia buscada, comportamiento observable, reglas, fuera de alcance, caso límite, criterio de aceptación y evidencia. La demostración no utiliza la consigna específica del parcial ni muestra una solución técnica.
+Cada estudiante copia el prompt de muestra o adapta la plantilla. Debe pedir una propuesta completa para patrullar, investigar, perseguir, buscar y regresar; no selecciona sólo una conducta. OpenCode debe devolver evidencia, dudas, transiciones, hitos, pruebas, archivos y condiciones de detención. La persona contrasta dos afirmaciones y formula una segunda instrucción que corrija un supuesto, una restricción o el alcance.
 
 ### 4. Recorrido guiado de Guardia de Sigilo y auditoría - 25 minutos
 
 Cada estudiante identifica el repositorio base, el estado de Git y el commit inicial. Debe leer `README.md`, `AGENTS.md`, arquitectura, permisos, configuración, scripts y pruebas antes de editar. Luego inicia `docs/auditoria-repositorio.md` con rutas relevantes, flujo observado, comandos disponibles, evidencia confirmada, supuestos y preguntas abiertas.
 
-La observación se apoya en los controles existentes: mover al jugador, indicar un destino al guardia, alternar BFS/A*, emitir sonido y reiniciar. Identificar las capas sin confundirlas: percepción y memoria informan; navegación calcula ruta; seguimiento y movimiento ejecutan el desplazamiento; Phaser representa. Aclarar el límite H3: ver u oír actualiza memoria, pero todavía no inicia una decisión autónoma ni una FSM.
+La observación se apoya en los controles existentes: mover al jugador, indicar un destino al guardia, alternar BFS/A*, emitir sonido y reiniciar. Identificar las capas sin confundirlas: percepción y memoria informan; navegación calcula ruta; seguimiento y movimiento ejecutan el desplazamiento; Phaser representa. Relacionar esa evidencia con la propuesta de OpenCode, sin anticipar una implementación o una solución técnica.
 
 Intervenir si se intenta editar antes de comprender el proyecto o si se presenta una inferencia del agente como hecho comprobado.
 
@@ -99,6 +100,8 @@ Indicar la guía práctica autogestionada, seguida de las lecturas sobre reposit
 - Confirmar que cada GDD delimite una experiencia y que cada especificación delimite una intervención técnica.
 - Exigir permisos mínimos y detener acciones no documentadas.
 - Mostrar que una respuesta de OpenCode es una hipótesis: las rutas, búsquedas, pruebas y ejecución aportan la evidencia.
+- Pedir una propuesta para toda la progresión de conductas y no para una sola mecánica aislada.
+- Exigir que el segundo prompt incorpore una corrección humana observable.
 - Diferenciar la información que percibe el guardia de la posición real del jugador y de la locomoción que aplica el motor.
 - Mantener la consigna específica, los casos evaluativos y la corrección fuera del material público.
 

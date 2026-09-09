@@ -19,6 +19,129 @@ Usá esta guía para recuperar la clase 5 y preparar una intervención pequeña 
 
 La guía organiza el proceso; la [consigna del Parcial 1](08-parcial-01-desarrollo-agentico-documentado.md) indica la entrega formal y la situación que presente la cátedra. No inventes requisitos que no estén en esa situación.
 
+## Laboratorio de propuestas con OpenCode
+
+En esta práctica dirigís a OpenCode: no se trata de mirar cómo explora el proyecto, sino de pedirle una propuesta fundada, revisar sus límites y definir los próximos pasos. Usá el prompt de muestra para solicitar la progresión completa del guardia y luego ajustalo según tu objetivo.
+
+| Hito | Movimiento o conducta | Evidencia que debe proponer OpenCode |
+|---|---|---|
+| H3 actual | Seguir una ruta indicada por una persona. | Ruta, nodos explorados y posición final. |
+| H4.1 | Patrullar puntos cíclicos. | Ruta válida y cambio de punto de patrulla. |
+| H4.2 | Investigar un sonido o última posición conocida. | Llegada al origen o posición recordada. |
+| H4.3 | Perseguir una percepción visual válida. | Replanificación sólo ante un cambio relevante del objetivo. |
+| H4.4 | Buscar tras perder visión. | Recorrido acotado alrededor de la última posición conocida. |
+| H4.5 | Regresar a patrulla. | Retorno a un punto válido y transición registrada. |
+| H5 | Comparar FSM con árbol, utilidad o GOAP. | Diagrama o traza y justificación de técnica. |
+| H6 | Integración final. | Métricas, pruebas, telemetría y revisión de riesgos. |
+
+La propuesta debe respetar estas reglas: visión tiene prioridad sobre sonido; una pérdida de visión no borra la última posición conocida; decisión, búsqueda, seguimiento y locomoción son capas distintas; y toda transición debe poder observarse en telemetría.
+
+### Prompt de muestra
+
+**Usá este prompt como punto de partida.** Copialo, pegalo en OpenCode y modificá lo necesario para tu tarea. No es una respuesta ni una solución: es una estructura para pedir exploración con evidencia, elaborar una propuesta y definir los próximos pasos.
+
+```text
+Trabajamos sobre el laboratorio Guardia de Sigilo.
+
+Explorá primero README.md, AGENTS.md, docs/arquitectura.md,
+docs/permisos-recomendados.md, las especificaciones, los hitos, el código y
+las pruebas relacionadas. Si necesitás ampliar el contexto, buscá rutas y
+símbolos vinculados. No modifiques archivos ni ejecutes comandos.
+
+Determiná el estado actual del laboratorio a partir de las fuentes del
+repositorio. Indicá qué capacidades del guardia ya existen, cuáles todavía no
+existen y qué rutas o símbolos respaldan cada afirmación. No asumas que existe
+una máquina de estados hasta comprobarlo. Separá evidencia, supuestos y
+preguntas abiertas.
+
+Luego elaborá una propuesta completa de progresión para:
+1. Patrullar puntos cíclicos.
+2. Investigar un sonido o última posición conocida.
+3. Perseguir al jugador cuando exista percepción visual válida.
+4. Buscar durante un tiempo limitado al perder visión.
+5. Regresar a un punto de patrulla válido.
+
+Para cada conducta indicá estado de origen, evento, guarda, estado destino y
+acción; la información que puede usar el guardia y la que no debe consultar;
+cuándo recalcular o conservar una ruta; qué hacer ante un destino inaccesible;
+una prueba del camino principal y un caso límite; y las capas, rutas y pruebas
+relacionadas.
+
+Respetá estas restricciones:
+- El dominio no puede importar Phaser, DOM ni APIs del navegador.
+- Percepción, memoria, decisión, búsqueda, seguimiento y locomoción deben
+  permanecer separados.
+- Visión tiene prioridad sobre sonido y la última posición conocida cambia sólo
+  ante una percepción válida.
+- Cada transición debe producir telemetría observable.
+- No agregar dependencias, no usar red, no acceder a secretos ni publicar.
+
+Presentá el resultado en este orden:
+1. Evidencia encontrada.
+2. Supuestos y preguntas abiertas.
+3. Tabla completa de estados y transiciones.
+4. Plan incremental por hitos H4.1 a H4.5.
+5. Estrategia de pruebas y evidencia.
+6. Archivos posiblemente afectados.
+7. Condiciones para detenerse y consultar.
+
+No implementes todavía.
+```
+
+### Plantilla para copiar y adaptar
+
+Copiá y pegá esta plantilla. Reemplazá cada campo entre corchetes y adaptá las listas a la mejora que querés pedir. Conservá las restricciones y el orden de salida para que la respuesta sea verificable.
+
+```text
+Trabajamos sobre [NOMBRE DEL PROYECTO O REPOSITORIO].
+
+Quiero analizar y proponer mejoras para [ENTIDAD O SISTEMA].
+
+Objetivo de diseño:
+[EXPERIENCIA O COMPORTAMIENTO QUE QUIERO LOGRAR PARA QUIEN JUEGA].
+
+Explorá primero [DOCUMENTOS, CARPETAS, SÍMBOLOS O PRUEBAS CONOCIDAS].
+Si necesitás ampliar el contexto, buscá rutas relacionadas. No modifiques
+archivos ni ejecutes comandos.
+
+Determiná el estado actual del proyecto con evidencia. Indicá qué capacidades
+ya existen, cuáles no, y qué rutas y símbolos respaldan cada afirmación.
+Separá evidencia, supuestos y preguntas abiertas.
+
+Luego elaborá una propuesta para:
+[COMPORTAMIENTOS, MOVIMIENTOS O HITOS A ANALIZAR].
+
+Para cada propuesta indicá estado inicial, evento, guarda, comportamiento
+esperado, información permitida y prohibida, capas o archivos involucrados,
+prueba principal, caso límite, riesgos y condiciones para detenerse.
+
+Respetá estas restricciones:
+- [RESTRICCIÓN DE ARQUITECTURA].
+- [PERMISOS O ACCIONES PROHIBIDAS].
+- [LÍMITE DE ALCANCE].
+- [REGLAS DE DISEÑO O INVARIANTES].
+
+Presentá el resultado en este orden:
+1. Evidencia encontrada.
+2. Supuestos y preguntas abiertas.
+3. Propuesta de comportamiento.
+4. Plan por hitos.
+5. Estrategia de pruebas.
+6. Archivos posiblemente afectados.
+7. Condiciones para detenerse y consultar.
+
+No implementes todavía.
+```
+
+### Qué entregás al terminar la práctica
+
+1. Prompt inicial copiado o adaptado.
+2. Respuesta de OpenCode con evidencia.
+3. Contraste de al menos dos afirmaciones con el repositorio.
+4. Una corrección humana de alcance, supuesto o restricción.
+5. Segundo prompt mejorado.
+6. Propuesta final de los hitos H4.1 a H4.5, con pruebas y condiciones de detención.
+
 ## Antes de empezar
 
 1. Creá tu repositorio público individual desde la base indicada y conservá el commit inicial.
@@ -44,12 +167,13 @@ No avances ocultando un fallo del hito anterior. Si no podés justificar una dec
 
 ## Ciclo con OpenCode
 
-1. **Observar.** Pedí una exploración acotada. Ejemplo: “Mapeá el recorrido desde la entrada de jugador hasta el destino del guardia. Citá rutas y símbolos. Separá evidencia, supuestos y dudas. No modifiques archivos ni ejecutes comandos.”
+1. **Proponer.** Copiá el prompt de muestra o completá la plantilla y pedí una exploración más propuesta completa.
 2. **Contrastar.** Verificá al menos dos afirmaciones mediante archivos, búsquedas o comandos autorizados. La respuesta del agente no es una prueba.
-3. **Delimitar.** Actualizá GDD, auditoría, especificación y plan antes de habilitar escritura. Completá la [matriz de permisos](../../plantillas/04-matriz-permisos.md).
-4. **Cambiar.** Pedí una modificación pequeña, limitada a los archivos previstos. Revisá la diferencia antes de continuar.
-5. **Validar.** Ejecutá primero la prueba relacionada y luego los comandos documentados de validación. Registrá resultado, versión y criterio demostrado.
-6. **Revisar.** Compará el resultado con el objetivo acordado, no con una impresión general de que “parece funcionar”.
+3. **Corregir.** Señalá una decisión que OpenCode no puede tomar por sí solo, ajustá el alcance o una restricción y formulá un segundo prompt.
+4. **Delimitar.** Actualizá GDD, auditoría, especificación y plan antes de habilitar escritura. Completá la [matriz de permisos](../../plantillas/04-matriz-permisos.md).
+5. **Cambiar.** Cuando la consigna lo habilite, pedí una modificación pequeña, limitada a los archivos previstos. Revisá la diferencia antes de continuar.
+6. **Validar.** Ejecutá primero la prueba relacionada y luego los comandos documentados de validación. Registrá resultado, versión y criterio demostrado.
+7. **Revisar.** Compará el resultado con el objetivo acordado, no con una impresión general de que “parece funcionar”.
 
 ## Preguntas para orientarte
 
