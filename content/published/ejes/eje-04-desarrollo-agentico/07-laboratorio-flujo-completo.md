@@ -13,7 +13,7 @@ resultados: [RA3, RA4, RA5, RA8, RA9, RA11]
 prerrequisitos: [eje-04-infraestructura-de-validacion, eje-04-observabilidad-y-trazabilidad]
 evaluable: true
 acceso: publico
-version: 1
+version: 2
 disponible_desde: "2026-09-30"
 disponible_hasta: "2026-10-06"
 ---
@@ -53,6 +53,15 @@ Producir al menos cinco mejoras revisables y evidencia suficiente para que otra 
 - Declarar herramienta y modelo cuando estén disponibles; OpenCode es una opción, no un requisito conceptual.
 
 ## Procedimiento
+
+Antes de implementar cada upgrade, completá esta puerta de trabajo:
+
+```text
+intención declarada → requisito verificable → spec revisada
+→ plan aprobado → build → evidencia
+```
+
+Un prompt no reemplaza la spec. Si una propuesta del agente parece correcta pero no tiene alcance, criterio o evidencia, todavía no puede aceptarse.
 
 1. **Establecer el punto inicial.** Registrá fecha, versión, rama, estado de Git, entorno y cambios preexistentes. Ejecutá la validación de referencia o documentá por qué no es posible.
 2. **Explorar.** Mapeá entradas, dominio, integración, pruebas, configuración e instrucciones. Seguí definiciones y usos relacionados con la incidencia. Separá evidencia, supuestos y preguntas.
@@ -103,6 +112,13 @@ No alcanzan la afirmación del agente, una captura aislada, código sin ejecutar
 | Revisión crítica y transferencia | Decisiones humanas, límites y equivalentes fuera de la herramienta |
 
 Un producto ejecutable con trazabilidad insuficiente no satisface el laboratorio.
+
+## Errores frecuentes
+
+- Tratar el prompt como documento de requisitos.
+- Aceptar una propuesta del agente sin contrastar rutas, símbolos o supuestos.
+- Implementar un efecto visual antes de definir qué regla comunica.
+- Considerar una apariencia correcta como sustituto de build, prueba o revisión.
 
 ## Alternativa sin modelos pagos
 

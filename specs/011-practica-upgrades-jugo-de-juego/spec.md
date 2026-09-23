@@ -35,6 +35,8 @@ Una persona abre Próximas acciones y encuentra la guía, el laboratorio, la lec
 - **FR-005:** Los materiales deben ofrecer diez upgrades con propósitos distintos de mecánica, legibilidad, feedback, cámara, interacción o tensión.
 - **FR-006:** La práctica debe vencer el martes 6 de octubre de 2026 a las 23:59.
 - **FR-007:** Debe existir una lectura pública que explique jugo de juego, feedback y evidencia de validación sin publicar soluciones de los upgrades.
+- **FR-008:** Los materiales deben diferenciar explícitamente intención de diseño, requisito, spec, prompt, plan, evidencia y vibe coding.
+- **FR-009:** El prompt inicial debe recibir intención y requisito antes de pedir exploración al agente.
 
 ## Fuera de alcance
 
@@ -66,3 +68,4 @@ No quedan ambigüedades abiertas.
 - **AC-003 (FR-004):** La guía práctica contiene un prompt breve que pide evidencia, restricciones, datos faltantes y uso de `question` antes de generar la spec.
 - **AC-004 (FR-005, FR-007):** La lectura y la guía presentan los diez upgrades sin soluciones técnicas anticipadas y explican el rol del feedback.
 - **AC-005 (FR-006):** Próximas acciones enlaza sólo contenido publicado y comunica la entrega del 6 de octubre a las 23:59.
+- **AC-006 (FR-008, FR-009):** Antes de construir, una persona puede identificar qué decisión mantiene, qué documento persiste, qué pide al agente y qué evidencia deberá producir.

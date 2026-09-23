@@ -8,7 +8,7 @@ eje: 4
 orden: 8
 clases: [5, 8]
 modalidad: mixta
-version: 1
+version: 2
 ---
 
 # Guía práctica autogestionada: OpenCode y Guardia de Sigilo
@@ -18,6 +18,35 @@ version: 1
 Usá esta guía para recuperar la clase 5 y, en la clase 8, completar una práctica evaluable de upgrades sobre el laboratorio [Guardia de Sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo). Avanzá por los hitos en orden: cada uno deja evidencia para el siguiente.
 
 La guía organiza el proceso. Para la práctica de clase 8, cada estudiante trabaja en su repositorio individual y entrega al menos cinco upgrades completos el **martes 6 de octubre de 2026 a las 23:59**. No inventes requisitos que no estén en la situación elegida.
+
+## Antes de usar el agente
+
+No pases de una idea vaga al código. Antes de cada upgrade, separá:
+
+```text
+intención → requisito → spec → prompt → plan → build → evidencia
+```
+
+- **Intención:** experiencia que buscás para quien juega.
+- **Requisito:** regla o necesidad concreta que debe cumplirse.
+- **Spec:** contrato versionado con objetivo, alcance, límites, criterios y evidencia.
+- **Prompt:** pedido puntual al agente para una acción concreta.
+- **Plan:** incrementos y validaciones para cumplir la spec.
+- **Evidencia:** build, prueba, ejecución, telemetría y diff que prueban un criterio.
+
+**Vibe coding** es aceptar una propuesta o código porque parece funcionar, sin spec, criterio ni evidencia. No significa que usar IA esté mal: el problema es delegar una decisión de diseño o aceptar un resultado sin revisarlo.
+
+Ejemplo breve:
+
+```text
+Vibe coding: “Poné un shake copado cuando detecte al jugador”.
+
+Spec: al dispararse una alerta, la cámara realiza un shake único y vuelve a su
+posición normal en menos de un segundo. No cambia controles, navegación ni
+detección.
+```
+
+Tu decisión humana define intención, requisito, alcance, criterios y permisos. El agente puede ayudar a explorar, preguntar, planificar y construir; no reemplaza esas decisiones.
 
 ## Práctica entregable: cinco upgrades de jugo de juego
 
@@ -42,6 +71,9 @@ Un prompt sirve para explorar; una spec versionada conserva el objetivo, alcance
 
 ```text
 Trabajamos sobre mi repositorio individual de Guardia de Sigilo.
+
+Mi intención de diseño es: [INTENCIÓN].
+El requisito que quiero comprobar es: [REQUISITO].
 
 Quiero preparar el upgrade: [NOMBRE DEL UPGRADE].
 
