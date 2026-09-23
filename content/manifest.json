@@ -733,7 +733,7 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "ejes/eje-04-desarrollo-agentico/README.md",
-      "digest": "59709ff4b7b6eeeeb9169ba92804609d11f035a3a0b0aa4f2b1ba52f53928584",
+      "digest": "024f5f7690af4e0d249d1fd4ff0ff7fad796b55ce3a94f130a675bb09df07d33",
       "axis": 4,
       "order": 4,
       "level": "obligatorio",
@@ -850,7 +850,7 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "ejes/eje-04-desarrollo-agentico/07-laboratorio-flujo-completo.md",
-      "digest": "96ca83a05867ffc27d0a4d69ee1edc6a8d0985f36d81d0ca4f8341a57726ccfd",
+      "digest": "105640f75586b2b3e25a014d0e6296d146baa90365942d32c214e25ca2b62482",
       "axis": 4,
       "order": 7,
       "level": "obligatorio",
@@ -871,7 +871,9 @@
         "eje-04-infraestructura-de-validacion",
         "eje-04-observabilidad-y-trazabilidad"
       ],
-      "evaluable": true
+      "evaluable": true,
+      "availableFrom": "2026-09-30",
+      "availableUntil": "2026-10-06"
     },
     {
       "id": "eje-04-guia-practica-opencode-guardia",
@@ -881,11 +883,12 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "ejes/eje-04-desarrollo-agentico/guia-practica-autogestionada-opencode-guardia.md",
-      "digest": "b9731188473d11409a704e301218bc46cbbe997f07b9d08768bfe150228c5a19",
+      "digest": "77757b08786c3a5abf86babe25fa6147e41eae08dc14c373d800c993bd57f47b",
       "axis": 4,
       "order": 8,
       "classes": [
-        5
+        5,
+        8
       ],
       "modality": "mixta"
     },
@@ -938,6 +941,34 @@
         6
       ],
       "modality": "mixta"
+    },
+    {
+      "id": "eje-04-jugo-de-juego-feedback",
+      "title": "Jugo de juego, feedback y evidencia de una mejora",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-04-desarrollo-agentico/10-jugo-de-juego-feedback.md",
+      "digest": "8250ae1bfcc5af93477f0151d6a628fb963d0192a0911e181ec0b0ea9354a282",
+      "axis": 4,
+      "order": 10,
+      "level": "obligatorio",
+      "classes": [
+        8
+      ],
+      "modality": "mixta",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA3",
+        "RA5",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-04-especificaciones-y-planes"
+      ],
+      "evaluable": true
     },
     {
       "id": "eje-05-busqueda-y-a-star",

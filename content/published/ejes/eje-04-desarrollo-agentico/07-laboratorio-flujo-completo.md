@@ -14,19 +14,21 @@ prerrequisitos: [eje-04-infraestructura-de-validacion, eje-04-observabilidad-y-t
 evaluable: true
 acceso: publico
 version: 1
+disponible_desde: "2026-09-30"
+disponible_hasta: "2026-10-06"
 ---
 
 # Laboratorio de intervención agéntica completa
 
 ## Situación problemática
 
-El equipo recibe una incidencia acotada sobre el comportamiento del guardia. Debe conducir una intervención completa sin aceptar código por autoridad del agente: explorar, especificar, planificar, modificar incrementalmente, validar, depurar si falla, revisar diferencias y registrar decisiones.
+Cada estudiante elige al menos cinco upgrades del catálogo de la guía práctica y los desarrolla en su repositorio individual. Debe conducir cada intervención sin aceptar código por autoridad del agente: explorar, especificar, planificar, modificar incrementalmente, validar, depurar si falla, revisar diferencias y registrar decisiones.
 
-El docente asignará una incidencia compatible con el estado del proyecto, por ejemplo una transición temporal, un caso límite de percepción o una regresión preparada. No se publica ni despliega el resultado.
+Los upgrades abarcan conducta expresiva, feedback, cámara, interacción y tensión. No se publica ni despliega el resultado.
 
 ## Objetivo
 
-Producir una corrección revisable y evidencia suficiente para que otra persona pueda decidir si integrarla. El aprendizaje evaluado es el proceso transferible, no el uso de una interfaz particular.
+Producir al menos cinco mejoras revisables y evidencia suficiente para que otra persona pueda decidir si integrarlas. El aprendizaje evaluado es el proceso transferible, no el uso de una interfaz particular.
 
 ## Recursos disponibles
 
@@ -61,20 +63,21 @@ Producir una corrección revisable y evidencia suficiente para que otra persona 
 7. **Depurar por evidencia.** Si aparece un fallo, conservá una reproducción mínima; formulá una hipótesis con predicción; instrumentá sólo lo necesario; corregí la causa mínima y repetí el caso.
 8. **Validar.** Ejecutá formato comprobado, lint o análisis estático, compilación, prueba enfocada, suite y producto según corresponda. Registrá comandos, resultados y omisiones.
 9. **Revisar.** Contrastá criterios con evidencia, arquitectura con cambios y alcance con archivos. Identificá regresiones, riesgos, instrumentación residual y efectos no cubiertos por Git.
-10. **Cerrar.** Registrá estado final, duración, iteraciones, tokens y costos disponibles, decisiones humanas y recomendación: integrar, corregir, revertir o descartar.
+10. **Cerrar.** Registrá estado final, duración, iteraciones, decisiones humanas y recomendación: integrar, corregir, revertir o descartar. Repetí el ciclo para cinco upgrades distintos.
 
 ## Entregable
 
-Un paquete con:
+Un portafolio con al menos cinco paquetes de upgrade. Cada paquete incluye:
 
-- auditoría y paquete de contexto justificado;
-- especificación y plan versionados;
+- spec y plan versionados;
+- build, prueba o ejecución reproducible;
 - registro cronológico resumido;
 - diff o referencia de cambios autorizados;
 - matriz criterio-evidencia y salidas relevantes;
-- revisión final con limitaciones, métricas y decisión humana.
+- evidencia visual o telemetría cuando modifica cámara, animación, interfaz o feedback;
+- revisión final con limitaciones y decisión humana.
 
-Cada artefacto debe identificar la misma versión del proyecto. No se entregan secretos ni razonamientos internos privados.
+Entregá la URL del repositorio individual y el commit final en la plataforma antes del **martes 6 de octubre de 2026 a las 23:59**. Cada artefacto debe identificar la misma versión del proyecto. No se entregan secretos ni razonamientos internos privados.
 
 ## Evidencia válida
 
