@@ -39,6 +39,7 @@ No se evalúa cuánto código produce un agente, sino la capacidad del estudiant
 | 8 | [guia-practica-autogestionada-opencode-guardia.md](guia-practica-autogestionada-opencode-guardia.md) | Recorrido autónomo de la clase 5 recuperada |
 | 9 | [08-parcial-01-desarrollo-agentico-documentado.md](08-parcial-01-desarrollo-agentico-documentado.md) | Primer hito evaluativo del portafolio |
 | 10 | [09-plantilla-repositorio-individual-agente.md](09-plantilla-repositorio-individual-agente.md) | Base genérica para repositorios individuales y uso inicial de agentes |
+| 11 | [10-jugo-de-juego-feedback.md](10-jugo-de-juego-feedback.md) | Feedback, legibilidad y tensión para upgrades de clase 8 |
 
 **Estado:** recorrido completo disponible.
 

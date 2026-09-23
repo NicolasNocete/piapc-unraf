@@ -6,7 +6,7 @@ audiencia: estudiante
 acceso: publico
 eje: 4
 orden: 8
-clases: [5]
+clases: [5, 8]
 modalidad: mixta
 version: 1
 ---
@@ -15,9 +15,80 @@ version: 1
 
 ## Propósito
 
-Usá esta guía para recuperar la clase 5 y preparar una intervención pequeña y verificable sobre el laboratorio [Guardia de Sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo). Avanzá por los hitos en orden: cada uno deja evidencia para el siguiente.
+Usá esta guía para recuperar la clase 5 y, en la clase 8, completar una práctica evaluable de upgrades sobre el laboratorio [Guardia de Sigilo](https://github.com/NicolasNocete/piapc-guardia-sigilo). Avanzá por los hitos en orden: cada uno deja evidencia para el siguiente.
 
-La guía organiza el proceso; la [consigna del Parcial 1](08-parcial-01-desarrollo-agentico-documentado.md) indica la entrega formal y la situación que presente la cátedra. No inventes requisitos que no estén en esa situación.
+La guía organiza el proceso. Para la práctica de clase 8, cada estudiante trabaja en su repositorio individual y entrega al menos cinco upgrades completos el **martes 6 de octubre de 2026 a las 23:59**. No inventes requisitos que no estén en la situación elegida.
+
+## Práctica entregable: cinco upgrades de jugo de juego
+
+Elegí cinco upgrades distintos del siguiente catálogo. Cada uno cuenta sólo si tiene spec, plan, build, validación, evidencia y revisión del diff. Podés completar más de cinco, pero el mínimo obligatorio es cinco.
+
+| N.º | Upgrade | Qué debe aportar |
+|---:|---|---|
+| 1 | Patrulla con pausas y mirada direccional | Anticipación visual y ritmo del recorrido. |
+| 2 | Cono de visión visible y reactivo | Claridad de alcance y amenaza. |
+| 3 | Animaciones por estado y transición | Representación coherente de la conducta. |
+| 4 | Impacto visual extremo de alerta | Shake, flash, zoom, partículas o respuesta equivalente. |
+| 5 | Cámara dinámica de tensión | Encuadre útil durante un momento de riesgo. |
+| 6 | Cobertura y ruptura de línea de visión | Una decisión activa de sigilo. |
+| 7 | Distractores sonoros interactivos | Oportunidad y planificación para el jugador. |
+| 8 | Medidor de alerta y estados del nivel | Consecuencias visibles del peligro. |
+| 9 | Escape de último momento | Feedback de alivio ante una maniobra ajustada. |
+| 10 | Puertas, atajos o rutas bloqueables | Transformación del espacio y la estrategia. |
+
+### 0. Orientación inicial con el agente
+
+Un prompt sirve para explorar; una spec versionada conserva el objetivo, alcance y criterios entre sesiones. Empezá con este prompt, reemplazando sólo el nombre del upgrade:
+
+```text
+Trabajamos sobre mi repositorio individual de Guardia de Sigilo.
+
+Quiero preparar el upgrade: [NOMBRE DEL UPGRADE].
+
+Explorá sólo en modo lectura. Leé README.md, AGENTS.md, la arquitectura,
+los hitos, las pruebas y el código relacionado. No modifiques archivos, no
+ejecutes comandos ni instales dependencias.
+
+Decime:
+1. Qué ya existe, con rutas o símbolos.
+2. Qué podría reutilizarse.
+3. Qué restricciones debo respetar.
+4. Qué datos faltan para escribir una spec.
+
+Luego usá la herramienta `question` para preguntarme únicamente las decisiones
+de diseño que no puedas comprobar en el repositorio.
+
+Cuando responda, redactá una spec breve con objetivo, alcance, restricciones,
+criterios de aceptación y evidencia prevista. No generes código todavía.
+```
+
+Contrastá las afirmaciones del agente con el repositorio. Respondé sus preguntas sin inventar datos. Recién entonces aceptá o corregí la spec, pedí el plan y autorizá un incremento pequeño.
+
+### Ficha de trabajo por upgrade
+
+En tu repositorio, conservá una carpeta por cada upgrade que entregues:
+
+```text
+docs/upgrades/
+  01-nombre-upgrade/
+    spec.md
+    plan.md
+    evidencia.md
+```
+
+La `spec.md` debe indicar problema, resultado esperado, alcance, fuera de alcance, restricciones, camino principal, caso límite, criterios de aceptación y evidencia prevista. La `plan.md` debe proponer incrementos, archivos probables, validaciones, riesgos y condiciones de detención. La `evidencia.md` debe registrar commit inicial/final, build, pruebas, secuencia reproducible, resultado y limitaciones.
+
+### Entrega
+
+Entregá en la plataforma antes del **martes 6 de octubre de 2026 a las 23:59**:
+
+1. URL de tu repositorio individual.
+2. Commit final identificable.
+3. Cinco carpetas de upgrades completas como mínimo.
+4. Comandos de build y validación con sus resultados.
+5. Evidencia visual o telemetría cuando el upgrade modifique cámara, animación, interfaz o feedback.
+
+No alcanza con una lista de ideas, una captura aislada o código sin build y evidencia.
 
 ## Laboratorio de propuestas con OpenCode
 
