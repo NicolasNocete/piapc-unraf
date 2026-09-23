@@ -1,7 +1,7 @@
 ---
 summary: "En la clase 8 iniciás un portafolio individual de upgrades: elegí cinco, especificá, planificá, construí y validá cada mejora."
 actions:
-  - title: Leé cómo diseñar feedback y jugo de juego con evidencia verificable
+  - title: Diferenciá intención, spec, prompt y vibe coding antes de construir
     href: /contenidos/eje-04-jugo-de-juego-feedback
   - title: Elegí cinco upgrades y empezá cada uno con spec, plan y el prompt de orientación
     href: /contenidos/eje-04-guia-practica-opencode-guardia

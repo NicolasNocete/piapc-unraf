@@ -13,10 +13,45 @@ resultados: [RA3, RA5, RA8, RA11]
 prerrequisitos: [eje-04-especificaciones-y-planes]
 evaluable: true
 acceso: publico
-version: 1
+version: 2
 ---
 
 # Jugo de juego, feedback y evidencia de una mejora
+
+## De la intención al cambio verificable
+
+Antes de abrir un agente, separá las partes del proceso:
+
+| Término | Qué registra o hace |
+|---|---|
+| Intención de diseño | La experiencia que se busca producir en quien juega. |
+| Requisito | Una necesidad o regla concreta que deriva de esa intención. |
+| Spec | El contrato versionado: objetivo, alcance, límites, criterios y evidencia. |
+| Prompt | Una instrucción puntual al agente para explorar, preguntar, planificar o construir. |
+| Plan | Incrementos, validaciones, riesgos y condiciones de detención. |
+| Evidencia | Build, prueba, ejecución, telemetría y diff que sostienen una afirmación. |
+| Vibe coding | Aceptar código o decisiones por plausibilidad, sin contrato, revisión ni validación. |
+
+```text
+intención → requisito → spec → prompt guiado → plan → build → evidencia
+```
+
+La spec y el prompt no compiten. La spec conserva el acuerdo de trabajo entre sesiones, personas y herramientas; el prompt usa ese acuerdo para pedir una acción concreta. El historial de un chat puede resumirse, truncarse o no estar disponible, por lo que no reemplaza una fuente versionada.
+
+Vibe coding no significa usar IA. Puede ser útil para explorar un prototipo rápido, pero no alcanza para una práctica evaluable: una respuesta que parece correcta todavía debe cumplir criterios y producir evidencia.
+
+### Ejemplo: alerta visual
+
+```text
+Intención: que una alerta se perciba como un momento importante.
+Requisito: al activarse una alerta, el jugador recibe feedback visual inmediato.
+Spec: la alerta activa un shake único y la cámara vuelve a su posición normal
+en menos de un segundo; no cambia controles, navegación ni detección.
+Prompt: explorá los eventos de alerta, cámara y pruebas existentes; no edites.
+Evidencia: build exitoso, secuencia reproducible y diff acotado.
+```
+
+“Poné un shake copado cuando detecte al jugador” y aceptar el resultado porque se ve intenso es vibe coding: no declara alcance, retorno, criterio ni evidencia.
 
 ## Propósito
 
@@ -91,3 +126,5 @@ Una captura aislada no prueba duración, acumulación ni retorno. La evidencia n
 2. ¿Qué cuatro límites debe declarar un efecto visual?
 3. ¿Por qué una captura no alcanza para demostrar un shake?
 4. ¿Qué evidencia permite saber que una mejora no alteró el alcance técnico?
+5. ¿Qué decisión humana permanece antes de pedir un build al agente?
+6. ¿Cuándo una respuesta plausible se convierte en vibe coding?

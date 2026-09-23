@@ -26,9 +26,9 @@ Retomar la producción de especificaciones que no quedó consolidada en la clase
 
 ## Secuencia
 
-1. **Recuperar specs y planes (10 min).** Explicar que un prompt ayuda a explorar, pero una spec versionada conserva objetivo, alcance y aceptación entre sesiones. Diferenciar evidencia, supuesto y decisión de diseño.
+1. **Antes de usar el agente (15 min).** Explicar la secuencia intención de diseño, requisito, spec, prompt, plan y evidencia. Aclarar que vibe coding es aceptar una respuesta plausible sin contrato ni validación: no significa usar IA. Resolver el ejemplo de alerta visual antes de abrir el repositorio.
 2. **Presentar jugo de juego (15 min).** Mostrar anticipación, impacto y recuperación. Usar el impacto visual extremo de alerta como ejemplo técnico: shake, flash, zoom y partículas no reemplazan la regla del juego.
-3. **Elegir práctica y entrega (15 min).** Presentar los diez upgrades. Cada estudiante selecciona cinco para su repositorio individual; los cinco completos se entregan antes del 6 de octubre a las 23:59.
+3. **Elegir práctica y entrega (10 min).** Cada estudiante declara la intención y un requisito para sus cinco upgrades. Los cinco completos se entregan antes del 6 de octubre a las 23:59.
 4. **Explorar antes de especificar (20 min).** Leer `README.md`, `AGENTS.md`, arquitectura, hitos, pruebas, scripts y estado de Git. Usar el prompt inicial sólo en lectura; el agente debe citar rutas, separar evidencia y usar `question` para decisiones abiertas.
 5. **Especificar y planificar (20 min).** Crear la spec y el plan del primer upgrade. Revisar al menos un criterio por estudiante o pareja; impedir que se autorice escritura sin alcance, restricciones y evidencia prevista.
 6. **Construir un primer incremento (20 min).** Implementar sólo el incremento autorizado, ejecutar la comprobación cercana y revisar el diff.
@@ -37,6 +37,8 @@ Retomar la producción de especificaciones que no quedó consolidada en la clase
 ## Preguntas y respuestas esperables
 
 - ¿Por qué una spec no se reemplaza por un prompt? Porque registra un acuerdo revisable y versionado; el historial de una conversación puede perder contexto, resumirse o no estar disponible.
+- ¿Qué es vibe coding en esta práctica? Aceptar una propuesta o código porque parece correcto, sin declarar criterio, contrastar evidencia ni revisar su alcance.
+- ¿Qué decisión no puede delegarse al agente? La intención de diseño, el alcance aceptable, los criterios y los permisos.
 - ¿Qué diferencia una mecánica de su jugo? La mecánica cambia una regla o decisión; el jugo comunica y enfatiza sus consecuencias mediante feedback.
 - ¿Una prueba aprobada demuestra que el cambio es correcto? Solo demuestra lo cubierto por esa prueba; hay que contrastarla con los criterios de aceptación.
 - ¿Cuándo se debe detener el agente? Ante ambigüedad, falta de permiso, resultado inesperado o condición de riesgo definida.
@@ -52,3 +54,4 @@ Un primer upgrade iniciado en clase y un portafolio individual de al menos cinco
 - No confunde finalización del comando con aceptación del cambio.
 - Relaciona cada efecto visual con un disparador, una duración, un límite y una condición de retorno.
 - No presenta una animación, cámara o interfaz como fuente de verdad de la lógica.
+- Distingue intención, requisito, spec, prompt, plan y evidencia antes de autorizar el build.
