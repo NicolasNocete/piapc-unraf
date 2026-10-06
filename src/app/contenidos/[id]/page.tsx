@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
 import { ContentMarkdown } from "@/app/contenidos/_components/content-markdown";
 import { DeliverySection } from "@/app/contenidos/[id]/_components/delivery-section";
+import { acceptsDeliveries } from "@/lib/content/delivery";
 import { getContent, getContentNavigation, listContent } from "@/lib/content/server";
 
 type Props = { params: Promise<{ id: string }> };
@@ -38,7 +39,7 @@ export default async function ContentPage({ params }: Props) {
         <h1 className="mt-5 text-4xl font-semibold tracking-[-0.045em] sm:text-6xl">{entry.title}</h1>
         {details.length > 0 ? <p className="mt-4 font-mono text-xs uppercase tracking-[0.15em] text-[#52705e]">{details.join(" · ")}</p> : null}
         <div className="mt-10"><ContentMarkdown sourcePath={entry.sourcePath} links={links}>{body}</ContentMarkdown></div>
-        {entry.type === "actividad" ? <DeliverySection activityId={entry.id} /> : null}
+        {acceptsDeliveries(entry) ? <DeliverySection activityId={entry.id} /> : null}
         {navigation.previous || navigation.next ? (
           <nav aria-label="Navegacion entre contenidos" className="mt-14 grid gap-4 border-t border-[#14251d]/10 pt-6 sm:grid-cols-2">
             {navigation.previous ? <Link href={`/contenidos/${navigation.previous.id}`} className="rounded-lg border border-[#14251d]/10 p-4 text-sm transition-colors hover:bg-[#f2f0e8]"><span className="block font-mono text-xs uppercase tracking-[0.14em] text-[#52705e]">Anterior</span><span className="mt-1 block font-medium">{navigation.previous.title}</span></Link> : <span />}

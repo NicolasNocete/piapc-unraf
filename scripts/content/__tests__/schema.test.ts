@@ -1,7 +1,10 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 
-import { contentFrontmatterSchema } from "../../../src/lib/content/schema";
+import { contentFrontmatterSchema, contentManifestSchema, type ContentEntry } from "../../../src/lib/content/schema";
+import { acceptsDeliveries } from "../../../src/lib/content/delivery";
 
 const baseEntry = {
   id: "eje-01-ejemplo",
@@ -52,4 +55,32 @@ test("exige y valida el periodo de disponibilidad de una actividad", () => {
   assert.equal(contentFrontmatterSchema.safeParse(activity).success, true);
   assert.equal(contentFrontmatterSchema.safeParse({ ...activity, disponible_hasta: undefined }).success, false);
   assert.equal(contentFrontmatterSchema.safeParse({ ...activity, disponible_desde: "2026-08-12" }).success, false);
+});
+
+test("admite laboratorios evaluables sin habilitar entregas en otros materiales", () => {
+  const cases: { entry: Pick<ContentEntry, "type" | "evaluable">; expected: boolean }[] = [
+    { entry: { type: "actividad", evaluable: true }, expected: true },
+    { entry: { type: "actividad", evaluable: false }, expected: true },
+    { entry: { type: "laboratorio", evaluable: true }, expected: true },
+    { entry: { type: "laboratorio", evaluable: false }, expected: false },
+    { entry: { type: "laboratorio" }, expected: false },
+    { entry: { type: "lectura", evaluable: true }, expected: false },
+    { entry: { type: "referencia", evaluable: true }, expected: false },
+  ];
+
+  for (const { entry, expected } of cases) {
+    assert.equal(acceptsDeliveries(entry), expected, `${entry.type}: ${String(entry.evaluable)}`);
+  }
+});
+
+test("las consignas publicadas de upgrades y navegacion admiten entregas con sus IDs originales", () => {
+  const manifest = contentManifestSchema.parse(JSON.parse(readFileSync(join(process.cwd(), "content", "manifest.json"), "utf8")));
+  for (const id of ["eje-04-laboratorio-flujo-completo", "eje-05-practica-guiada-navegacion"]) {
+    const entry = manifest.entries.find((item) => item.id === id);
+    assert.ok(entry, `Consigna publicada: ${id}`);
+    assert.equal(acceptsDeliveries(entry), true, id);
+  }
+  const theory = manifest.entries.find((item) => item.id === "eje-05-teoria-navegacion-comportamiento");
+  assert.ok(theory);
+  assert.equal(acceptsDeliveries(theory), false);
 });

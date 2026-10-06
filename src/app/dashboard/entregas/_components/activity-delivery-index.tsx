@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Empty, EmptyDescription, EmptyHeader, EmptyTitle } from "@/components/ui/empty";
 import { listContent } from "@/lib/content/server";
+import { acceptsDeliveries } from "@/lib/content/delivery";
 import { requireCompleteProfile } from "@/lib/profiles/server";
 import { createClient } from "@/lib/supabase/server";
 
@@ -29,7 +30,7 @@ export async function ActivityDeliveryIndex() {
     submissions.push(submission);
     submissionsByActivity.set(submission.activity_id, submissions);
   }
-  const activities = entries.filter((entry) => entry.type === "actividad");
+  const activities = entries.filter(acceptsDeliveries);
 
   return (
     <Card>

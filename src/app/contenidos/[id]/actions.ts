@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import { z } from "zod";
 
 import { getContent } from "@/lib/content/server";
+import { acceptsDeliveries } from "@/lib/content/delivery";
 import { getCurrentProfile, getVerifiedUserId } from "@/lib/profiles/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 
@@ -16,7 +17,7 @@ export async function submitDelivery(_: DeliveryState, formData: FormData): Prom
   if (!parsed.success) return { error: "Escribi una entrega de hasta 20.000 caracteres." };
 
   const [userId, profile, content] = await Promise.all([getVerifiedUserId(), getCurrentProfile(), getContent(parsed.data.activityId)]);
-  if (!profile || profile.role !== "student" || !content || content.entry.type !== "actividad") return { error: "No tenes permiso para entregar esta actividad." };
+  if (!profile || profile.role !== "student" || !content || !acceptsDeliveries(content.entry)) return { error: "No tenes permiso para entregar esta actividad." };
 
   const admin = createAdminClient() as never as { rpc: (name: string, args: Record<string, unknown>) => Promise<{ error: { message: string } | null }> };
   const { error } = await admin.rpc("append_submission_version", {
