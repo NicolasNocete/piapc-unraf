@@ -1082,9 +1082,9 @@
       "type": "indice",
       "audience": "estudiante",
       "access": "publico",
-      "version": 2,
+      "version": 3,
       "sourcePath": "ejes/eje-05-ia-videojuegos/README.md",
-      "digest": "677699f882be2faf0bd6b608d5e448da7d6fa0288e44a1384b402bf1dea9b40d",
+      "digest": "8e309d9996108038ec81d414c1a818fbbe7a93bc686fd8e644267f3052ac45a1",
       "axis": 5,
       "order": 5,
       "level": "obligatorio",
@@ -1240,6 +1240,66 @@
         "eje-05-maquinas-de-estados"
       ],
       "evaluable": true
+    },
+    {
+      "id": "eje-05-teoria-navegacion-comportamiento",
+      "title": "IA para videojuegos: navegación y toma de decisiones",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-05-ia-videojuegos/10-teoria-navegacion-y-comportamiento.md",
+      "digest": "eb80d01a8ff5cc69f80cdd893e425e72e4f0c7edfead63a2b29268715d8bda8c",
+      "axis": 5,
+      "order": 10,
+      "level": "obligatorio",
+      "classes": [
+        9,
+        10
+      ],
+      "modality": "mixta",
+      "durationMinutes": 80,
+      "outcomes": [
+        "RA7",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [],
+      "evaluable": true,
+      "availableFrom": "2026-10-07"
+    },
+    {
+      "id": "eje-05-practica-guiada-navegacion",
+      "title": "Práctica guiada: especificar y verificar una navegación",
+      "type": "actividad",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "ejes/eje-05-ia-videojuegos/11-practica-guiada-navegacion.md",
+      "digest": "8a4898f152fd4aa96286dce587d4f4e6d41d609d2a27d2b80c8aa24449d7feee",
+      "axis": 5,
+      "order": 11,
+      "level": "obligatorio",
+      "classes": [
+        9,
+        10
+      ],
+      "modality": "mixta",
+      "durationMinutes": 180,
+      "outcomes": [
+        "RA3",
+        "RA4",
+        "RA5",
+        "RA7",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-05-teoria-navegacion-comportamiento"
+      ],
+      "evaluable": true,
+      "availableFrom": "2026-10-07",
+      "availableUntil": "2026-10-14"
     },
     {
       "id": "eje-06-herramientas-y-aci",

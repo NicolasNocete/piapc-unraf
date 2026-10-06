@@ -1,20 +1,22 @@
 ---
-summary: "En la clase 8 iniciás un portafolio individual de upgrades: elegí cinco, especificá, planificá, construí y validá cada mejora."
+summary: "Hoy 6/10 cerrás la entrega de cinco upgrades. La clase 9 del miércoles 7/10 es virtual asincrónica: lectura, ejercicios de búsqueda y una práctica guiada de navegación para entregar completa el 14/10."
 actions:
-  - title: Diferenciá intención, spec, prompt y vibe coding antes de construir
-    href: /contenidos/eje-04-jugo-de-juego-feedback
-  - title: Elegí cinco upgrades y empezá cada uno con spec, plan y el prompt de orientación
-    href: /contenidos/eje-04-guia-practica-opencode-guardia
-  - title: Completá el laboratorio de flujo completo en tu repositorio individual
+  - title: "Entrega de hoy 6/10: revisá la consigna de los cinco upgrades (23:59)"
     href: /contenidos/eje-04-laboratorio-flujo-completo
-  - title: Validá el build, depurá por evidencia y revisá cada diff
-    href: /contenidos/eje-04-pruebas-depuracion-y-revision
+  - title: Consultá la guía de upgrades y comprobá el paquete que entregás hoy
+    href: /contenidos/eje-04-guia-practica-opencode-guardia
+  - title: "Leé el apunte integrado: Parte I para el 7/10 y Parte II para el 14/10"
+    href: /contenidos/eje-05-teoria-navegacion-comportamiento
+  - title: "Resolvé la práctica guiada: ejercicio BFS/A*, trazas DFS/Dijkstra y una variante"
+    href: /contenidos/eje-05-practica-guiada-navegacion
+  - title: Consultá el índice del Eje 5 y las lecturas de apoyo de navegación y comportamiento
+    href: /contenidos/eje-05
 tips:
-  - Elegí upgrades que muestren mecánica, feedback y una decisión jugable; no repitas cinco veces la misma mejora visual.
-  - Empezá con lectura, evidencia y preguntas; la spec se acepta antes de pedir código.
-  - Usá `question` para las decisiones de diseño que el repositorio no puede responder.
-  - Conservá el commit inicial, los cambios progresivos, el build y la evidencia de cada upgrade.
-  - "El impacto visual extremo es un ejercicio de herramienta: debe activarse, terminar y volver al estado normal."
-deadline: "Entrega en plataforma: martes 6 de octubre de 2026 a las 23:59."
-note: Entregá la URL de tu repositorio individual, el commit final y al menos cinco upgrades completos. Cada upgrade debe incluir spec, plan, build, validación, evidencia y revisión del diff.
+  - "El 7/10 trabajás de forma asincrónica según el cronograma: lectura más ejercicios y práctica nueva, no sólo lectura."
+  - Seguí los ocho pasos de la guía; copiá la spec común y elegí un único anexo (terreno lento, zonas expuestas o bloqueo dinámico).
+  - Adaptá la spec a tu repositorio y revisá el plan antes de implementar; conservá los upgrades anteriores.
+  - Compará BFS y A* sobre el mismo mapa; explicá las trazas DFS y Dijkstra sin implementar todos los algoritmos.
+  - "Para el 14/10 prepará spec.md, plan.md y evidencia.md, URL del repositorio y commit final; no hay entregas intermedias."
+deadline: "Cinco upgrades: hoy martes 6/10/2026 a las 23:59. Nueva práctica de navegación: entrega única completa en la clase del miércoles 14/10/2026."
+note: "Son dos entregas distintas: hoy cierra el trabajo de upgrades; el 14/10 se entrega todo el trabajo nuevo de navegación. Para el próximo encuentro presencial leé también la Parte II del apunte; esta entrega no exige implementar los patrones de comportamiento que se enseñan ese día."
 ---

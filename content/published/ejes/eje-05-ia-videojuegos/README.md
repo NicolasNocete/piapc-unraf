@@ -10,7 +10,7 @@ clases: [9, 10, 11]
 modalidad: mixta
 resultados: [RA7, RA8, RA11]
 acceso: publico
-version: 2
+version: 3
 ---
 
 # Eje 5. IA y comportamiento en videojuegos
@@ -22,6 +22,8 @@ Seleccionar, implementar y evaluar técnicas de comportamiento según las necesi
 La implementación principal se concentra en **A\*** y **máquinas de estados**. Percepción, seguimiento de caminos, comportamientos de movimiento y locomoción se integran como capas diferenciadas. Los árboles de comportamiento (*behavior trees*), los sistemas de utilidad (*Utility AI*) y GOAP se desarrollan mediante modelos y trazas comparativas.
 
 Los contenidos nuevos se trabajan en las clases 9 (búsqueda y navegación) y 10 (patrones de comportamiento). Los ejercicios de búsqueda de la clase 9 forman parte de la lectura y actividad de A*, no del laboratorio combinado. El laboratorio público de A* y FSM se realiza en la clase 10, cuando ambas lecturas están disponibles. La clase 11 corresponde al segundo parcial práctico, cuya consigna y criterios se mantienen en el espacio docente privado; la clase 13 corresponde únicamente a la entrega del trabajo práctico final.
+
+Para el **7 y 14 de octubre**, usá el [apunte teórico integrado](10-teoria-navegacion-y-comportamiento.md). La [práctica guiada de navegación](11-practica-guiada-navegacion.md) comienza el 7/10 y tiene una entrega única de todo su trabajo en la clase del 14/10: spec común, una variante, plan y evidencia. No incluye implementar los patrones de comportamiento presentados ese día ni sustituye el laboratorio A*/FSM.
 
 ## Recorrido completo
 
@@ -36,6 +38,8 @@ Los contenidos nuevos se trabajan en las clases 9 (búsqueda y navegación) y 10
 | 7 | [Selección e intención de diseño](07-seleccion-e-intencion-de-diseno.md) | Comparación técnica, experiencia y uso de modelos generativos |
 | 8 | [Caso integrador del guardia](08-caso-integrador-guardia.md) | Contratos, traza completa, diagnóstico y casos límite |
 | 9 | [Laboratorio de A* y FSM](09-laboratorio-a-star-y-fsm.md) | Implementación asistida, pruebas y revisión humana |
+| 10 | [Teoría integrada de navegación y comportamiento](10-teoria-navegacion-y-comportamiento.md) | Apunte único para las clases del 7 y 14/10, ejemplos resueltos y comparación de técnicas |
+| 11 | [Práctica guiada de navegación](11-practica-guiada-navegacion.md) | Specs prearmadas, prompts paso a paso y entrega conjunta el 14/10 |
 
 **Estado:** recorrido desarrollado completo.
 
