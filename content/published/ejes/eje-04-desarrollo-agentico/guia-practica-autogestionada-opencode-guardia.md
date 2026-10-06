@@ -8,10 +8,12 @@ eje: 4
 orden: 8
 clases: [5, 8]
 modalidad: mixta
-version: 2
+version: 3
 ---
 
 # Guía práctica autogestionada: OpenCode y Guardia de Sigilo
+
+**Para realizar y entregar los cinco upgrades, abrí la [consigna completa del laboratorio](07-laboratorio-flujo-completo.md).** Allí están reunidos el catálogo, los pasos, los prompts y el box «Entrega» al final de la página. Este documento es una guía complementaria de la misma actividad: no tiene un entregable adicional ni reemplaza la página donde se registra la entrega.
 
 ## Propósito
 

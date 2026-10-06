@@ -1,8 +1,10 @@
 ---
 summary: "Hoy 6/10 cerrás la entrega de cinco upgrades. La clase 9 del miércoles 7/10 es virtual asincrónica: lectura, ejercicios de búsqueda y una práctica guiada de navegación para entregar completa el 14/10."
 actions:
-  - title: "Entregá los cinco upgrades: hoy 6/10 a las 23:59"
+  - title: "Entrega de hoy 6/10: revisá la consigna de los cinco upgrades (23:59)"
     href: /contenidos/eje-04-laboratorio-flujo-completo
+  - title: Consultá la guía de upgrades y comprobá el paquete que entregás hoy
+    href: /contenidos/eje-04-guia-practica-opencode-guardia
   - title: "Leé el apunte integrado: Parte I para el 7/10 y Parte II para el 14/10"
     href: /contenidos/eje-05-teoria-navegacion-comportamiento
   - title: "Resolvé la práctica guiada: ejercicio BFS/A*, trazas DFS/Dijkstra y una variante"

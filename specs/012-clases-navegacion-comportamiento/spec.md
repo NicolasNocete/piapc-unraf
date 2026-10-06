@@ -28,6 +28,8 @@ Aprobación: conversación del 6/10/2026, incluida la instrucción «avanzar». 
 - FR-009: por ampliación explícita del pedido, actualizar Próximas acciones conservando enlace a entrega del 6/10 y agregando los materiales nuevos, con recordatorio de modalidad asincrónica del 7/10.
 - FR-010: preservar la publicación anterior íntegra en el archivo editorial y las dos fechas explícitas: upgrades 6/10 23:59 y navegación en clase del 14/10; no inferir un vencimiento distinto.
 - FR-011: preparar aviso completo copiable para campus con lectura, ejercicios y práctica, elección de una variante y entregable; actualizar guía docente existente.
+- FR-012: presentar una sola tarjeta para la entrega de upgrades en Próximas acciones; la guía de apoyo permanece accesible desde la consigna, sin una segunda tarjeta para el mismo trabajo. Corrección solicitada por el usuario al señalar duplicación visual.
+- FR-013: la tarjeta de upgrades abre una consigna autocontenida con catálogo original, instrucciones, prompts, estructura del paquete y guía de registro en su box de entrega. La guía complementaria remite explícitamente a esa consigna, sin otra entrega ni cambios de alcance.
 
 ## Alcance excluido
 

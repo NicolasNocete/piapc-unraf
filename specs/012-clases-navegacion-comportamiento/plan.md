@@ -24,3 +24,7 @@ Pedido explícito posterior: actualizar `content/upcoming-actions.md`, preservar
 Conservar las fechas expresamente aprobadas, que prevalecen sobre una inferencia de vencimiento al día anterior. Los enlaces de acciones usan `/contenidos/ID`; el aviso remite a la sección del sitio por nombre porque no se conoce el dominio público. No enlazar rutas de docentes ni rutas de revisión de entregas reservadas al profesor.
 
 Para esta ampliación, la skill de publicación requiere `npm run check`. Verificar además YAML y referencias contra manifiesto. Runtime sólo si hay servidor disponible; no se modifica código de interfaz.
+
+## Corrección de duplicación y consigna completa
+
+FR-012/013: archivar la publicación de cinco tarjetas, dejar una tarjeta de upgrades que enlace `eje-04-laboratorio-flujo-completo` y consolidar en su fuente el catálogo original, los prompts, el paquete y el registro de entrega. La guía complementaria mantiene su contenido y añade un enlace explícito a la consigna con formulario. Sin añadir upgrades, plazos o entregas. Sincronizar fuentes y verificar con `content:check`, `test:content` y `check`.

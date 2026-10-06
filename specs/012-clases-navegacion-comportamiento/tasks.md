@@ -6,6 +6,8 @@
 - [x] T4: actualizar índice, sincronizar y verificar metadatos/enlaces y ejemplos. FR-008; AC-005.
 - [x] T5: preservar publicación, enlazar entrega de hoy y materiales nuevos; redactar aviso y actualizar guía docente. FR-009/010/011.
 - [x] T6: validar YAML/IDs, revisar archivo y fechas, ejecutar `npm run check`. AC-006.
+- [x] T7: archivar publicación y unificar tarjeta de entrega de upgrades; validar publicación y check. FR-012.
+- [x] T8: completar la consigna fuente de upgrades y remitir la guía complementaria a su box; sincronizar y verificar. FR-013.
 
 ## Evidencia de verificación
 
@@ -23,3 +25,10 @@
 - Fechas explícitas conservadas: 6/10 23:59 y clase del 14/10; modalidad virtual asincrónica del 7/10 contrastada con cronograma generado.
 - `npm run check` aprobado: lint, typecheck, content:check y build de producción.
 - Sin servidor de desarrollo descubierto: no se realizó inspección en navegador. No se cambió código de UI.
+
+### Corrección de duplicación y consigna completa
+
+- Una única tarjeta enlaza el laboratorio de upgrades con box habilitado; cuatro enlaces del anuncio validados contra manifiesto.
+- Archivo editorial de cinco tarjetas preservado íntegramente respecto a HEAD.
+- Consigna fuente versión 3: catálogo de diez opciones original, ciclo y prompts, estructura de cinco paquetes y texto copiable para registrar entrega. Guía complementaria versión 3 remite a esa página.
+- `npm run content:sync`, seis pruebas de `npm run test:content` y `npm run check` aprobados. Sin inspección visual autenticada por ausencia de servidor/sesión de prueba.
