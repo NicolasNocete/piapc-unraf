@@ -1,9 +1,5 @@
 # Aviso para campus — clase del 14/10/2026
 
-Nota editorial: el PDF `Game_AI_Architecture.pdf` y la imagen están pendientes de incorporación: se requieren los originales o enlaces de descarga. Una vez cargados en el apunte enlazado, reemplazar la oración de material por: «En este recurso encontrarán también el PDF y la imagen de resumen del Eje 5».
-
----
-
 **Asunto: PIAPC — clase virtual del 14/10, entrega del TP y adelanto del proyecto final**
 
 Hola a todos/as:
@@ -13,6 +9,8 @@ La clase de **hoy, miércoles 14 de octubre, será virtual** por la coincidencia
 ## Material del Eje 5
 
 Para repasar navegación y toma de decisiones en videojuegos, consulten el [apunte integrado del Eje 5](https://unraf-piapc.vercel.app/contenidos/eje-05-teoria-navegacion-comportamiento), especialmente la Parte II sobre patrones de comportamiento.
+
+**En ese mismo recurso encontrarán el PDF y la imagen de resumen del Eje 5**, agregados para la clase del 14/10.
 
 ## Entrega y correcciones del TP
 

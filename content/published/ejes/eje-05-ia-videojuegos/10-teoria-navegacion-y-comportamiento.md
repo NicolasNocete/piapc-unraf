@@ -21,6 +21,17 @@ disponible_desde: "2026-10-07"
 
 **Apunte teórico integrado — clases del 7 y 14 de octubre de 2026.**
 
+## Resumen del Eje 5 — clase del 14/10
+
+Material de repaso sobre arquitectura por capas, búsqueda y navegación, percepción y memoria, y técnicas de toma de decisiones: FSM, árboles de comportamiento, utilidad y GOAP.
+
+- [Abrir el PDF: El cerebro del agente — navegación y toma de decisiones (15 páginas)](https://unraf-piapc.vercel.app/Game_AI_Architecture.pdf).
+- [Abrir la imagen de resumen en tamaño completo](https://unraf-piapc.vercel.app/resumen-eje-05-navegacion-decisiones.png).
+
+![Resumen del Eje 5: decisiones mediante FSM, árboles, utilidad y GOAP basadas en percepción y memoria; navegación mediante espacio de estados, BFS y A*, seguimiento, steering y locomoción.](https://unraf-piapc.vercel.app/resumen-eje-05-navegacion-decisiones.png)
+
+Estos recursos complementan el apunte desarrollado a continuación.
+
 ## Propósito y recorrido
 
 Este documento reúne las dos clases del Eje 5. La primera parte explica cómo representar un problema de navegación, buscar una ruta y convertirla en movimiento. La segunda explica cómo elegir qué hacer mediante patrones de comportamiento. El caso conductor es un guardia en un juego de sigilo.

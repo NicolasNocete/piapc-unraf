@@ -1,6 +1,6 @@
 # Aviso y materiales del 14 de octubre
 
-Estado: Approved para la actualización editorial; incorporación de adjuntos bloqueada por falta de archivos originales.
+Estado: Implemented.
 
 ## Objetivo y valor
 
@@ -21,12 +21,12 @@ Publicación en campus, despliegue, modificación de calificaciones, nuevas cond
 
 Documentación pública sin datos personales ni modificaciones de base de datos.
 
-## Dependencias pendientes
+## Archivos y dominio confirmados
 
-Los archivos originales no están disponibles en el workspace ni en Descargas con el nombre del PDF. Se necesita su ubicación o enlaces de descarga. El dominio público confirmado por el usuario es `https://unraf-piapc.vercel.app`; el aviso usa enlaces absolutos clickeables para copiar al campus. No se anuncia la disponibilidad efectiva de los adjuntos hasta cargarlos.
+El usuario indicó `C:\Users\nicon\Desktop`, donde están `Game_AI_Architecture.pdf` y `Navegación_y_decisiones_con_IA.png`. Se incorporan íntegros en `public/`, con enlaces y vista de la imagen desde el apunte existente de las clases 9 y 10. El dominio público confirmado es `https://unraf-piapc.vercel.app`; el aviso usa enlaces absolutos clickeables para copiar al campus.
 
 ## Aceptación
 
 - AC-001: aviso contiene FR-001/002/003 y enlace válido al apunte existente (FR-004).
 - AC-002: cronograma fuente, índice y apunte identifican el 14/10 como virtual; contenido generado pasa `content:check`.
-- AC-003: al recibir los originales, ambos archivos son accesibles desde el apunte y se puede anunciar su disponibilidad. Pendiente.
+- AC-003: ambos originales están incorporados sin alteraciones, el apunte enlaza PDF e imagen, muestra el resumen visual y el aviso anuncia ambos materiales.
