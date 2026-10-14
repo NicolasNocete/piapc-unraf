@@ -23,7 +23,7 @@ Documentación pública sin datos personales ni modificaciones de base de datos.
 
 ## Dependencias pendientes
 
-Los archivos originales no están disponibles en el workspace ni en Descargas con el nombre del PDF. Se necesita su ubicación o enlaces de descarga. Tampoco se confirmó el dominio público; el aviso usa rutas del sitio, que deben completarse con su dominio antes de copiarlo al campus. No se anuncia la disponibilidad efectiva de los adjuntos hasta cargarlos.
+Los archivos originales no están disponibles en el workspace ni en Descargas con el nombre del PDF. Se necesita su ubicación o enlaces de descarga. El dominio público confirmado por el usuario es `https://unraf-piapc.vercel.app`; el aviso usa enlaces absolutos clickeables para copiar al campus. No se anuncia la disponibilidad efectiva de los adjuntos hasta cargarlos.
 
 ## Aceptación
 
