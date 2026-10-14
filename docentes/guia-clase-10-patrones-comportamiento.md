@@ -1,7 +1,7 @@
 # Guía docente: clase 10 - Patrones de comportamiento
 
 **Fecha:** 14 de octubre de 2026<br>
-**Modalidad:** presencial<br>
+**Modalidad:** virtual por coincidencia con Marketing Digital; la próxima clase retoma la presencialidad.<br>
 **Duración:** 120 minutos
 
 ## Propósito
@@ -12,6 +12,7 @@ Seleccionar y justificar FSM, árboles de comportamiento, utilidad o GOAP para u
 
 1. Revisar los materiales del Eje 5 y el laboratorio de A* y FSM.
 2. Preparar un caso de guardia o personaje con decisiones observables.
+3. Compartir el aviso de campus: entrega de una sola mejora de navegación, correcciones del TP anterior y borrador de GDD para conversar sobre el proyecto final en la próxima clase presencial.
 
 ## Materiales
 

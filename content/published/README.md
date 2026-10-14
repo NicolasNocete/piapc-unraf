@@ -63,7 +63,7 @@ El recorrido práctico utiliza el laboratorio [Guardia de Sigilo](https://github
 | 7 | 23/09/2026 | Virtual asincrónica | Ejes 4, 6 y 7; presentación del TP final |
 | 8 | 30/09/2026 | Presencial | Ejes 3, 4 y 6 |
 | 9 | 07/10/2026 | Virtual asincrónica | Eje 5: búsqueda y navegación |
-| 10 | 14/10/2026 | Presencial | Eje 5: patrones de comportamiento |
+| 10 | 14/10/2026 | Virtual | Eje 5: patrones de comportamiento |
 | 11 | 21/10/2026 | Virtual asincrónica | Segundo hito evaluativo del portafolio (examen parcial práctico); sin contenidos nuevos |
 | 12 | 28/10/2026 | Presencial | Síntesis de los ejes 6 y 7 |
 | 13 | 04/11/2026 | Virtual asincrónica | Entrega del TP final |

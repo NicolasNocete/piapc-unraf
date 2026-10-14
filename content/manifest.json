@@ -1249,7 +1249,7 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "ejes/eje-05-ia-videojuegos/10-teoria-navegacion-y-comportamiento.md",
-      "digest": "eb80d01a8ff5cc69f80cdd893e425e72e4f0c7edfead63a2b29268715d8bda8c",
+      "digest": "edecd70415ec1fb4452f7255e7b0ee8329aa827f2fedc342f1b15155597fd86f",
       "axis": 5,
       "order": 10,
       "level": "obligatorio",
@@ -1955,7 +1955,7 @@
       "access": "publico",
       "version": 1,
       "sourcePath": "README.md",
-      "digest": "986cee3e24442ee5b7861d66e22c16269583c55a77d1d938c915c88841a88746"
+      "digest": "81dd60f08fe4efaf2643a383439d62ce322ad0310c3323ecdc1dd56c71b3d1cb"
     },
     {
       "id": "soluciones-liberables",

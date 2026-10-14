@@ -28,7 +28,9 @@ Este documento reúne las dos clases del Eje 5. La primera parte explica cómo r
 | Clase | Lectura | Pregunta principal |
 |---|---|---|
 | 9 — 7/10, virtual asincrónica | Parte I, secciones 1 a 9 | ¿Cómo puede llegar el guardia a un destino válido? |
-| 10 — 14/10, presencial | Parte II, secciones 10 a 16 | ¿Por qué el guardia decide ir a ese destino? |
+| 10 — 14/10, virtual | Parte II, secciones 10 a 16 | ¿Por qué el guardia decide ir a ese destino? |
+
+La clase del **14/10 será virtual por coincidencia con Marketing Digital**. En la próxima clase se retoma la presencialidad.
 
 La duración es una estimación de lectura de ambas partes, no de las clases. Los ejemplos explican mecanismos; no son consignas de entrega. La actividad correspondiente está en la [práctica guiada de navegación](11-practica-guiada-navegacion.md).
 
