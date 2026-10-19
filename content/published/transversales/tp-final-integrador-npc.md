@@ -4,7 +4,7 @@ titulo: "TP final integrador: IA para NPC en un videojuego"
 tipo: actividad
 audiencia: estudiante
 acceso: publico
-version: 2
+version: 3
 eje: 5
 orden: 12
 nivel: obligatorio
@@ -35,6 +35,8 @@ Construir un **prototipo pequeño y funcional** donde uno o más NPC (personajes
 Se busca aplicar los contenidos de la materia con **OpenCode y un proceso spec-driven básico**. No se pide un videojuego completo: prioricen un escenario acotado, pocos agentes y controles que permitan probar las alternativas. Pueden continuar un proyecto trabajado en clase o iniciar uno pequeño.
 
 Los 30 minutos indicados en la ficha orientan la lectura y organización inicial, no la duración total del desarrollo.
+
+**¿No sabés por dónde empezar?** Consultá [Cómo comenzar el TP final](tp-final-como-comenzar.md): crear y clonar el repositorio, iniciar OpenCode y usar un prompt guiado para preparar el GDD, las specs y comenzar a implementar.
 
 ## Requisitos mínimos
 
@@ -128,15 +130,6 @@ Es un ejemplo de una funcionalidad, no la especificación completa del TP: aún 
 4. **Ejecutar con OpenCode.** Pedirle que lea el GDD y una spec, proponga un plan corto y luego implemente esa funcionalidad. Revisar el plan antes de autorizar cambios. Avanzar de a una funcionalidad.
 5. **Jugar, revisar y ajustar.** Ejecutar el prototipo, generar escenarios, activar las alternativas y comprobar la spec jugando. Revisar los cambios y corregir errores. Probar al menos un caso normal y uno problemático, como un destino sin camino o un obstáculo. No hace falta producir un informe separado de estas pruebas.
 6. **Preparar la exposición.** Demostrar distintos escenarios jugando, seleccionar los métodos y mostrar cómo se adaptan las rutas y el patrullaje, si lo hay. Explicar las diferencias observadas, aunque dos métodos produzcan la misma ruta en algún caso. No se pide una comparación con idéntico mapa, inicio y objetivo, ni tablas o métricas adicionales.
-
-Ejemplo de pedido inicial a OpenCode:
-
-```text
-Leé el GDD y specs/persecucion.md. Explorá el proyecto sin modificarlo.
-Proponé un plan corto para implementar esa funcionalidad y cómo probarla.
-No agregues combate ni otras funciones fuera de alcance.
-Esperá mi revisión antes de implementar.
-```
 
 No se pide guardar conversaciones completas, capturas de cada paso ni una carpeta de evidencias. Lo central es un prototipo funcional, documentación breve y comprensión de lo realizado.
 

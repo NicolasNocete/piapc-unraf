@@ -1309,9 +1309,9 @@
       "type": "actividad",
       "audience": "estudiante",
       "access": "publico",
-      "version": 2,
+      "version": 3,
       "sourcePath": "transversales/tp-final-integrador-npc.md",
-      "digest": "0ae624a03777b2dab5a4fe04767ac6be5448ff130a20f02f557975c79a145635",
+      "digest": "916cabb895ba080c842cf42779029cb243eddea158304f2f3ca479d7ab20cc4f",
       "axis": 5,
       "order": 12,
       "level": "obligatorio",
@@ -1333,6 +1333,35 @@
       "evaluable": true,
       "availableFrom": "2026-10-19",
       "availableUntil": "2026-11-03"
+    },
+    {
+      "id": "tp-final-como-comenzar",
+      "title": "Cómo comenzar el TP final",
+      "type": "lectura",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "transversales/tp-final-como-comenzar.md",
+      "digest": "8eaa9cd7ca7d098ff00b40abf0b63a45f000b04575de94ee4b4b6a58718000ca",
+      "axis": 5,
+      "order": 13,
+      "level": "obligatorio",
+      "classes": [
+        11,
+        12,
+        13
+      ],
+      "modality": "mixta",
+      "durationMinutes": 20,
+      "outcomes": [
+        "RA7",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "tp-final-integrador-npc"
+      ],
+      "evaluable": false
     },
     {
       "id": "eje-06-herramientas-y-aci",
@@ -1816,9 +1845,9 @@
       "type": "indice",
       "audience": "publica",
       "access": "publico",
-      "version": 2,
+      "version": 3,
       "sourcePath": "transversales/README.md",
-      "digest": "8423ecd04243a674f939a54c49ac4da07c05b2db6e728f250db557e5bfa50b43"
+      "digest": "be14ff88a81e3e3711ac0fc7b4814683daaa80430ec44fec5d7d14ab5de1e1be"
     },
     {
       "id": "transversal-eje-02-fichas-seleccion-modelos",

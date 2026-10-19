@@ -4,7 +4,7 @@ titulo: Contenidos transversales
 tipo: indice
 audiencia: publica
 acceso: publico
-version: 2
+version: 3
 ---
 
 # Contenidos transversales
@@ -28,3 +28,4 @@ Todos los paquetes son autocontenidos, saneados y utilizables sin credenciales n
 ## Trabajo integrador
 
 - [TP final integrador: IA para NPC en un videojuego](tp-final-integrador-npc.md). Reemplaza el segundo parcial y se unifica con el TP final. Individual o hasta dos integrantes; entrega el **3/11/2026** y presentación y exposición el **4/11/2026**.
+- [Cómo comenzar el TP final](tp-final-como-comenzar.md). Guía para crear el repositorio público, iniciar OpenCode y preparar GDD y specs con un prompt guiado. No es otra actividad ni tiene entrega separada.
