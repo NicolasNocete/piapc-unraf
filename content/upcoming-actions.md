@@ -1,13 +1,12 @@
 ---
 summary: "Comenzamos el TP final integrador de IA para NPC: reemplaza el segundo parcial y se unifica con el TP final. Trabajá individualmente o en un equipo de hasta 2 integrantes, con OpenCode y un flujo GDD → specs → ejecución."
 actions:
-  - title: "Leé la consigna del TP final: entrega el 3/11 y exposición el 4/11"
-    href: /contenidos/tp-final-integrador-npc
-  - title: "Prepará el repositorio público, el GDD breve y tu primera spec"
+  - title: "TP final integrador: consigna y entrega"
     href: /contenidos/tp-final-integrador-npc
   - title: "Elegí algoritmos de búsqueda, alternativas de navegación y comportamiento para tus NPC"
     href: /contenidos/eje-05
 tips:
+  - "Para empezar, prepará el repositorio público, el GDD breve y tu primera spec."
   - "Elegí un escenario pequeño: guardia y ladrón, robot recolector, rescate u otra propuesta equivalente."
   - "Implementá al menos 2 algoritmos de búsqueda y 2 alternativas de navegación; podés agregar más. FSM es una opción válida de comportamiento."
   - "Spec-driven básico es definir comportamiento, límites y cómo comprobarlo antes de implementar; la consigna incluye un ejemplo."
