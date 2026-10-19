@@ -23,7 +23,8 @@ Destrabar el desarrollo del TP final integrador, comparar las alternativas de b�
 ## Secuencia
 
 1. Revisar el alcance y priorizar lo imprescindible para terminar.
-2. Demostrar las búsquedas sobre el mismo escenario y las alternativas de navegación por separado.
+2. Jugar el prototipo, generar distintos escenarios válidos y seleccionar las alternativas de búsqueda y navegación para observar su funcionamiento.
+   Revisar que el patrullaje adapte sus rutas. No confundir cambiar el mapa con implementar otra navegación; no exigir reproducción exacta ni comparación con condiciones idénticas.
 3. Revisar la FSM u otra arquitectura y su correspondencia con los objetivos del NPC.
 4. Usar OpenCode para cambios acotados, revisar y probar; actualizar specs cuando sea necesario.
 5. Comprobar instrucciones de ejecución, acceso público y ausencia de secretos.

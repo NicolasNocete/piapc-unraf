@@ -11,3 +11,7 @@
 ## Rollout y límites
 
 Los cambios quedan preparados en el repositorio para el despliegue habitual. No se realiza despliegue, commit ni escritura en base. El mecanismo vigente permite versiones tardías; la fecha es editorial, no se añade un cierre técnico. Cada estudiante registra su envío individual, aunque comparta proyecto con otra persona.
+
+## Ampliación aprobada: escenarios variables obligatorios
+
+Actualizar la consigna fuente a versión 2 conservando ID y fechas (FR-008, AC-006). Incorporar generación sencilla que modifique rutas, variantes válidas, patrullaje adaptativo e instrucciones para generar otro escenario y demostrar las alternativas jugando. Quitar semillas, guardado, reproducción exacta y comparación con condiciones idénticas como requisitos. Alinear aviso de campus y guías de taller/exposición. Regenerar la réplica con `content:sync`, validar enlaces e integridad y ejecutar `npm run check`. Sin cambios de UI, Supabase, evaluación ni publicación de Próximas acciones. Commit y push autorizados explícitamente para esta actualización.

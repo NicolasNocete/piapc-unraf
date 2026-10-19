@@ -5,8 +5,11 @@
 - [x] T-003 (FR-006, AC-003): archivar publicación anterior íntegra y actualizar Próximas acciones.
 - [x] T-004 (AC-001–004): regenerar réplicas y artefacto académico; validar contenido, metadatos, recepción por regla existente, enlaces y archivo histórico.
 - [x] T-005 (AC-005): ejecutar pruebas de contenido y `npm run check`; registrar alcance y límites de runtime.
+- [x] T-006 (FR-008, AC-006): exigir escenarios variables y patrullaje adaptativo observables jugando, sin semillas, guardado ni comparación controlada, en consigna, ejemplo, flujo, presentación y apoyos docentes; regenerar y verificar.
 
 ## Verificación final
+
+Ampliación FR-008: consigna versión 2, ejemplo, flujo, instrucciones, exposición, aviso y guías docentes revisados. Se conserva la obligación de escenarios variables y patrullaje adaptativo observables jugando, quitando reproducción exacta y comparación controlada. `content:sync` y `npm run check` correctos. Sin cambios de UI ni comprobación en navegador para esta ampliación editorial. Commit y push autorizados en la conversación.
 
 - `content:sync` y `content:check`: correctos; réplicas regeneradas desde fuentes que coincidían con el manifiesto antes de editar.
 - `test:content`: 6/6 pruebas correctas.

@@ -22,8 +22,10 @@ Demostrar y explicar los prototipos entregados el **3/11/2026**, con exposición
 ## Secuencia
 
 1. Presentar la idea y demostrar el escenario y objetivos de los NPC.
-2. Comparar algoritmos de búsqueda sobre el mismo caso, indicando funcionamiento y diferencias observadas.
+   Jugar y mostrar distintos escenarios generados y explicar las reglas que los mantienen válidos y jugables.
+2. Seleccionar algoritmos de búsqueda durante el juego, indicando funcionamiento y diferencias observadas, sin exigir condiciones idénticas, tablas ni métricas.
 3. Mostrar las alternativas de navegación y la respuesta a obstáculos o destinos sin camino.
+   Comprobar jugando que el patrullaje, si lo hay, calcula rutas válidas y se adapta al mapa, en lugar de reproducir una trayectoria fija preparada.
 4. Explicar percepción, memoria, objetivos y decisiones; mostrar la FSM u otra técnica utilizada.
 5. Mostrar una spec y explicar el uso de OpenCode y las correcciones humanas.
 6. Identificar limitaciones y mejoras; preguntar a cada integrante por su aporte y el funcionamiento general.

@@ -6,6 +6,8 @@ Pueden trabajar **individualmente o en equipos de hasta 2 integrantes**. La prop
 
 El prototipo debe permitir comparar **al menos 2 algoritmos de búsqueda y 2 alternativas de navegación**; pueden incorporar más. Para organizar el comportamiento pueden usar **FSM (máquinas de estados finitos)**, árboles de comportamiento, sistemas de utilidad o GOAP, según las necesidades del proyecto.
 
+También es **obligatorio generar escenarios variables**, mediante reglas procedurales o aleatoriedad sencilla que cambie obstáculos, pasajes o costos y afecte los recorridos. No hace falta un generador complejo: los escenarios deben ser jugables y permitir cumplir los objetivos. Si hay patrullaje, debe adaptar sus rutas al escenario, no limitarse a una trayectoria fija preparada. Las alternativas se observarán jugando el prototipo; en la exposición mostrarán distintos escenarios y explicarán cómo responden los métodos, sin necesidad de repetir exactamente las mismas condiciones ni preparar una comparación formal.
+
 Trabajaremos con **OpenCode** siguiendo un flujo sencillo: **GDD → specs → ejecución, prueba y ajuste**. Una spec es una descripción breve de qué debe hacer una funcionalidad, qué queda afuera y cómo comprobar que funciona, escrita antes de implementarla. La consigna incluye un ejemplo y propuestas de proyectos.
 
 **Fechas importantes:**

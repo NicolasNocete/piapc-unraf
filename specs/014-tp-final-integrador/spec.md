@@ -21,6 +21,7 @@ Publicar una consigna realizable que unifique el segundo parcial con el TP final
 - FR-005: reutilizar entregas individuales existentes: cada integrante envía el mismo repositorio e identifica el equipo. No implementar coautoría ni registrar envíos ficticios.
 - FR-006: archivar Próximas acciones sin cambios y reemplazar su publicación con enlaces válidos a la consigna y apoyos pertinentes.
 - FR-007: alinear programa fuente, índice editorial y guías docentes: inicio 21/10, taller 28/10, entrega 3/11, exposición 4/11 y sin actividades el 11/11. Mantener porcentajes y umbrales académicos existentes; eliminar la obligación de un segundo parcial separado.
+- FR-008: exigir variación procedural o aleatoria sencilla del escenario que afecte las rutas y permita generar otra variante válida. Mostrar jugando cómo funcionan las búsquedas, la navegación y los comportamientos en distintos escenarios. El patrullaje no puede depender exclusivamente de trayectorias fijas preparadas: sus puntos deben ser válidos y las rutas calcularse según el mapa. No exigir semillas, guardado, reproducción exacta, comparación con mapa/inicio/objetivo idénticos, métricas, tablas ni documentación adicional.
 
 ## Fuera de alcance
 
@@ -41,3 +42,4 @@ No se acordó hora de cierre: publicar sólo el día 3/11, sin inventar hora ni 
 - AC-003 (FR-006): archivo histórico idéntico al original y enlaces de Próximas acciones resuelven a IDs publicados.
 - AC-004 (FR-007): programa y guías actuales reflejan fechas definitivas, sustitución del parcial y última semana sin actividades.
 - AC-005: sincronización, validación editorial, pruebas de contenido y `npm run check` pasan. Verificar runtime si hay servidor disponible; declarar cualquier limitación de sesión.
+- AC-006 (FR-008): consigna, ejemplo de spec, flujo, instrucciones de ejecución y exposición exigen escenarios variables y rutas adaptativas observables jugando, sin confundir variación de escenario con las dos alternativas de navegación. No exigen semillas, guardado ni comparación controlada. Simplificación aprobada en la conversación con «avanzar, commit y push».
