@@ -4,7 +4,7 @@ titulo: Contenidos transversales
 tipo: indice
 audiencia: publica
 acceso: publico
-version: 1
+version: 2
 ---
 
 # Contenidos transversales
@@ -24,3 +24,7 @@ Las actividades deben enlazar estos paquetes cuando necesiten registros comunes,
 | 7 | [Paquete adversarial y trazas](eje-07-paquete-adversarial.md) | artefactos no confiables, dos ejecuciones y recuperación |
 
 Todos los paquetes son autocontenidos, saneados y utilizables sin credenciales ni servicios pagos. Sus resultados se presentan como datos de ejercicio: pueden ser incompletos o defectuosos y no constituyen teoría, soluciones ni decisiones resueltas.
+
+## Trabajo integrador
+
+- [TP final integrador: IA para NPC en un videojuego](tp-final-integrador-npc.md). Reemplaza el segundo parcial y se unifica con el TP final. Individual o hasta dos integrantes; entrega el **3/11/2026** y presentación y exposición el **4/11/2026**.

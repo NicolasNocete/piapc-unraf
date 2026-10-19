@@ -1082,16 +1082,18 @@
       "type": "indice",
       "audience": "estudiante",
       "access": "publico",
-      "version": 3,
+      "version": 4,
       "sourcePath": "ejes/eje-05-ia-videojuegos/README.md",
-      "digest": "8e309d9996108038ec81d414c1a818fbbe7a93bc686fd8e644267f3052ac45a1",
+      "digest": "65f96314f37c0b1a6beb07537410f592ce2c3017981f739f2d1aeaae7225aab3",
       "axis": 5,
       "order": 5,
       "level": "obligatorio",
       "classes": [
         9,
         10,
-        11
+        11,
+        12,
+        13
       ],
       "modality": "mixta",
       "outcomes": [
@@ -1218,9 +1220,9 @@
       "type": "laboratorio",
       "audience": "estudiante",
       "access": "publico",
-      "version": 1,
+      "version": 2,
       "sourcePath": "ejes/eje-05-ia-videojuegos/09-laboratorio-a-star-y-fsm.md",
-      "digest": "2b6843b9cb57e467a30c44e759c8ee325d5c906d948db39f365646aa3bbe2bbd",
+      "digest": "45ae4ddb55a21936bc5ac5e20b48297b535ee6923008d5100aa4a1d911b7fefa",
       "axis": 5,
       "order": 9,
       "level": "obligatorio",
@@ -1300,6 +1302,37 @@
       "evaluable": true,
       "availableFrom": "2026-10-07",
       "availableUntil": "2026-10-14"
+    },
+    {
+      "id": "tp-final-integrador-npc",
+      "title": "TP final integrador: IA para NPC en un videojuego",
+      "type": "actividad",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "transversales/tp-final-integrador-npc.md",
+      "digest": "1a66f1af2565a78e4d2eedd96e86b0989fcfb2cc7a091db28eebb82798555748",
+      "axis": 5,
+      "order": 12,
+      "level": "obligatorio",
+      "classes": [
+        11,
+        12,
+        13
+      ],
+      "modality": "mixta",
+      "durationMinutes": 30,
+      "outcomes": [
+        "RA7",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "eje-05"
+      ],
+      "evaluable": true,
+      "availableFrom": "2026-10-19",
+      "availableUntil": "2026-11-03"
     },
     {
       "id": "eje-06-herramientas-y-aci",
@@ -1783,9 +1816,9 @@
       "type": "indice",
       "audience": "publica",
       "access": "publico",
-      "version": 1,
+      "version": 2,
       "sourcePath": "transversales/README.md",
-      "digest": "ef5588cf20318e5f2bb22d16c04cbf5e71180271a30753cce3444fcfcb2be837"
+      "digest": "8423ecd04243a674f939a54c49ac4da07c05b2db6e728f250db557e5bfa50b43"
     },
     {
       "id": "transversal-eje-02-fichas-seleccion-modelos",
@@ -1953,9 +1986,9 @@
       "type": "indice",
       "audience": "publica",
       "access": "publico",
-      "version": 1,
+      "version": 2,
       "sourcePath": "README.md",
-      "digest": "81dd60f08fe4efaf2643a383439d62ce322ad0310c3323ecdc1dd56c71b3d1cb"
+      "digest": "478a9eeec6557bb05440ff0a8e66c3b7d3085d97516e7fa2c04c49ac53664939"
     },
     {
       "id": "soluciones-liberables",

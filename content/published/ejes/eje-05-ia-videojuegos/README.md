@@ -6,11 +6,11 @@ orden: 5
 tipo: indice
 nivel: obligatorio
 audiencia: estudiante
-clases: [9, 10, 11]
+clases: [9, 10, 11, 12, 13]
 modalidad: mixta
 resultados: [RA7, RA8, RA11]
 acceso: publico
-version: 3
+version: 4
 ---
 
 # Eje 5. IA y comportamiento en videojuegos
@@ -21,7 +21,7 @@ Seleccionar, implementar y evaluar técnicas de comportamiento según las necesi
 
 La implementación principal se concentra en **A\*** y **máquinas de estados**. Percepción, seguimiento de caminos, comportamientos de movimiento y locomoción se integran como capas diferenciadas. Los árboles de comportamiento (*behavior trees*), los sistemas de utilidad (*Utility AI*) y GOAP se desarrollan mediante modelos y trazas comparativas.
 
-Los contenidos nuevos se trabajan en las clases 9 (búsqueda y navegación) y 10 (patrones de comportamiento). Los ejercicios de búsqueda de la clase 9 forman parte de la lectura y actividad de A*, no del laboratorio combinado. El laboratorio público de A* y FSM se realiza en la clase 10, cuando ambas lecturas están disponibles. La clase 11 corresponde al segundo parcial práctico, cuya consigna y criterios se mantienen en el espacio docente privado; la clase 13 corresponde únicamente a la entrega del trabajo práctico final.
+Los contenidos nuevos se trabajan en las clases 9 (búsqueda y navegación) y 10 (patrones de comportamiento). Los ejercicios de búsqueda de la clase 9 forman parte de la lectura y actividad de A*, no del laboratorio combinado. El laboratorio público de A* y FSM se realiza en la clase 10, cuando ambas lecturas están disponibles. Desde la clase 11 se trabaja en el [TP final integrador de IA para NPC](../../transversales/tp-final-integrador-npc.md), que reemplaza el segundo parcial y se unifica con el TP final. El 28/10 se realiza el taller, el **3/11** se entrega y el **4/11** se presenta y expone. El 11/11 no tiene actividades.
 
 Para el **7 y 14 de octubre**, usá el [apunte teórico integrado](10-teoria-navegacion-y-comportamiento.md). La [práctica guiada de navegación](11-practica-guiada-navegacion.md) comienza el 7/10 y tiene una entrega única de todo su trabajo en la clase del 14/10: spec común, una variante, plan y evidencia. No incluye implementar los patrones de comportamiento presentados ese día ni sustituye el laboratorio A*/FSM.
 
@@ -40,6 +40,7 @@ Para el **7 y 14 de octubre**, usá el [apunte teórico integrado](10-teoria-nav
 | 9 | [Laboratorio de A* y FSM](09-laboratorio-a-star-y-fsm.md) | Implementación asistida, pruebas y revisión humana |
 | 10 | [Teoría integrada de navegación y comportamiento](10-teoria-navegacion-y-comportamiento.md) | Apunte único para las clases del 7 y 14/10, ejemplos resueltos y comparación de técnicas |
 | 11 | [Práctica guiada de navegación](11-practica-guiada-navegacion.md) | Specs prearmadas, prompts paso a paso y entrega conjunta el 14/10 |
+| 12 | [TP final integrador: IA para NPC](../../transversales/tp-final-integrador-npc.md) | GDD → specs → ejecución con OpenCode; entrega el 3/11 y exposición de métodos el 4/11 |
 
 **Estado:** recorrido desarrollado completo.
 
@@ -73,6 +74,8 @@ mundo → percepción → memoria → decisión → búsqueda → seguimiento
 | Implementación, evidencia y revisión | 8 y 9 |
 
 ## Evidencia esperada
+
+Los siguientes puntos corresponden a los ejercicios y laboratorios del eje. Para el TP final rige su consigna específica: documentación breve y demostración, sin informe extenso ni carpeta de evidencias.
 
 - Traza comparada de BFS, DFS y A*.
 - Implementación o refactorización de A* y una FSM.

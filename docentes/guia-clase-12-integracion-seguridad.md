@@ -1,4 +1,4 @@
-# Guía docente: clase 12 - Integración, evaluación y seguridad
+# Guía docente: clase 12 - Taller del TP final integrador
 
 **Fecha:** 28 de octubre de 2026<br>
 **Modalidad:** presencial<br>
@@ -6,38 +6,42 @@
 
 ## Propósito
 
-Integrar herramientas, MCP, agentes especializados, seguridad, costos y coordinación interdisciplinaria mediante evaluación de riesgos y criterios de aceptación.
+Destrabar el desarrollo del TP final integrador, comparar las alternativas de búsqueda y navegación y preparar la entrega única del **3/11** y la exposición del **4/11**. No agregar contenidos nuevos obligatorios ni exigir MCP.
 
 ## Preparación previa
 
-1. Revisar los materiales de herramientas, evaluación, seguridad y el caso de equipo rojo.
-2. Preparar una demostración sin secretos ni servicios con permisos elevados.
+1. Revisar la consigna pública `tp-final-integrador-npc` y su checklist de entrega.
+2. Preparar pruebas simples de destino alcanzable, destino sin camino y obstáculos.
+3. Recordar que cada integrante registra el mismo repositorio e identifica al equipo en su envío individual.
 
 ## Materiales
 
-- Evaluación y métricas de procesos agénticos.
-- MCP y separación de responsabilidades.
-- Inyección de instrucciones y cadena de suministro.
-- Laboratorio de equipo rojo y respuesta controlada.
+- GDD, specs y prototipos de los equipos.
+- Materiales de búsqueda, percepción, navegación y comportamiento.
+- Consigna y temario de presentación del TP final.
 
 ## Secuencia
 
-1. Mapear componentes, herramientas, actores y límites de una integración.
-2. Identificar amenazas, permisos y costos antes de habilitar acciones.
-3. Ejecutar un caso controlado de evaluación o red team.
-4. Definir criterios de aceptación, métricas y responsables de escalamiento.
+1. Revisar el alcance y priorizar lo imprescindible para terminar.
+2. Demostrar las búsquedas sobre el mismo escenario y las alternativas de navegación por separado.
+3. Revisar la FSM u otra arquitectura y su correspondencia con los objetivos del NPC.
+4. Usar OpenCode para cambios acotados, revisar y probar; actualizar specs cuando sea necesario.
+5. Comprobar instrucciones de ejecución, acceso público y ausencia de secretos.
+6. Organizar la presentación: búsqueda, navegación, características de IA, uso de OpenCode y ejemplo de spec.
 
 ## Preguntas y respuestas esperables
 
-- ¿MCP vuelve seguro a un agente por sí solo? No: estructura interoperabilidad, pero requiere autenticación, permisos mínimos, validación y supervisión.
-- ¿Una métrica alta basta para desplegar? No: debe interpretarse con cobertura, riesgos, costos, límites y criterios de aceptación.
+- ¿Dos algoritmos pueden devolver la misma ruta? Sí: expliquen diferencias de exploración, costos y supuestos, sin forzar resultados distintos.
+- ¿Conviene agregar más funciones? Sólo si lo mínimo funciona y pueden explicarlo; priorizar finalizar.
+- ¿Hay una entrega de avance hoy? No: la única entrega final es el 3/11.
 
 ## Entregable o resultado esperado
 
-Análisis de integración con riesgos, controles, evidencia y decisión de continuación o escalamiento.
+Prototipo encaminado, dudas resueltas y pendientes concretos para la entrega. No se exige informe extra ni carpeta de evidencias.
 
 ## Criterios de observación docente
 
-- Distingue interfaz, autorización y política de seguridad.
-- Identifica inyección y cadena de suministro como riesgos del contexto.
-- Justifica la decisión con métricas y evidencia, no solo con resultados positivos.
+- Las variantes se pueden seleccionar y demostrar.
+- El comportamiento responde a objetivos y percepción definidos.
+- El proyecto se puede ejecutar siguiendo el README.
+- Cada integrante comprende su aporte y el funcionamiento general.

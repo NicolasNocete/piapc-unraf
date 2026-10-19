@@ -4,7 +4,7 @@ titulo: Sistema de contenidos PIAPC 2026
 tipo: indice
 audiencia: publica
 acceso: publico
-version: 1
+version: 2
 ---
 
 # Sistema de contenidos PIAPC 2026
@@ -64,12 +64,12 @@ El recorrido práctico utiliza el laboratorio [Guardia de Sigilo](https://github
 | 8 | 30/09/2026 | Presencial | Ejes 3, 4 y 6 |
 | 9 | 07/10/2026 | Virtual asincrónica | Eje 5: búsqueda y navegación |
 | 10 | 14/10/2026 | Virtual | Eje 5: patrones de comportamiento |
-| 11 | 21/10/2026 | Virtual asincrónica | Segundo hito evaluativo del portafolio (examen parcial práctico); sin contenidos nuevos |
-| 12 | 28/10/2026 | Presencial | Síntesis de los ejes 6 y 7 |
-| 13 | 04/11/2026 | Virtual asincrónica | Entrega del TP final |
-| 14 | 11/11/2026 | Presencial | Presentaciones, devolución y cierre |
+| 11 | 21/10/2026 | Virtual asincrónica | Inicio del TP final integrador: propuesta, repositorio, GDD y specs; reemplaza el segundo parcial |
+| 12 | 28/10/2026 | Presencial | Taller del TP final integrador y consultas; entrega única el 3/11 |
+| 13 | 04/11/2026 | Presencial | Presentación, demostración y exposición de métodos del TP final integrador |
+| 14 | 11/11/2026 | Sin actividad | Sin clase, entregas ni exposición |
 
-Los dos exámenes parciales son hitos evaluativos del portafolio. Sus evidencias y calificaciones se integran en la ponderación correspondiente al portafolio y no constituyen instrumentos de acreditación adicionales.
+El primer parcial se integra al portafolio. El segundo parcial se reemplaza y se unifica con el [TP final integrador de IA para NPC](transversales/tp-final-integrador-npc.md), con equipos de hasta dos integrantes, entrega el **3/11/2026** y exposición el **4/11/2026**. No hay un segundo parcial separado ni actividades en la última semana. Se mantienen los instrumentos y ponderaciones del programa.
 
 ## Estado actual
 

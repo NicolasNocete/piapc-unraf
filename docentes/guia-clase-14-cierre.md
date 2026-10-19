@@ -1,42 +1,32 @@
-# Guía docente: clase 14 - Cierre de la asignatura
+# Guía docente: semana del 11/11 - Sin actividades
 
 **Fecha:** 11 de noviembre de 2026<br>
-**Modalidad:** presencial<br>
-**Duración:** 120 minutos
+**Estado:** sin clase ni actividades programadas
 
 ## Propósito
 
-Cerrar la asignatura mediante presentación de trabajos, devolución, reflexión sobre decisiones técnicas y recuperación de aprendizajes transferibles.
+Dejar constancia del cierre del cronograma: el TP final integrador se entrega el **3/11/2026** y se presenta y expone el **4/11/2026**. La última semana no tiene actividades.
 
 ## Preparación previa
 
-1. Confirmar orden de presentaciones y tiempos de intervención.
-2. Preparar criterios de conversación respetuosa y devolución basada en evidencia.
+Comprobar que los avisos y el cronograma no convoquen a clase, exposición ni entrega el 11/11.
 
 ## Materiales
 
-- Trabajos finales entregados y evidencia disponible.
-- Procedencia, autoría e integridad profesional.
-- Checklist de evaluación y seguridad.
+No se asignan materiales nuevos.
 
 ## Secuencia
 
-1. Recordar objetivos y tiempos de cada presentación.
-2. Pedir que cada equipo explique problema, decisión, evidencia y límite.
-3. Facilitar devolución entre pares sobre evidencia y no sobre atribuciones personales.
-4. Recuperar qué prácticas se transferirían a otro proyecto.
+No hay secuencia de clase, presentación ni tareas para estudiantes.
 
 ## Preguntas y respuestas esperables
 
-- ¿Qué hace defendible una decisión técnica? Su relación con el problema, las restricciones, la evidencia y los límites reconocidos.
-- ¿Un resultado funcional demuestra un proceso responsable? No necesariamente: también importan permisos, trazabilidad, validación e integridad de la autoría.
+- ¿Hay que asistir o entregar algo el 11/11? No: entrega el 3/11 y exposición el 4/11.
 
 ## Entregable o resultado esperado
 
-Presentación reflexiva y registro de aprendizajes para futuros proyectos.
+Ninguno. No trasladar pendientes o nuevas obligaciones a esta semana.
 
 ## Criterios de observación docente
 
-- Vincula afirmaciones con evidencia observable.
-- Reconoce límites y alternativas sin penalizar la incertidumbre fundada.
-- Distingue producto final de proceso responsable.
+Consistencia de las comunicaciones con las fechas definitivas, sin agregar actividades.

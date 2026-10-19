@@ -13,7 +13,7 @@ resultados: [RA5, RA7, RA8, RA11]
 prerrequisitos: [eje-05-busqueda-y-a-star, eje-05-maquinas-de-estados]
 evaluable: true
 acceso: publico
-version: 1
+version: 2
 ---
 
 # Laboratorio de A* y FSM
@@ -33,7 +33,8 @@ El laboratorio comienza cuando ya están disponibles las lecturas de A* y FSM. L
 | Clase | Etapa | Alcance |
 |---:|---|---|
 | 10 | Implementación e integración | Con ambas lecturas disponibles, explorar el proyecto, establecer la línea base, verificar A*, diseñar e implementar la FSM e integrar las capas. |
-La clase 11 corresponde al segundo parcial práctico. Su consigna, alcance y criterios son privados y no forman parte de este laboratorio público. La clase 13 corresponde a la entrega del trabajo práctico final y tampoco agrega una etapa ni contenidos propios de este laboratorio.
+
+Desde la clase 11 se trabaja en el [TP final integrador de IA para NPC](../../transversales/tp-final-integrador-npc.md), que reemplaza el segundo parcial y se unifica con el TP final. Es una consigna pública separada de este laboratorio, con entrega el **3/11/2026** y presentación y exposición el **4/11/2026**. No agrega nuevas etapas a este laboratorio ni exige trasladar al TP su formato de evidencias.
 
 ## Recursos disponibles
 

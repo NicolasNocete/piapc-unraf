@@ -1,42 +1,47 @@
-# Guía docente: clase 13 - Entrega del trabajo práctico final
+# Guía docente: clase 13 - Presentación y exposición del TP final integrador
 
 **Fecha:** 4 de noviembre de 2026<br>
-**Modalidad:** virtual asincrónica
+**Modalidad:** presencial
 
 ## Propósito
 
-Orientar la recepción del trabajo final asegurando que repositorio, producto, especificación, pruebas, trazabilidad e informe sean identificables y revisables.
+Demostrar y explicar los prototipos entregados el **3/11/2026**, con exposición de métodos de búsqueda, navegación y características de la IA. Esta clase del **4/11** concentra las presentaciones; no se trasladan actividades al 11/11.
 
 ## Preparación previa
 
-1. Confirmar canal, plazo y condiciones de entrega autorizadas.
-2. Preparar la lista de control de recepción sin publicar una rúbrica privada.
-3. Verificar que se pueda registrar una incidencia sin alterar el envío original.
+1. Revisar las entregas de `tp-final-integrador-npc` y su accesibilidad sin modificar los envíos.
+2. Organizar el orden de equipos y comprobar que puedan ejecutar sus prototipos.
+3. Mantener rúbricas, notas y devoluciones personales fuera del material público.
 
 ## Materiales
 
-- Observabilidad y trazabilidad del proceso.
-- Contratos entre disciplinas y consistencia del producto.
-- Plantillas de informe final y evidencia de pruebas.
+- Repositorios públicos, GDD breve y specs de los equipos.
+- Prototipos y presentaciones entregados.
+- Temario de exposición de la consigna pública.
 
 ## Secuencia
 
-1. Recordar componentes requeridos y formato de identificación.
-2. Recibir repositorio, producto ejecutable, especificación, evidencias e informe.
-3. Registrar fecha, integridad del material e incidencias de acceso.
-4. Informar el circuito de revisión y devolución.
+1. Presentar la idea y demostrar el escenario y objetivos de los NPC.
+2. Comparar algoritmos de búsqueda sobre el mismo caso, indicando funcionamiento y diferencias observadas.
+3. Mostrar las alternativas de navegación y la respuesta a obstáculos o destinos sin camino.
+4. Explicar percepción, memoria, objetivos y decisiones; mostrar la FSM u otra técnica utilizada.
+5. Mostrar una spec y explicar el uso de OpenCode y las correcciones humanas.
+6. Identificar limitaciones y mejoras; preguntar a cada integrante por su aporte y el funcionamiento general.
 
 ## Preguntas y respuestas esperables
 
-- ¿Un repositorio sin evidencia de pruebas alcanza? No: el resultado debe ser revisable con evidencias, trazabilidad y explicación de límites.
-- ¿Qué hacer si un enlace no es accesible? Registrar la incidencia y aplicar el procedimiento de recepción vigente; no presumir calidad ni incumplimiento.
+- ¿Por qué eligieron esos algoritmos? Relacionar costos, heurística, exploración y necesidades del escenario.
+- ¿Qué pertenece a búsqueda y qué a navegación? Diferenciar cálculo de ruta, selección del recorrido, seguimiento y respuesta al entorno.
+- ¿Cómo decide el NPC? Relacionar percepción y objetivos con estados, transiciones u otra arquitectura.
+- ¿Qué aportó OpenCode? Explicar una funcionalidad guiada por spec y una decisión o corrección propia.
 
 ## Entregable o resultado esperado
 
-Entrega final según la consigna y rúbrica privadas vigentes; esta guía no las reemplaza ni revela.
+Demostración y explicación comprensible del prototipo. No se requiere un informe extenso ni un documento adicional de evidencias.
 
 ## Criterios de observación docente
 
-- Comprueba presencia e identificabilidad, sin calificar durante la recepción.
-- Conserva trazabilidad de entrega e incidencias.
-- No expone trabajos, datos personales ni devoluciones de otros equipos.
+- Comprenden los métodos y sus límites, no sólo reproducen términos.
+- Las alternativas presentadas corresponden a funcionalidades ejecutables.
+- Cada integrante explica su aporte y comprende el conjunto.
+- No se exponen notas, devoluciones ni información privada.
