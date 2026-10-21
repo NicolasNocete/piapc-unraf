@@ -1309,9 +1309,9 @@
       "type": "actividad",
       "audience": "estudiante",
       "access": "publico",
-      "version": 3,
+      "version": 4,
       "sourcePath": "transversales/tp-final-integrador-npc.md",
-      "digest": "916cabb895ba080c842cf42779029cb243eddea158304f2f3ca479d7ab20cc4f",
+      "digest": "a50c260fb2c74dbf715b1b19630b89a64038aec8edc7f07dde9231bd32c0f0cb",
       "axis": 5,
       "order": 12,
       "level": "obligatorio",
@@ -1340,9 +1340,9 @@
       "type": "lectura",
       "audience": "estudiante",
       "access": "publico",
-      "version": 1,
+      "version": 2,
       "sourcePath": "transversales/tp-final-como-comenzar.md",
-      "digest": "8eaa9cd7ca7d098ff00b40abf0b63a45f000b04575de94ee4b4b6a58718000ca",
+      "digest": "8ade3f13eeac6a355ee6c61143aa614c2a79ef7c46f224914e1f70dd430837c3",
       "axis": 5,
       "order": 13,
       "level": "obligatorio",
@@ -1362,6 +1362,35 @@
         "tp-final-integrador-npc"
       ],
       "evaluable": false
+    },
+    {
+      "id": "tp-final-entrega-gdd",
+      "title": "Entrega del GDD",
+      "type": "actividad",
+      "audience": "estudiante",
+      "access": "publico",
+      "version": 1,
+      "sourcePath": "transversales/tp-final-entrega-gdd.md",
+      "digest": "5be92cdba78476a99db02cc75d6216a1efd4a2ec787f6ca3d6b30693b13fd485",
+      "axis": 5,
+      "order": 14,
+      "level": "obligatorio",
+      "classes": [
+        11
+      ],
+      "modality": "virtual-asincronica",
+      "durationMinutes": 15,
+      "outcomes": [
+        "RA7",
+        "RA8",
+        "RA11"
+      ],
+      "prerequisites": [
+        "tp-final-integrador-npc"
+      ],
+      "evaluable": true,
+      "availableFrom": "2026-10-21",
+      "availableUntil": "2026-10-27"
     },
     {
       "id": "eje-06-herramientas-y-aci",
@@ -1845,9 +1874,9 @@
       "type": "indice",
       "audience": "publica",
       "access": "publico",
-      "version": 3,
+      "version": 4,
       "sourcePath": "transversales/README.md",
-      "digest": "be14ff88a81e3e3711ac0fc7b4814683daaa80430ec44fec5d7d14ab5de1e1be"
+      "digest": "0692f42332629ad94269ee108096bdb6b077eb5010020e0679e72ddb0f42bd7e"
     },
     {
       "id": "transversal-eje-02-fichas-seleccion-modelos",

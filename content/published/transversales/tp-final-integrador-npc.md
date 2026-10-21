@@ -4,7 +4,7 @@ titulo: "TP final integrador: IA para NPC en un videojuego"
 tipo: actividad
 audiencia: estudiante
 acceso: publico
-version: 3
+version: 4
 eje: 5
 orden: 12
 nivel: obligatorio
@@ -22,11 +22,13 @@ disponible_hasta: "2026-11-03"
 
 **Modalidad:** individual o equipos de hasta **2 integrantes**.
 
+**Entrega del GDD:** antes del **martes 27 de octubre de 2026 a las 12:00 hs (hora de Argentina)**, en el apartado independiente [Entrega del GDD](tp-final-entrega-gdd.md).
+
 **Entrega final:** **3 de noviembre de 2026**.
 
 **Presentación, demostración y exposición de métodos:** **4 de noviembre de 2026**, en clase.
 
-Este trabajo **reemplaza el segundo parcial y se unifica con el TP final en una única entrega**. La última semana, el **11/11**, no tiene actividades, entregas ni exposición.
+Este trabajo **reemplaza el segundo parcial y se unifica con el TP final en una única entrega final del proyecto**, precedida por la entrega del GDD. La última semana, el **11/11**, no tiene actividades, entregas ni exposición.
 
 ## Objetivo y alcance
 
@@ -133,7 +135,13 @@ Es un ejemplo de una funcionalidad, no la especificación completa del TP: aún 
 
 No se pide guardar conversaciones completas, capturas de cada paso ni una carpeta de evidencias. Lo central es un prototipo funcional, documentación breve y comprensión de lo realizado.
 
-## Entrega del 3/11
+## Entrega del GDD del 27/10
+
+Registren el GDD breve en el apartado [Entrega del GDD](tp-final-entrega-gdd.md), **antes del martes 27/10 a las 12:00 hs (hora de Argentina)**. Allí encontrarán las instrucciones y su formulario propio. No hace falta entregar el prototipo terminado, las specs ni la presentación en esta instancia.
+
+El GDD y la entrega final tienen **formularios, versiones y devoluciones independientes**. Actualizar uno no reemplaza el otro. El formulario al final de esta página corresponde únicamente a la **entrega final del proyecto del 3/11**.
+
+## Entrega final del proyecto del 3/11
 
 Entreguen la **URL del repositorio público** en el formulario **Entrega**, al final de esta página. El repositorio debe incluir:
 
@@ -176,12 +184,13 @@ Cada integrante debe poder explicar su aporte y comprender el funcionamiento gen
 | Fecha | Trabajo previsto |
 |---|---|
 | **21/10** | Inicio del TP: equipo, propuesta, repositorio, GDD y primeras specs; comenzar el prototipo. |
+| **27/10, antes de las 12:00 hs** | Entrega del GDD en su apartado independiente (hora de Argentina). |
 | **28/10** | Taller presencial de producción y consultas; revisar alternativas y resolver bloqueos. |
 | **3/11** | Entrega final en la plataforma. |
 | **4/11** | Presentación, demostración y exposición de métodos en clase. |
 | **11/11** | Sin actividades, entregas ni exposición. |
 
-No hay una entrega intermedia separada ni un segundo parcial adicional.
+La entrega del GDD es una instancia previa independiente de la entrega final. No hay un segundo parcial adicional.
 
 ## Materiales de apoyo
 

@@ -4,7 +4,7 @@ titulo: Cómo comenzar el TP final
 tipo: lectura
 audiencia: estudiante
 acceso: publico
-version: 1
+version: 2
 eje: 5
 orden: 13
 nivel: obligatorio
@@ -98,7 +98,9 @@ Estos son los requisitos del trabajo:
 - No se exigen semillas, guardado de escenarios, comparaciones
   con condiciones idénticas, tablas ni métricas adicionales.
 - Usar OpenCode y un proceso spec-driven básico.
-- Entrega el 3/11/2026 y exposición el 4/11/2026.
+- Entrega del GDD antes del martes 27/10/2026 a las 12:00 hs
+  (hora de Argentina), en su apartado independiente de la plataforma.
+- Entrega final del proyecto el 3/11/2026 y exposición el 4/11/2026.
   El 11/11 no hay actividades ni entregas.
 - Repositorio público con prototipo, instrucciones de ejecución,
   README, GDD breve, specs y presentación.
@@ -156,6 +158,8 @@ Antes de aprobarlo, deberías poder explicar:
 
 No aceptes un alcance enorme sólo porque el agente propone implementarlo. El GDD puede ser breve y debe describir tu proyecto, no un listado de todas las técnicas posibles.
 
+Registrá el documento en [Entrega del GDD](tp-final-entrega-gdd.md) **antes del martes 27/10/2026 a las 12:00 hs (hora de Argentina)**. Esa actividad tiene su propio formulario y versiones; no uses el de la entrega final para esta instancia.
+
 ## 6. Preparar un SDD básico
 
 **SDD** (*Spec-Driven Development*, desarrollo guiado por especificaciones) significa definir qué debe hacer una funcionalidad antes de implementarla y usar esa definición para revisarla.
@@ -188,6 +192,6 @@ Durante el desarrollo, guardá y compartí los avances mediante commits y push. 
 
 ## Volver a la consigna y entregar
 
-Esta guía no tiene formulario propio. Volvé a la [consigna del TP final y su formulario de entrega](tp-final-integrador-npc.md) para revisar los materiales solicitados y registrar el repositorio público.
+Esta guía no tiene formulario propio. Para el diseño, usá [Entrega del GDD](tp-final-entrega-gdd.md), antes del **27/10/2026 a las 12:00 hs (hora de Argentina)**. Para registrar el proyecto completo, volvé a la [consigna del TP final y su formulario de entrega final](tp-final-integrador-npc.md). Son actividades independientes: una entrega no reemplaza la otra.
 
-En equipos de dos, cada integrante entrega el mismo enlace e identifica a ambos. **Entrega: 3/11/2026. Presentación y exposición: 4/11/2026.**
+En equipos de dos, cada integrante registra su envío en cada actividad con el mismo enlace del equipo e identifica a ambos. **Entrega final: 3/11/2026. Presentación y exposición: 4/11/2026.**

@@ -4,7 +4,7 @@ titulo: Contenidos transversales
 tipo: indice
 audiencia: publica
 acceso: publico
-version: 3
+version: 4
 ---
 
 # Contenidos transversales
@@ -27,5 +27,6 @@ Todos los paquetes son autocontenidos, saneados y utilizables sin credenciales n
 
 ## Trabajo integrador
 
+- [Entrega del GDD](tp-final-entrega-gdd.md). Apartado independiente para entregar el diseño del proyecto antes del **martes 27/10/2026 a las 12:00 hs (hora de Argentina)**; no reemplaza la entrega final.
 - [TP final integrador: IA para NPC en un videojuego](tp-final-integrador-npc.md). Reemplaza el segundo parcial y se unifica con el TP final. Individual o hasta dos integrantes; entrega el **3/11/2026** y presentación y exposición el **4/11/2026**.
 - [Cómo comenzar el TP final](tp-final-como-comenzar.md). Guía para crear el repositorio público, iniciar OpenCode y preparar GDD y specs con un prompt guiado. No es otra actividad ni tiene entrega separada.
