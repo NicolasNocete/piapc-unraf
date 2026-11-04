@@ -14,7 +14,7 @@ type Submission = {
   activity_feedback_versions: { id: string }[];
   activity_submission_versions: { body: string; submitted_at: string; version_number: number }[];
 };
-type Feedback = { access_unavailable: boolean; grade: number | null; published_at: string; revision_number: number; submission_id: string };
+type Feedback = { access_unavailable: boolean; body: string; grade: number | null; published_at: string; revision_number: number; submission_id: string };
 
 type Props = { activityId: string; activityTitle: string };
 
@@ -34,9 +34,9 @@ export async function ActivityDeliveries({ activityId, activityTitle }: Props) {
   };
   const [{ data }, { data: feedbackData, error: feedbackError }] = await Promise.all([
     db.from("activity_submissions").select("id, updated_at, profiles(first_name, last_name), activity_feedback_versions(id), activity_submission_versions(body, submitted_at, version_number)").eq("activity_id", activityId).order("updated_at", { ascending: false }),
-    createAdminClient().from("activity_feedback_versions").select("submission_id, revision_number, grade, access_unavailable, published_at"),
+    createAdminClient().from("activity_feedback_versions").select("submission_id, revision_number, body, grade, access_unavailable, published_at, activity_submissions!inner(activity_id)").eq("activity_submissions.activity_id", activityId),
   ]);
-  if (feedbackError) throw new Error("No se pudieron consultar las notas.");
+  if (feedbackError) throw new Error("No se pudieron consultar las devoluciones.");
 
   const latestFeedback = new Map<string, Feedback>();
   for (const feedback of feedbackData ?? []) {
