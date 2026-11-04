@@ -1,4 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { FeedbackMarkdown } from "@/components/feedback-markdown";
 import { formatArgentinaDateTime } from "@/lib/date-time";
 
 type Props = {
@@ -24,7 +25,7 @@ export function PublishedFeedback({ feedback }: Props) {
         <p className="text-sm">
           {feedback.access_unavailable ? "Sin nota: material inaccesible" : `Nota privada docente: ${feedback.grade}`}
         </p>
-        <p className="whitespace-pre-wrap break-words text-sm leading-6 [overflow-wrap:anywhere]">{feedback.body}</p>
+        <FeedbackMarkdown>{feedback.body}</FeedbackMarkdown>
       </CardContent>
     </Card>
   );

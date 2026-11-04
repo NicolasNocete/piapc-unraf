@@ -228,3 +228,25 @@
 .content-markdown pre { overflow-x: auto; border-radius: var(--radius); background: #14251d; padding: 1rem; color: #fffdf6; font-size: .875rem; line-height: 1.5; }
 .content-markdown table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; }
 .content-markdown th, .content-markdown td { border: 1px solid color-mix(in oklab, var(--foreground) 15%, transparent); padding: .5rem .75rem; text-align: left; }
+
+.feedback-markdown > * + * { margin-top: 1rem; }
+.feedback-markdown :is(h1, h2, h3, h4, h5, h6) { color: var(--foreground); font-weight: 600; line-height: 1.35; }
+.feedback-markdown h1 { font-size: 1.5rem; }
+.feedback-markdown h2 { font-size: 1.25rem; }
+.feedback-markdown :is(h3, h4, h5, h6) { font-size: 1rem; }
+.feedback-markdown p { white-space: pre-wrap; }
+.feedback-markdown :is(ul, ol) { padding-left: 1.5rem; }
+.feedback-markdown ul { list-style: disc; }
+.feedback-markdown ol { list-style: decimal; }
+.feedback-markdown li + li { margin-top: .25rem; }
+.feedback-markdown li > p + p { margin-top: .5rem; }
+.feedback-markdown a { color: var(--foreground); text-decoration: underline; text-underline-offset: 3px; }
+.feedback-markdown blockquote { border-left: 3px solid var(--border); padding-left: 1rem; color: var(--muted-foreground); }
+.feedback-markdown code { border-radius: .25rem; background: var(--muted); padding: .125rem .25rem; font-size: .875em; }
+.feedback-markdown pre { max-width: 100%; overflow-x: auto; border-radius: var(--radius); background: var(--muted); color: var(--foreground); padding: 1rem; white-space: pre; overflow-wrap: normal; }
+.feedback-markdown pre:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+.feedback-markdown pre code { padding: 0; }
+.feedback-markdown table { width: 100%; border-collapse: collapse; }
+.feedback-markdown :is(th, td) { min-width: 8rem; border: 1px solid var(--border); padding: .5rem .75rem; text-align: left; vertical-align: top; }
+.feedback-markdown th { background: var(--muted); color: var(--foreground); font-weight: 600; }
+.feedback-markdown hr { border-color: var(--border); }

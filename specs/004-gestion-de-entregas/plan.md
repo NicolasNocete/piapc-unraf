@@ -68,6 +68,12 @@ Crear una nueva migracion imperativa con `supabase migration new` al implementar
 
 ## Verificacion
 
+### Visualizador Markdown para devoluciones (FR-022; AC-014)
+
+- Reutilizar `react-markdown` y `remark-gfm` instalados en `src/components/feedback-markdown.tsx`, compartido por `PublishedFeedback` y `DeliverySection`. El visualizador solo recibe texto; no recibe notas ni metadatos privados.
+- No usar `rehype-raw`, HTML directo ni nuevas dependencias. Conservar HTML como texto, limitar enlaces a HTTP(S)/mailto y sustituir imagenes por descripcion para evitar cargas externas. Usar estilos semanticos acotados a `.feedback-markdown` y contenedores desplazables con foco para tablas/codigo.
+- Mantener consultas, formularios y almacenamiento sin cambios. Actualizar las pruebas de devolucion e incorporar cobertura de Markdown, enlaces, imagenes y texto simple/largo en `test:feedback`.
+
 ### Lectura docente de la devolucion publicada (FR-021; AC-013)
 
 - Incluir `body` en la consulta docente de devoluciones y acotarla a la actividad mediante la relacion con `activity_submissions`. Mantener la comprobacion de profesor responsable antes de usar el cliente administrativo, la seleccion de mayor revision y la privacidad de notas.
