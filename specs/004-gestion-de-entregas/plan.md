@@ -68,6 +68,13 @@ Crear una nueva migracion imperativa con `supabase migration new` al implementar
 
 ## Verificacion
 
+### Correccion de zona horaria (FR-020; AC-012)
+
+- Centralizar la presentacion en `src/lib/date-time.ts`, con `Intl.DateTimeFormat`, locale `es-AR`, zona `America/Argentina/Buenos_Aires`, anio completo y horario de 24 horas con segundos. Agregar la leyenda «hora de Argentina».
+- Reutilizar el formateador puro en `DeliverySection`, `ActivityDeliveries` y `DeliveryDetailDialog`, sin mover fronteras servidor/cliente ni cambiar consultas, datos, autenticacion o permisos.
+- Agregar pruebas con `tsx --test` para el caso reportado, instantes equivalentes con offset, medianoche, cambio de anio y varias zonas del proceso. Incluir `test:dates` en `npm run check`.
+- Verificar con `next-dev-loop` si hay sesion autenticada disponible; declarar cualquier limitacion sin crear entregas ficticias.
+
 1. Contenido: ejecutar `npm run content:sync`, `npm run content:check` y `npm run test:content`. Cubrir actividades sin fechas, con rango invertido y con fechas validas en el esquema/sincronizador. Referencias: FR-001, FR-015; AC-001.
 2. Base: aplicar la migracion en Supabase local, ejecutar `npx supabase test db --local supabase/tests/database`, y ampliar las pruebas pgTAP para tablas, FKs, constraints, indices, RLS, grants y llamadas permitidas/denegadas como estudiante, profesor no responsable y profesor responsable. Verificar concurrencia de versiones y que no se pueda alterar una version previa. Referencias: FR-006 a FR-013; AC-004 a AC-008.
 3. Tipos y calidad: regenerar tipos, ejecutar `npm run typecheck`, `npm run lint` y finalmente `npm run check`.
