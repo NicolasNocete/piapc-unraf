@@ -1,6 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Empty, EmptyDescription, EmptyHeader, EmptyTitle } from "@/components/ui/empty";
+import { formatArgentinaDateTime } from "@/lib/date-time";
 import { requireCompleteProfile } from "@/lib/profiles/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { createClient } from "@/lib/supabase/server";
@@ -57,7 +58,7 @@ export async function ActivityDeliveries({ activityId, activityTitle }: Props) {
             <section key={submission.id} className="flex flex-wrap items-center justify-between gap-4 rounded-lg border p-4">
               <div className="flex flex-col gap-1">
                 <p className="font-medium">{studentName}</p>
-                <p className="text-sm text-muted-foreground">Ultima entrega: {new Date(submission.updated_at).toLocaleString("es-AR")}</p>
+                <p className="text-sm text-muted-foreground">Ultima entrega: {formatArgentinaDateTime(submission.updated_at)}</p>
                 <Badge variant={feedback ? "secondary" : "outline"}>{feedback ? feedback.access_unavailable ? "Material inaccesible" : `Revisada - Nota ${feedback.grade}` : "Pendiente de devolucion"}</Badge>
               </div>
               <DeliveryDetailDialog submissionId={submission.id} activityId={activityId} studentName={studentName} versions={submission.activity_submission_versions.toSorted((left, right) => right.version_number - left.version_number)} feedback={feedback} />
