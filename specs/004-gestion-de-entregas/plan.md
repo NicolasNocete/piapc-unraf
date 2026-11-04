@@ -68,6 +68,13 @@ Crear una nueva migracion imperativa con `supabase migration new` al implementar
 
 ## Verificacion
 
+### Lectura docente de la devolucion publicada (FR-021; AC-013)
+
+- Incluir `body` en la consulta docente de devoluciones y acotarla a la actividad mediante la relacion con `activity_submissions`. Mantener la comprobacion de profesor responsable antes de usar el cliente administrativo, la seleccion de mayor revision y la privacidad de notas.
+- Presentar el texto completo como texto seguro en un bloque de solo lectura con revision, fecha argentina y nota/motivo. Conservar saltos y ajustar palabras largas sin truncar; no agregar un interprete HTML ni modificar datos.
+- Separar el formulario en otra tarjeta; cuando ya existe devolucion, titular y etiquetar la accion como nueva revision, sin precargar contenido ni notas. Mostrar estado pendiente cuando no existe devolucion.
+- Cubrir render de texto largo, escape HTML, nota y material inaccesible con pruebas de regresion. Ejecutar `npm run check` y `next-dev-loop`, dejando explicitas las limitaciones si no existe sesion docente autenticada. No crear entregas ni devoluciones ficticias.
+
 ### Correccion de zona horaria (FR-020; AC-012)
 
 - Centralizar la presentacion en `src/lib/date-time.ts`, con `Intl.DateTimeFormat`, locale `es-AR`, zona `America/Argentina/Buenos_Aires`, anio completo y horario de 24 horas con segundos. Agregar la leyenda «hora de Argentina».

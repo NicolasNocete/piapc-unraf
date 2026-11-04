@@ -8,15 +8,15 @@ import { Field, FieldDescription, FieldGroup, FieldLabel } from "@/components/ui
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
-export function FeedbackForm({ submissionId }: { submissionId: string }) {
+export function FeedbackForm({ submissionId, hasPublishedFeedback = false }: { submissionId: string; hasPublishedFeedback?: boolean }) {
   const [accessUnavailable, setAccessUnavailable] = useState(false);
 
   return (
-    <form action={publishFeedback} className="mt-4">
+    <form action={publishFeedback}>
       <FieldGroup>
         <input type="hidden" name="submissionId" value={submissionId} />
         <Field>
-          <FieldLabel htmlFor={`feedback-${submissionId}`}>Devolucion</FieldLabel>
+          <FieldLabel htmlFor={`feedback-${submissionId}`}>{hasPublishedFeedback ? "Nueva devolución" : "Devolución"}</FieldLabel>
           <Textarea id={`feedback-${submissionId}`} name="body" required maxLength={20000} rows={4} />
         </Field>
         <Field>
@@ -37,7 +37,7 @@ export function FeedbackForm({ submissionId }: { submissionId: string }) {
           <FieldLabel htmlFor={`grade-${submissionId}`}>Nota (1-10)</FieldLabel>
           <Input disabled={accessUnavailable} id={`grade-${submissionId}`} name="grade" type="number" min={1} max={10} step={1} required={!accessUnavailable} />
         </Field>
-        <Button className="w-full" type="submit">Publicar devolucion</Button>
+        <Button className="w-full" type="submit">{hasPublishedFeedback ? "Publicar nueva revisión" : "Publicar devolución"}</Button>
       </FieldGroup>
     </form>
   );
